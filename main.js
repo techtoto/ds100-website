@@ -99,11 +99,10 @@ function showAllEntries() {
     refreshList(query, 1000);
 }
 
-fetch("https://ds100.boecker.dev/ds100.json").then((response) => {
+fetch("./ds100.json").then((response) => {
     return response.json();
 }).then((data) => {
     ds100Data = data;
-
     refreshList();
 });
 
