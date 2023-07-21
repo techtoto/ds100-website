@@ -10,11 +10,11 @@ function debounce(func, delay = 400) {
     };
 }
 
-const debouncedUserInput = debounce(userInput);
+const debouncedUserInput = debounce(refreshList);
 
-function userInput(input) {
+function refreshList(query = "", showAll = false) {
     const filteredData = ds100Data.filter((item) => {
-        const lowercase = input.toLowerCase();
+        const lowercase = query.toLowerCase();
 
         const name = item["RL100-Langname"].toLowerCase();
         const code = item["RL100-Code"].toLowerCase();
@@ -23,7 +23,8 @@ function userInput(input) {
     });
 
     filteredData.sort((a, b) => {
-        const lowercase = input.toLowerCase();
+        const lowercase = query.toLowerCase();
+        const uppercase = query.toUpperCase();
 
         const aName = a["RL100-Langname"].toLowerCase();
         const bName = b["RL100-Langname"].toLowerCase();
@@ -39,8 +40,6 @@ function userInput(input) {
         } else if (aName !== lowercase && bName === lowercase) {
             return 1;
         }
-
-        const uppercase = input.toUpperCase();
 
         if (aCode === uppercase && bCode !== uppercase) {
             return -1;
@@ -73,70 +72,54 @@ function userInput(input) {
             return 1;
         }
 
-        if (aCode.startsWith(input) && !bCode.startsWith(input)) {
+        if (aCode.startsWith(query) && !bCode.startsWith(query)) {
             return -1;
-        } else if (!aCode.startsWith(input) && bCode.startsWith(input)) {
+        } else if (!aCode.startsWith(query) && bCode.startsWith(query)) {
             return 1;
         }
 
         return 0;
     });
 
-    updateDom(filteredData);
+    let amount = 100;
+    if (showAll) {
+        amount = filteredData.length;
+    }
+
+    updateDom(filteredData, amount);
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-    const searchBar = document.getElementById("search");
-
-    searchBar.addEventListener("input", (event) => {
-        console.log(event.currentTarget.value);
-
-        debouncedUserInput(event.currentTarget.value);
-    });
+const searchBar = document.getElementById("search");
+searchBar.addEventListener("input", (event) => {
+    debouncedUserInput(event.currentTarget.value);
 });
+
+function showAllEntries() {
+    const query = document.getElementById('search').value;
+    refreshList(query, 1000);
+}
 
 fetch("https://ds100.boecker.dev/ds100.json").then((response) => {
     return response.json();
 }).then((data) => {
-    data.sort((a, b) => {
-        const aName = a["RL100-Langname"].toLowerCase();
-        const bName = b["RL100-Langname"].toLowerCase();
-
-        const aType = a["Typ Lang"];
-        const bType = b["Typ Lang"];
-
-        if (aType === "Bf" && bType !== "Bf") {
-            return -1;
-        } else if (aType !== "Bf" && bType === "Bf") {
-            return 1;
-        }
-    
-        if (aType === "Hp" && bType !== "Hp") {
-            return -1;
-        } else if (aType !== "Hp" && bType === "Hp") {
-            return 1;
-        }
-    
-        if (aName.includes("hbf") && !bName.includes("hbf")) {
-            return -1;
-        } else if (!aName.includes("hbf") && bName.includes("hbf")) {
-            return 1;
-        }
-
-        return 0;
-    });
-
     ds100Data = data;
 
-    updateDom(ds100Data);
+    refreshList();
 });
 
-function updateDom(items) {
+function updateDom(items, amount = 100) {
     const container = document.getElementById("data");
+    const footer = document.getElementById("footer");
 
     container.innerHTML = "";
 
-    items.slice(0,100).forEach((item) => {
+    if (items.length > 100 && amount == 100) {
+        footer.style.display = "block";
+    } else {
+        footer.style.display = "none";
+    }
+
+    items.slice(0, amount).forEach((item) => {
         const entry = document.createElement("div");
         entry.setAttribute("class", "entry");
 
@@ -148,7 +131,6 @@ function updateDom(items) {
 
         const rl100TypeLong = document.createElement("p");
         rl100TypeLong.textContent = item["Typ Lang"];
-
 
         entry.appendChild(rl100Code);
         entry.appendChild(rl100LongName);
