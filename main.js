@@ -1,3 +1,4 @@
+const defaultEntries = 100;
 var ds100Data = [];
 
 function debounce(func, delay = 400) {
@@ -81,7 +82,7 @@ function refreshList(query = "", showAll = false) {
         return 0;
     });
 
-    let amount = 100;
+    let amount = defaultEntries;
     if (showAll) {
         amount = filteredData.length;
     }
@@ -96,7 +97,7 @@ searchBar.addEventListener("input", (event) => {
 
 function showAllEntries() {
     const query = document.getElementById('search').value;
-    refreshList(query, 1000);
+    refreshList(query, true);
 }
 
 fetch("./ds100.json").then((response) => {
@@ -106,13 +107,13 @@ fetch("./ds100.json").then((response) => {
     refreshList();
 });
 
-function updateDom(items, amount = 100) {
+function updateDom(items, amount) {
     const container = document.getElementById("data");
     const footer = document.getElementById("footer");
 
     container.innerHTML = "";
 
-    if (items.length > 100 && amount == 100) {
+    if (items.length > 100 && amount == defaultEntries) {
         footer.style.display = "block";
     } else {
         footer.style.display = "none";
