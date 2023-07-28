@@ -10,7 +10,6 @@
 body {
     background-color: var(--background);
     color: var(--text);
-
     font-family: 'Roboto', sans-serif;
 }
 
@@ -24,7 +23,6 @@ body {
 
 #search {
     background-color: var(--primary);
-    /* size: 1.5em; */
     font-size: medium;
     padding: 0.6em 1.2em;
     color: var(--text);
@@ -33,38 +31,23 @@ body {
 }
 
 #data {
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-    gap: 1.5em;
+    margin-top: 6em;
+}
+
+td {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.rl100TypeLong {
+    text-align: right;
 }
 
 #footer {
     display: none;
-    margin-top: 1em;
     font-size: small;
+    text-align: center;
     color: var(--secondary);
-}
-
-@media (max-width: 256px) {
-    .entry {
-        display: flex;
-        flex-direction: column;
-        gap: 0;
-        margin: 0;
-    }
-}
-
-@media (min-width: 257px) {
-    .entry {
-        display: flex;
-        gap: 1em;
-    }
-}
-
-.entry p {
-    margin: 0;
-    padding: 0;
 }
 
 button, input {

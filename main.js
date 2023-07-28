@@ -108,16 +108,19 @@ function updateDom(items, amount) {
     }
 
     items.slice(0, amount).forEach((item) => {
-        const entry = document.createElement("div");
+        const entry = document.createElement("tr");
         entry.setAttribute("class", "entry");
 
-        const rl100Code = document.createElement("p");
+        const rl100Code = document.createElement("td");
+        rl100Code.setAttribute("class", "rl100Code");
         rl100Code.textContent = item["RL100-Code"];
 
-        const rl100LongName = document.createElement("p");
+        const rl100LongName = document.createElement("td");
+        rl100LongName.setAttribute("class", "rl100LongName");
         rl100LongName.textContent = item["RL100-Langname"];
 
-        const rl100TypeLong = document.createElement("p");
+        const rl100TypeLong = document.createElement("td");
+        rl100TypeLong.setAttribute("class", "rl100TypeLong");
         rl100TypeLong.textContent = item["Typ Lang"];
 
         entry.appendChild(rl100Code);
