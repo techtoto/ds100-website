@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Rubik&display=swap');
 
 :root {
-    --text: #cad8e2;
-    --background: #121619;
-    --primary: #222a2f;
-    --secondary: #677f8e;
+    --text: hsl(203, 25%, 89%);
+    --background: hsl(203, 16%, 8%);
+    --primary: hsl(203, 16%, 16%);
+    --secondary: hsl(203, 30%, 72%);
 }
 
 body {
