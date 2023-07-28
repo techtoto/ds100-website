@@ -1,18 +1,6 @@
 const defaultEntries = 100;
 var ds100Data = [];
 
-function debounce(func, delay = 400) {
-    let timerId;
-    return (...args) => {
-        clearTimeout(timerId);
-        timerId = setTimeout(() => {
-            func.apply(this, args);
-        }, delay);
-    };
-}
-
-const debouncedUserInput = debounce(refreshList);
-
 function refreshList(query = "", showAll = false) {
     const filteredData = ds100Data.filter((item) => {
         const lowercase = query.toLowerCase();
@@ -92,7 +80,7 @@ function refreshList(query = "", showAll = false) {
 
 const searchBar = document.getElementById("search");
 searchBar.addEventListener("input", (event) => {
-    debouncedUserInput(event.currentTarget.value);
+    refreshList(event.currentTarget.value);
 });
 
 function showAllEntries() {
