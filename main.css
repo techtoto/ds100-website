@@ -62,15 +62,11 @@ body {
     }
 }
 
-
 .entry p {
     margin: 0;
     padding: 0;
 }
 
-body:not(.user-is-tabbing) button:focus,
-body:not(.user-is-tabbing) input:focus,
-body:not(.user-is-tabbing) select:focus,
-body:not(.user-is-tabbing) textarea:focus {
+button, input {
   outline: none;
 }
