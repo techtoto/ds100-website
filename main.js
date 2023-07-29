@@ -112,7 +112,7 @@ fetch("./ds100.json").then((response) => {
 
 function updateDom(items, amount) {
     const container = document.getElementById("data");
-    const footer = document.getElementById("footer");
+    const footer = document.getElementById("footer-not-all-entries");
 
     container.innerHTML = "";
 
