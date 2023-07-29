@@ -33,6 +33,9 @@ function refreshList(query = "", showAll = false) {
         const aType = a["Typ Lang"];
         const bType = b["Typ Lang"];
 
+        const aState = a["Betriebszustand"];
+        const bState = b["Betriebszustand"];
+
         if (aName === lowercase && bName !== lowercase) {
             return -1;
         } else if (aName !== lowercase && bName === lowercase) {
@@ -42,6 +45,14 @@ function refreshList(query = "", showAll = false) {
         if (aCode === uppercase && bCode !== uppercase) {
             return -1;
         } else if (aCode !== uppercase && bCode === uppercase) {
+            return 1;
+        }
+
+        if ((aState !== "a.B." && bState === "a.B.") || 
+            (aState !== "ehemals" && bState === "ehemals")) {
+            return -1;
+        } else if ((aState === "a.B." && bState !== "a.B.") || 
+            (aState === "ehemals" && bState !== "ehemals")) {
             return 1;
         }
 
