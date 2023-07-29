@@ -125,7 +125,11 @@ function updateDom(items, amount) {
 
     items.slice(0, amount).forEach((item) => {
         const entry = document.createElement("tr");
-        entry.setAttribute("class", "entry");
+        entry.classList.add("entry");
+
+        if (item["Betriebszustand"] === "a.B." || item["Betriebszustand"] === "ehemals") {
+            entry.classList.add("inactive");
+        }
 
         const rl100Code = document.createElement("td");
         rl100Code.setAttribute("class", "rl100Code");

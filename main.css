@@ -43,6 +43,11 @@ td {
     text-align: right;
 }
 
+.inactive {
+    text-decoration: line-through;
+    color: var(--secondary);
+}
+
 #footer-not-all-entries {
     display: none;
     font-size: small;
