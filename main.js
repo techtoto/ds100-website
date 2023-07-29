@@ -89,13 +89,14 @@ function refreshList(query = "", showAll = false) {
 
 searchBar.addEventListener("input", (event) => {
     const query = event.currentTarget.value
+    const url = new URL(window.location);
     refreshList(query);
     if (query === "") {
-        history.replaceState({}, 'DS100', "/");
+        url.search = "";
     } else {
-        history.replaceState({}, 'DS100', `/?q=${query}`);
+        url.search = `?q=${query}`;
     }
-    
+    history.replaceState({}, 'DS100', url);
 });
 
 function showAllEntries() {
