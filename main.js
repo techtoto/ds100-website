@@ -1,6 +1,15 @@
 const defaultEntries = 100;
 var ds100Data = [];
 
+const searchBar = document.getElementById("search");
+
+function handleSearchParams() {
+    const params = new URLSearchParams(document.location.search);
+    searchBar.value = params.get("q");
+}
+
+handleSearchParams();
+
 function refreshList(query = "", showAll = false) {
     const filteredData = ds100Data.filter((item) => {
         const lowercase = query.toLowerCase();
@@ -78,13 +87,19 @@ function refreshList(query = "", showAll = false) {
     updateDom(filteredData, amount);
 }
 
-const searchBar = document.getElementById("search");
 searchBar.addEventListener("input", (event) => {
-    refreshList(event.currentTarget.value);
+    const query = event.currentTarget.value
+    refreshList(query);
+    if (query === "") {
+        history.replaceState({}, 'DS100', "/");
+    } else {
+        history.replaceState({}, 'DS100', `/?q=${query}`);
+    }
+    
 });
 
 function showAllEntries() {
-    const query = document.getElementById('search').value;
+    const query = searchBar.value;
     refreshList(query, true);
 }
 
@@ -92,7 +107,7 @@ fetch("./ds100.json").then((response) => {
     return response.json();
 }).then((data) => {
     ds100Data = data;
-    refreshList();
+    refreshList(searchBar.value);
 });
 
 function updateDom(items, amount) {
