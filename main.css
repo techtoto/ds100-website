@@ -55,11 +55,15 @@ td {
     color: var(--secondary);
 }
 
+#footer-not-all-entries p {
+    margin-bottom: 0;
+}
+
 input {
   outline: none;
 }
 
-.showAllButton {
+#showAllButton {
     background-color: transparent;
     border-width: 0;
     color: inherit;
@@ -68,4 +72,14 @@ input {
     font-weight: inherit;
     line-height: inherit;
     padding: 0;
+}
+
+footer {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+#github-logo {
+    fill: #fff;
 }
