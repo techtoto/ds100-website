@@ -90,10 +90,7 @@ function refreshList(query = "", showAll = false) {
         return 0;
     });
 
-    let amount = defaultEntries;
-    if (showAll) {
-        amount = filteredData.length;
-    }
+    let amount = showAll ? filteredData.length : defaultEntries;
 
     updateDom(filteredData, amount);
 }
@@ -158,5 +155,5 @@ function updateDom(items, amount) {
         entry.appendChild(rl100LongName);
         entry.appendChild(rl100TypeLong);
         container.appendChild(entry);
-    })
+    });
 }
