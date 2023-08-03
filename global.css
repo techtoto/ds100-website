@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Rubik&display=swap');
+
+:root {
+    --text: hsl(203, 25%, 89%);
+    --background: hsl(203, 16%, 8%);
+    --primary: hsl(203, 16%, 16%);
+    --secondary: hsl(203, 30%, 72%);
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+    font-family: 'Roboto', sans-serif;
+}
