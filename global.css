@@ -12,3 +12,14 @@ body {
     color: var(--text);
     font-family: 'Roboto', sans-serif;
 }
+
+#main {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    color: var(--text);
+}

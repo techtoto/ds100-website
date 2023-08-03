@@ -62,5 +62,6 @@ input {
 footer {
     margin-top: 2em;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
