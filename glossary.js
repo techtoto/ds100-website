@@ -1,4 +1,4 @@
-const container = /** @type {HTMLElement} */ (document.getElementById("abbreviations"));
+const abbrContainer = /** @type {HTMLElement} */ (document.getElementById("abbreviations"));
 const firstLetters = [
     {
         name: "Hamburg",
@@ -64,6 +64,186 @@ const firstLetters = [
     }
 ]
 
+const typesContainer = /** @type {HTMLElement} */ (document.getElementById("type"));
+/* unbekannte Typen (in der csv drin, nicht auf Wikipedia und nicht eindeutig herleitbar):
+    Ats
+    BZ (Betriebszentrale ist es nicht, aber irgendwelche Stellwerke)
+    CEst
+    CGbf
+    dUw (wohl irgendein Unterwerk)
+    Emst
+    ES
+    fb-* (-GW)
+    fBKA
+    fGUw
+    fUw
+    GEGr
+    GKs
+    GSp
+    Guw
+    Hst (Haltestelle?)
+    Ks
+    Kw
+    (NE-) Tpg, Tpp
+    NLZ
+    Psw
+    SaSt
+    Sbk
+    Sst
+    ST
+    Sw
+    Tbv
+    tGUw
+    TS
+    TSO
+*/
+const types = [
+    {
+        name: "Abnehmeranlage",
+        heading: "AA"
+    },
+    {
+        name: "Abzweigstelle",
+        heading: "Abzw"
+    },
+    {
+        name: "Anschlussstelle",
+        heading: "Anst"
+    },
+    {
+        name: "Ausweichanschlussstelle",
+        heading: "Awanst"
+    },
+    {
+        name: "Bahnhof",
+        heading: "Bf"
+    },
+    {
+        name: "Bahnhofsteil",
+        heading: "Bft"
+    },
+    {
+        name: "Blockstelle",
+        heading: "Bk"
+    },
+    {
+        name: "Brechpunkt",
+        heading: "Brchpk"
+    },
+    {
+        name: "Bedienstandort",
+        heading: "BSO"
+    },
+    {
+        name: "Bushaltestelle",
+        heading: "Bush"
+    },
+    {
+        name: "Deckungsstelle",
+        heading: "Dkst"
+    },
+    {
+        name: "Einsatzstelle für Zugpersonal",
+        heading: "Est"
+    },
+    {
+        name: "Fernwirkstelle",
+        heading: "Fwst"
+    },
+    {
+        name: "Grenzpunkt",
+        heading: "Gp"
+    },
+    {
+        name: "Haltepunkt",
+        heading: "Hp"
+    },
+    {
+        name: "Landesgrenze",
+        heading: "LGr"
+    },
+    {
+        name: "Laufweg",
+        heading: "LW"
+    },
+    {
+        name: "Museumsbahnhof",
+        heading: "Museum"
+    },
+    {
+        name: "Parkeisenbahn",
+        heading: "Park"
+    },
+    {
+        name: "Produktionsdurchführungsgrenze",
+        heading: "PDGr"
+    },
+    {
+        name: "Regionalbereichsgrenze",
+        heading: "RBGr"
+    },
+    {
+        name: "Selbsttätige Blockstelle",
+        heading: "Sbk"
+    },
+    {
+        name: "Schutzstrecke",
+        heading: "Schstr"
+    },
+    {
+        name: "Schiffslandestelle",
+        heading: "Slst"
+    },
+    {
+        name: "Schaltposten",
+        heading: "Sp"
+    },
+    {
+        name: "Streckenwechsel",
+        heading: "Strw"
+    },
+    {
+        name: "Tankstelle",
+        heading: "Tank"
+    },
+    {
+        name: "Tarifpunkt",
+        heading: "Tp"
+    },
+    {
+        name: "Trafostation",
+        heading: "TrSt"
+    },
+    {
+        name: "Umrichterwerk",
+        heading: "Urw"
+    },
+    {
+        name: "Unterwerk",
+        heading: "Uw"
+    },
+    {
+        name: "Überleitstelle",
+        heading: "Üst"
+    },
+    {
+        name: "Werk",
+        heading: "Werk"
+    },
+    {
+        name: "Zentralschaltstelle",
+        heading: "Zes"
+    },
+    {
+        name: "Nichtbundeseigene Eisenbahn",
+        heading: "NE-*"
+    },
+    {
+        name: "verpachtet",
+        heading: "vp-*"
+    }
+]
+
 /**
  * @param {string} text 
  */
@@ -111,4 +291,5 @@ function createWebsiteEntries(list, container, boldInText = false) {
     }
 }
 
-createWebsiteEntries(firstLetters, container, true);
+createWebsiteEntries(firstLetters, abbrContainer, true);
+createWebsiteEntries(types, typesContainer, false);

@@ -4,9 +4,12 @@
     }
 }
 
+h2 {
+    margin-top: 2em;
+}
+
 #glossary-content ul {
     margin-top: 0;
-    margin-bottom: 3em;
 }
 
 #glossary-content li {
