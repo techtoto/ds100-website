@@ -1,0 +1,35 @@
+@media (min-width: 910px) {
+    #glossary-content {
+        width: 900px;
+    }
+}
+
+#glossary-content ul {
+    margin-top: 0;
+    margin-bottom: 3em;
+}
+
+#glossary-content li {
+    padding: 0.3em;
+}
+
+.abbreviation-entry {
+    border: solid 0.1em;
+    border-radius: 0.7em;
+    padding: 0.5em;
+    margin: 0.2em;
+    display: inline-block;
+}
+
+.abbreviation-entry h3 {
+    margin: 0;
+}
+
+.abbreviation-entry p {
+    margin: 0;
+}
+
+.capitalLetter {
+    font-weight: bold;
+    font-size: larger;
+}

@@ -23,3 +23,7 @@ body {
 a {
     color: var(--text);
 }
+
+.bold {
+    font-weight: bold;
+}
