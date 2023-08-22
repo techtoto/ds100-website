@@ -122,10 +122,12 @@ fetch("./ds100.json").then((response) => {
 function updateDom(items, amount) {
     const container = document.getElementById("data");
     const footer = document.getElementById("footer-not-all-entries");
+    const showAllButton = document.getElementById("showAllButton");
 
     container.innerHTML = "";
 
     if (items.length > 100 && amount == defaultEntries) {
+        showAllButton.textContent = `Alle ${items.length} Einträge anzeigen`;
         footer.style.display = "block";
     } else {
         footer.style.display = "none";
