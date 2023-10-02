@@ -65,14 +65,17 @@ const firstLetters = [
 ]
 
 const typesContainer = /** @type {HTMLElement} */ (document.getElementById("type"));
-/* unbekannte Typen (in der csv drin, nicht auf Wikipedia und nicht eindeutig herleitbar):
+/* unbekannte Typen (in der csv drin, aber nicht in den Quellen):
+    Quellen:
+    https://de.wikipedia.org/wiki/Betriebsstellenverzeichnis
+    https://de.wikipedia.org/wiki/Liste_von_Abk%C3%BCrzungen_im_Eisenbahnwesen
+    https://www-docs.b-tu.de/fg-eisenbahn/public/0-2BegriffeAbk.pdf
+
     Ats
     BZ (Betriebszentrale ist es nicht, aber irgendwelche Stellwerke)
-    CEst
     CGbf
     dUw (wohl irgendein Unterwerk)
-    Emst
-    ES
+    ES (evtl. Erdungsschalter, aber nicht sicher)
     fb-* (-GW)
     fBKA
     fGUw
@@ -80,22 +83,15 @@ const typesContainer = /** @type {HTMLElement} */ (document.getElementById("type
     GEGr
     GKs
     GSp
-    Guw
     Hst (Haltestelle?)
     Ks
     Kw
     (NE-) Tpg, Tpp
-    NLZ
     Psw
-    SaSt
+    SaSt (evtl. auch Schaltstelle?)
     Sbk
-    Sst
     ST
-    Sw
-    Tbv
     tGUw
-    TS
-    TSO
 */
 const types = [
     {
@@ -139,8 +135,16 @@ const types = [
         heading: "Bush"
     },
     {
+        name: "Einsatzstelle Geschäftsbereich Cargo",
+        heading: "CEst"
+    },
+    {
         name: "Deckungsstelle",
         heading: "Dkst"
+    },
+    {
+        name: "Empfangsstelle",
+        heading: "Emst"
     },
     {
         name: "Einsatzstelle für Zugpersonal",
@@ -153,6 +157,10 @@ const types = [
     {
         name: "Grenzpunkt",
         heading: "Gp"
+    },
+    {
+        name: "Gleichrichter-Unterwerk",
+        heading: "Guw"
     },
     {
         name: "Haltepunkt",
@@ -169,6 +177,10 @@ const types = [
     {
         name: "Museumsbahnhof",
         heading: "Museum"
+    },
+    {
+        name: "Netzleitzentrale",
+        heading: "NLZ"
     },
     {
         name: "Parkeisenbahn",
@@ -199,12 +211,24 @@ const types = [
         heading: "Sp"
     },
     {
+        name: "Sammelstelle",
+        heading: "Sst"
+    },
+    {
         name: "Streckenwechsel",
         heading: "Strw"
     },
     {
+        name: "Schaltwerk",
+        heading: "Sw"
+    },
+    {
         name: "Tankstelle",
         heading: "Tank"
+    },
+    {
+        name: "Tunnelbegegnungsverbot",
+        heading: "Tbv"
     },
     {
         name: "Tarifpunkt",
@@ -213,6 +237,14 @@ const types = [
     {
         name: "Trafostation",
         heading: "TrSt"
+    },
+    {
+        name: "Trennschalter",
+        heading: "TS"
+    },
+    {
+        name: "Technikstandort",
+        heading: "TSO"
     },
     {
         name: "Umrichterwerk",
