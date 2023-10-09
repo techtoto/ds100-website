@@ -11,6 +11,7 @@ function handleSearchParams() {
 handleSearchParams();
 
 function refreshList(query = "", showAll = false) {
+    query = query.trim();
     const filteredData = ds100Data.filter((item) => {
         const lowercase = query.toLowerCase();
 
