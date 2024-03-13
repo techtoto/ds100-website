@@ -24,6 +24,12 @@ td {
     padding-bottom: 0.5em;
 }
 
+.rl100Code a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .rl100TypeLong {
     text-align: right;
 }
