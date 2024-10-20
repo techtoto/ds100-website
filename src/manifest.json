@@ -5,7 +5,12 @@
     {
       "src": "favicon.svg",
       "sizes": "any"
-    }
+    },
+    {
+			"src": "favicon-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
   ],
   "start_url": ".",
   "display": "standalone",
