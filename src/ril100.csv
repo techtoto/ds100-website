@@ -1,4 +1,4 @@
-﻿PLC-Gesamt,RL100-Code,RL100-Langname,RL100-Kurzname,Typ-Kurz,Betriebszustand,Datum-Ab
+PLC-Gesamt,RL100-Code,RL100-Langname,RL100-Kurzname,Typ-Kurz,Betriebszustand,Datum-Ab
 DE14421,AA,Hamburg-Altona,Hamburg-Altona,Bf,Betrieb,20200401
 DE14423,AA  G,Hamburg-Altona Gbf,Hmb-Altona Gbf,Bft,Betrieb,20081214
 DE10046,AABG,Agathenburg,Agathenburg,Hp,Betrieb,20200401
@@ -1076,7 +1076,7 @@ DE11501,BBK,Borkheide,Borkheide,Bf,Betrieb,20201001
 DE10984,BBKB,Berlin-Blankenburg,Bln-Blankenburg,Bf,Betrieb,20201001
 DE10991,BBKF,Berlin-Bürknersfelde,Bürknersfelde,Hp,Planung,20201001
 DE10630,BBKL,Bärenklau,Bärenklau,Hp,Betrieb,20201001
-,BBKLG,Bärenklau, Gemeindeverwaltung,Bärenklau,Gemein,Bush,Betrieb,19990101
+,BBKLG,"Bärenklau, Gemeindeverwaltung","Bärenklau,Gemein",Bush,Betrieb,19990101
 DE11240,BBKN,Biesdorfer Kreuz Nord,Biesdf Kr Nord,Bf,Betrieb,20200401
 DE10828,BBKR,Berkenbrück,Berkenbrück,Bf,Betrieb,20201001
 ,BBKRM,Berkenbrück Mitte,Berkenbr Mitte,Bush,Betrieb,19990304
@@ -1114,7 +1114,7 @@ DE11287,BBSH,Birkengrund Hp,Birkengrund Hp,Hp,Betrieb,20240701
 DE11701,BBSN,Briesen (Mark),Briesen (Mark),Bf,Betrieb,20201001
 ,BBSNS,Briesen(Mark) Schule,Briesen(M)Schule,Bush,Betrieb,19990101
 DE10521,BBSP,Bad Saarow,Bad Saarow,Bf,Betrieb,20201001
-,BBSS,Bad Saarow, Pieskow Bahnhof,Bad Saarow-Piesk,NE-Hp,Betrieb,20211212
+,BBSS,"Bad Saarow, Pieskow Bahnhof",Bad Saarow-Piesk,NE-Hp,Betrieb,20211212
 ,BBSSD,Bad Saarow Süd,Bad Saarow Süd,Bush,Betrieb,19991014
 DE11189,BBST,Bestensee,Bestensee,Bf,Betrieb,20201001
 DE11479,BBSZ,Booßen,Booßen,Bf,a.B.,20201001
@@ -1201,7 +1201,7 @@ DE12756,BEO,Eichow,Eichow,Bf,Betrieb,20200401
 DE12967,BERK,Erkner,Erkner,Bf,Betrieb,20201001
 ,BERKZ,Erkner ZOB,Erkner ZOB,Bush,Betrieb,20210120
 DE12841,BETN,Elstal,Elstal,Bft,Betrieb,20201001
-,BETNK,Elstal, Kirche,Elstal, Kirche,Bush,Betrieb,19990101
+,BETNK,"Elstal, Kirche","Elstal, Kirche",Bush,Betrieb,19990101
 DE12845,BEW,Elsterwerda,Elsterwerda,Bf,Betrieb,20200401
 DE24903,BEWX,Elsterwerda ESTW UZ,Elsterwerda UZ,BZ,Betrieb,20201001
 DE12838,BEZ,Elsholz,Elsholz,Hp,Betrieb,20201001
@@ -1420,7 +1420,7 @@ DE15134,BHW,Hoyerswerda,Hoyerswerda,Bf,Betrieb,20200401
 DE15137,BHW W,Hoyerswerda W 6,Hoyerswerda W 6,Bft,Betrieb,20081214
 DE15138,BHWN,Hoyerswerda-Neustadt,Hoyersw-Neustadt,Hp,Betrieb,20200401
 ,BHWNB,Hoyerswerda-Neustadt Hp           (Bush),Hoyersw-Neust Hp,Bush,Betrieb,19990320
-,BHWNZ,Hoyerswerda-Neustadt, Ziolkowskistraße,Hoyersw-Neust Zi,Bush,Betrieb,20210107
+,BHWNZ,"Hoyerswerda-Neustadt, Ziolkowskistraße",Hoyersw-Neust Zi,Bush,Betrieb,20210107
 ,BHWQ,Hoyerswerda Bedienstandort,Hoyerswerda BSO,BSO,Planung,20200401
 DE24722,BHWX,Hoyerswerda ESTW-UZ,Hoyerswerda ESTW,BZ,Betrieb,20200401
 DE15135,BHWZ,Hoyerswerda Betonwerk,Hoyers Betonwerk,Anst,a.B.,20200401
@@ -1442,7 +1442,7 @@ DE15258,BJF,Jacobsdorf (Mark),Jacobsdorf,Hp,Betrieb,20201001
 DE15268,BJL,Jamlitz,Jamlitz,Anst,a.B.,20200401
 DE10884,BJLB,Berlin Julius-Leber-Brücke            SB,J-Leber-Brücke,Hp,Betrieb,20201001
 DE15314,BJUE,Jüterbog,Jüterbog,Bf,Betrieb,20201001
-,BJUEB,Jüterbog, Bushaltestelle,Jüterbog, Bush,Bush,Betrieb,19990101
+,BJUEB,"Jüterbog, Bushaltestelle","Jüterbog, Bush",Bush,Betrieb,19990101
 DE15316,BJUEG,Jüterbog Gbf,Jüterbog Gbf,Bft,Betrieb,20201001
 DE10886,BJUF,Berlin Jungfernheide,Bln Jungfernheid,Hp,Betrieb,20201001
 DE10885,BJUN,Berlin Jungfernheide            (S-Bahn),Jungfernheid (S),Hp,Betrieb,20201001
@@ -1494,13 +1494,13 @@ DE11048,BKPK,Berlin-Köpenick                   S-Bahn,Bln-Köpenick S-B,Bf,Betr
 DE15862,BKR,Krauschwitz Keisel u Co,Keisel u Co,Anst,a.B.,20200401
 ,BKRL,Krugau Lager,Krugau Lager,NE-Awanst,Betrieb,20090124
 DE15883,BKRM,Kremmen,Kremmen,Bf,Betrieb,20201001
-,BKRMM,Kremmen, Markt,Kremmen, Markt,Bush,Betrieb,19990101
+,BKRMM,"Kremmen, Markt","Kremmen, Markt",Bush,Betrieb,19990101
 ,BKRU,Krugau,Krugau,NE-Hp,Betrieb,20081214
 DE11036,BKRW,Berlin-Karow                      S-Bahn,Bln-Karow S-B,Bft,Betrieb,20201001
 DE15863,BKS,Krauschwitz Steinzeugwerk,Steinzeuge,Anst,a.B.,20200401
 DE15667,BKSB,Kodersdorf Sandberg,Kodersd Sandberg,Bf,Betrieb,20220620
 ,BKSF,Kummersdorf Gut,Kummd Gut,NE-Hp Anst,a.B.,20050401
-,BKSFB,Kummersdorf Gut, Bushaltestelle,KummersdfGut,Bus,Bush,Betrieb,19990101
+,BKSFB,"Kummersdorf Gut, Bushaltestelle","KummersdfGut,Bus",Bush,Betrieb,19990101
 DE15966,BKUM,Kummersdorf (b Storkow),Kummersdorf(b S),Hp,Betrieb,20201001
 DE15775,BKW,Königs Wusterhausen,Kö Wusterh,Bf,Betrieb,20201001
 ,BKZB,Kreuzbruch,Kreuzbruch,NE-Hp,a.B.,20050401
@@ -1794,7 +1794,7 @@ DE11099,BRH,Berlin-Rummelsburg (S-Bahn),Bln-Rummelsb SB,Bft,Betrieb,20201001
 DE18898,BRI,Rietschen,Rietschen,Hp,Betrieb,20110205
 DE11090,BRKD,Berlin-Reinickendorf,Bln-Reinickendf,Bf,Betrieb,20201001
 ,BRKL,Rehagen,Rehagen,NE-Hp,a.B.,20050401
-,BRKLD,Klausdorf, Dorfplatz,Klausdorf,Dorfpl,Bush,Betrieb,19990101
+,BRKLD,"Klausdorf, Dorfplatz","Klausdorf,Dorfpl",Bush,Betrieb,19990101
 DE19110,BRO,Rückersdorf                    (Niederl),Rückersdorf NL,Bf,Betrieb,20200401
 DE21694,BRON,Röntgental Üst Fernbahn,Röntgental Üst,Üst,Betrieb,20201001
 ,BROT,Rochau Forsthaus,Rochau Forsthaus,NE-Hp,ehemals,20240401
@@ -1853,7 +1853,7 @@ DE19649,BSEE,Seefeld (Mark),Seefeld (Mark),Hp,Betrieb,20240609
 DE19643,BSEO,Sedlitz Ost,Sedlitz Ost,Bft,Betrieb,20200401
 DE19459,BSEP,Schöneicher Plan,Schöneicher Plan,Bf,Betrieb,20201001
 ,BSF,Schönefeld (Kr Luckenwalde),Schönefeld(Luck),NE-Hp Anst,a.B.,20050401
-,BSF B,Schönefeld (Kr Luckenwalde) Bushaltest.,Schönefd, Bush,Bush,Betrieb,19990101
+,BSF B,Schönefeld (Kr Luckenwalde) Bushaltest.,"Schönefd, Bush",Bush,Betrieb,19990101
 DE19652,BSFD,Seegefeld,Seegefeld,Hp,Betrieb,20201001
 DE19358,BSFE,Schleife,Schleife,Bf,Betrieb,20210701
 DE19465,BSFL,Schönfließ,Schönfließ,Bf,Betrieb,20201001
@@ -1895,7 +1895,7 @@ DE19467,BSOE,Schönfließ Dorf,Schönfließ Dorf,Bf,Betrieb,20201001
 DE19862,BSP,Spremberg,Spremberg,Bf,Betrieb,20200401
 DE11121,BSPA,Berlin-Spandau                    S-Bahn,Bln-Spandau  S-B,Bf,Betrieb,20201001
 ,BSPB,Sperenberg,Sperenberg,NE-Bf,a.B.,20050401
-,BSPBT,Sperenberg Tankstelle,Sperenberg,Tank,Bush,Betrieb,19990101
+,BSPBT,Sperenberg Tankstelle,"Sperenberg,Tank",Bush,Betrieb,19990101
 DE11120,BSPD,Berlin-Spandau,Bln-Spandau,Bf,Betrieb,20201001
 DE11123,BSPDM,Berlin-Spandau Mitte,Bln-Spandau Mit,Bft,Betrieb,20201001
 DE11124,BSPDO,Berlin-Spandau Ost,Bln-Spandau Ost,Bft,Betrieb,20201001
@@ -1994,7 +1994,7 @@ DE20593,BVC,Vetschau Kraftwerk,Vetschau Kraftw,Hp,a.B.,20200401
 DE11139,BVDP,Berlin-Tempelhof Vdp,Bln-Tempelh(Vdp),Abzw,a.B.,20201001
 DE20583,BVLT,Velten (Mark),Velten (Mark),Bf,Betrieb,20201001
 DE20567,BVLZ,Vehlefanz,Vehlefanz,Hp,Betrieb,20201001
-,BVLZA,Vehlefanz Ausgang,Vehlefanz,Ausg,Bush,Betrieb,19990101
+,BVLZA,Vehlefanz Ausgang,"Vehlefanz,Ausg",Bush,Betrieb,19990101
 DE20628,BVOG,Vogelsang (Kr Eisenhüttenstadt),Vogelsang(Kr Eh),Hp,a.B.,20201001
 DE11142,BVTW,Berlin-Treptow Streckenwechsel 6164/6142,Treptow Strw,Strw,Betrieb,20200401
 DE20697,BWA,Walddrehna,Walddrehna,Bf,Betrieb,20200401
@@ -2108,14 +2108,14 @@ DE21407,BWUR,Wustermark Rbf,Wustermark Rbf,Bf,Betrieb,20201001
 DE21409,BWURO,Wustermark Rbf Wot,Wustermark Wot,Bft,Betrieb,20201001
 ,BWURW,Wustermark Rbf West,Wustermark Rbf W,NE-Bft,Betrieb,20161211
 DE21400,BWUS,Wustermark,Wustermark,Bf,Betrieb,20201001
-,BWUSF,Wustermark, Fr.-Rumpf-Str.,WustermarkFr-R-S,Bush,Betrieb,19990101
+,BWUSF,"Wustermark, Fr.-Rumpf-Str.",WustermarkFr-R-S,Bush,Betrieb,19990101
 DE21404,BWUSN,Wustermark Awn,Wustermark Awn,Bft Abzw,Betrieb,20201001
-,BWUSS,Wustermark, Ort/Schule,WustermarkSchule,Bush,Betrieb,19990101
+,BWUSS,"Wustermark, Ort/Schule",WustermarkSchule,Bush,Betrieb,19990101
 DE20943,BWW,Weißwasser (Oberlausitz),Weißwasser (OL),Bf,Betrieb,20081214
 DE21691,BWWG,Wustermark Rbf West DB-Grenze,Wusterm W DB-Gr,Gp,Betrieb,20201001
 DE24705,BWX,Berlin Westkreuz ESTW-UZ,Bln Westkr ESTW,BZ,Betrieb,20201001
 DE20961,BWZ,Wellmitz,Wellmitz,Bf,Betrieb,20201001
-,BWZ B,Wellmitz Bahnhof, Neißemünde,Wellmitz Bf Neiß,Bush,Betrieb,20210107
+,BWZ B,"Wellmitz Bahnhof, Neißemünde",Wellmitz Bf Neiß,Bush,Betrieb,20210107
 DE13302,BXF,Frankfurt (Oder) Grenze,Frankft(O)Grenze,Gp,Betrieb,20201001
 DE13252,BXFO,Forst (Lausitz) Grenze,Forst(L) Grenze,Gp,Betrieb,20200401
 DE14165,BXG,Guben Grenze,Guben Grenze,Gp,Betrieb,20200401
@@ -2321,7 +2321,7 @@ DE11927,DCM,Chemnitz Mitte,Chemnitz Mitte,Hp,Betrieb,20200401
 DE11987,DCO,Cossen,Cossen,Bf,Betrieb,20081214
 DE11977,DCOE,Cölln,Cölln,Hp,a.B.,20200401
 DE11973,DCOL,Colditz,Colditz,Bf,a.B.,20040901
-,DCOM,Chemnitz, Omnibusbahnhof,Chemnitz Omnibus,Bush,Betrieb,20121201
+,DCOM,"Chemnitz, Omnibusbahnhof",Chemnitz Omnibus,Bush,Betrieb,20121201
 ,DCPEK,Chemnitz PE Küchwald,Chemn PE Küchw,Park,Betrieb,20000501
 ,DCPET,Chemnitz PE Tennisplätze,Chemn PE Tennis,Park,Betrieb,20000501
 DE12008,DCR,Cranzahl,Cranzahl,Bf,Betrieb,20081214
@@ -2518,7 +2518,7 @@ DE12453,DH,Dresden Hbf,Dresden Hbf,Bft,Betrieb,20200401
 DE14292,DHA,Hainichen,Hainichen,vp-Bf,Betrieb,20200401
 DE14297,DHAL,Halbau am Hochstein,Halbau am Hst,Hp Anst,a.B.,20030101
 DE10330,DHAN,Aue (Sachs) Handelsgesellsch Hanko Chemn,Hanko Aue,Anst,a.B.,20030101
-DE24730,DHB,Halsbrücke, Apparatebau Freiberg GmbH,Halsbr,Apparateb,Anst,a.B.,20200401
+DE24730,DHB,"Halsbrücke, Apparatebau Freiberg GmbH","Halsbr,Apparateb",Anst,a.B.,20200401
 DE24730,DHB,Halsbrücke Apparatebau Freiberg GmbH,Halsbr Apparateb,Anst,a.B.,20241215
 DE14530,DHBR,Hammerbrücke,Hammerbrücke,Hp Anst,a.B.,20030101
 DE14688,DHD,Heidenau,Heidenau,Bf,Betrieb,20200401
@@ -2618,7 +2618,7 @@ DE11920,DKRB,Chemnitz DFA GmbH G-Ber Fahrzeugbau,Wismut Stahlb,Anst,a.B.,2020040
 DE15597,DKRD,Kleinröhrsdorf,Kleinröhrsdorf,Hp,Betrieb,20081214
 ,DKRO,Kretscham-Rothensehma,Kretscham-Rothen,NE-Bf,Betrieb,20040206
 DE15906,DKRP,Krippen,Krippen,Hp,Betrieb,20200401
-,DKRPP,Bad Schandau, Postelwitz,Postelwitz,Bush,Betrieb,20210415
+,DKRPP,"Bad Schandau, Postelwitz",Postelwitz,Bush,Betrieb,20210415
 ,DKRPS,Krippen                         (Schiff),Krippen        S,Slst,Betrieb,19990101
 DE15931,DKRU,Krumhermsdorf,Krumhermsdorf,Hp,Betrieb,20081214
 ,DKRUP,Krumhermsdorf Am Park,Krumhermsdf Park,Bush,,20231013
@@ -3330,7 +3330,7 @@ DE11375,EBHA,Bochum Häusser AG,Häusser AG   /Bo,Anst,a.B.,20201001
 DE11378,EBHM,Bochum Heintzmann,Heintzmann,Awanst,a.B.,20201001
 DE11490,EBHS,Borgholzhausen,Borgholzhausen,Hp,Betrieb,20081214
 ,EBHT,Bornholte,Bornholte,NE-Hp,Betrieb,20081214
-,EBHW,Bruchhausen (Kr Arnsberg,Westf),Bruchhausen,NE-Bf,Betrieb,20081214
+,EBHW,"Bruchhausen (Kr Arnsberg,Westf)",Bruchhausen,NE-Bf,Betrieb,20081214
 ,EBID,Biersdorf Bf (Westerw),Biersdorf Bf /Ww,NE-Bf,Betrieb,20081214
 ,EBID,Biersdorf Bf (Westerw),Biersdorf Bf /Ww,NE-Bf,ehemals,20241001
 DE11260,EBIG,Bigge,Bigge,Bf,Betrieb,20140615
@@ -4254,7 +4254,7 @@ DE19614,ESRO,Schwerte (Ruhr) Ost,Schwerte Ost,Bf,Betrieb,20081214
 DE19612,ESRT,Schwerte (Ruhr),Schwerte(Ruhr),Bf,Betrieb,20200401
 DE19616,ESRTF,Schwerte West,Schwerte West,Bft,Betrieb,20081214
 DE19959,ESTG,Steinhagen (Westf),Steinhagen/Westf,Bf,Betrieb,20081214
-,ESTK,Stockum (Bz Münster,Westf),Stockum,NE-Bf,Betrieb,20081214
+,ESTK,"Stockum (Bz Münster,Westf)",Stockum,NE-Bf,Betrieb,20081214
 DE11389,ESTR,Bochum Stockumer Straße,Stockumer Straße,Abzw,Betrieb,20201001
 ,ESTT,Soest Thomätor,Soest Thomätor,NE-Bf,ehemals,20240801
 DE20054,ESTU,Struthütten,Struthütten,Hp,Betrieb,20081214
@@ -8373,7 +8373,7 @@ DE10577,HZWI,Bad Zwischenahn,Bad Zwischenahn,Bf,Betrieb,20200401
 ,IRMU,Mannheim                           (Urw),Mannheim Urw,Urw,Betrieb,20200228
 ,IRMW,Mannheim-Waldhof                    (Sp),Mannheim-Waldh,Sp,Betrieb,20030101
 ,IRN,Neustadt (Weinstr)                  (Ks),Neustadt(W),Ks,Betrieb,20030101
-,IRNF,Neustadt-Haßloch km 82,39         (Fwst),Neustadt-Haßloch,Fwst,Betrieb,20080506
+,IRNF,"Neustadt-Haßloch km 82,39         (Fwst)",Neustadt-Haßloch,Fwst,Betrieb,20080506
 ,IRNH,Neckarhausen (b Eberbach)           (Ks),Neckarhsn/Eb,Ks,Betrieb,20030101
 ,IRNM,Neckargemünd                        (Sp),Neckargemünd,Sp,Betrieb,20090514
 ,IRNZ,Neckarelz                           (Uw),Neckarelz,Uw,Betrieb,20030101
@@ -9735,7 +9735,7 @@ DE11562,LBAB,Brandenburg Silokanalbrücke,Silokanalbrücke,Awanst,Betrieb,202004
 DE10637,LBAR,Barleben,Barleben,Bf,Betrieb,20081214
 DE10638,LBAS,Barleber See,Barleber See,Hp,Betrieb,20200401
 DE10827,LBAU,Berkau,Berkau,Hp,a.B.,20200401
-,LBAUP,Berkau, Hst PVG,Berkau Hst PVG,Bush,Betrieb,19990101
+,LBAUP,"Berkau, Hst PVG",Berkau Hst PVG,Bush,Betrieb,19990101
 DE10382,LBB,Baalberge,Baalberge,Bf,Betrieb,20201001
 DE10701,LBBZ,Bebitz,Bebitz,Hp Awanst,Betrieb,20201001
 DE11349,LBD,Blönsdorf,Blönsdorf,Hp,Betrieb,20200401
@@ -9812,7 +9812,7 @@ DE11194,LBRG,Beucha DB-Grenze,Beucha DB-Gr,Gp,Betrieb,20130905
 DE10740,LBRN,Behrend,Behrend,Hp,a.B.,20201001
 ,LBRO,Brocken,Brocken,NE-Bf,Betrieb,20081214
 DE11756,LBRP,Brunau-Packebusch,Brunau-Packeb,Bf,Betrieb,20200401
-,LBRPV,Brunau-Packebusch, Hst VGS,Brun-Packeb VGS,Bush,Betrieb,19990101
+,LBRPV,"Brunau-Packebusch, Hst VGS",Brun-Packeb VGS,Bush,Betrieb,19990101
 DE11571,LBRS,Braunesumpf,Braunesumpf,vp-Hp,a.B.,20201001
 DE11718,LBRW,Brottewitz,Brottewitz,Anst,a.B.,20200401
 DE11719,LBRZ,Brottewitz Zuckerfabrik,Brottew Zuckerfa,Awanst,Betrieb,20240201
@@ -9998,7 +9998,7 @@ DE13477,LFI,Friesdorf,Friesdorf,vp-Hp,Betrieb,20160701
 DE13478,LFIO,Friesdorf Ost,Friesdorf Ost,vp-Hp,Betrieb,20160701
 DE13369,LFK,Freckleben,Freckleben,Hp,Betrieb,20201001
 DE13212,LFL,Fleetmark,Fleetmark,Hp,Betrieb,20200401
-,LFL V,Fleetmark, Hst Volksbank,Flettmark Volksb,Bush,Betrieb,19990101
+,LFL V,"Fleetmark, Hst Volksbank",Flettmark Volksb,Bush,Betrieb,19990101
 DE13174,LFLD,Ferchland,Ferchland,Hp Awanst,a.B.,20200401
 DE11804,LFLO,Bülstringen Florastraße,Florastraße,Bf Abzw,Betrieb,20090329
 DE16243,LFLU,Leipzig/Halle Flughafen,Fh Leipzig/Halle,Bf,Betrieb,20200401
@@ -10457,7 +10457,7 @@ DE16642,LMEL,Magdeburg Elbbf,Mg Elbbf,Bf,a.B.,20200401
 DE17022,LMEN,Meuchen,Meuchen,Hp,a.B.,20200401
 DE16655,LMEU,Magdeburg-Eichenweiler Üst,Mg-Eichenw Üst,Üst,Betrieb,20200401
 DE17013,LMF,Meßdorf,Meßdorf,Hp,Betrieb,20200401
-,LMF A,Meßdorf, Abzw zum Bf,Meßdorf Abzw Bf,Bush,Betrieb,19990101
+,LMF A,"Meßdorf, Abzw zum Bf",Meßdorf Abzw Bf,Bush,Betrieb,19990101
 DE16993,LMG,Merseburg Hauptbahnhof,Merseburg Hbf,Bf,Betrieb,20200401
 DE16996,LMG G,Merseburg Gbf,Merseburg Gbf,Bft,Betrieb,20081214
 DE17388,LMGA,Nahrstedt,Nahrstedt,Abzw,Betrieb,20200401
@@ -10491,7 +10491,7 @@ DE13104,LMOF,Etzin Mosolf,Mosolf,Anst,Betrieb,20201001
 DE13105,LMOG,Etzin Mosolf DB-Grenze,Mosolf DB-Gr,Gp,Betrieb,20201001
 DE21529,LMOL,Züllsdorf Mollgraben,Mollgraben,Awanst Bk,a.B.,20200401
 DE17147,LMOS,Möser,Möser,Bf,Betrieb,20200401
-,LMOW,Möthlow, Bushaltestelle,Möthlow, Bush.,Bush,Betrieb,19990101
+,LMOW,"Möthlow, Bushaltestelle","Möthlow, Bush.",Bush,Betrieb,19990101
 DE17136,LMOZ,Mörtitz,Mörtitz,vp-Hp,a.B.,20090403
 ,LMQ,Magdeburg Bedienstandort,Magdeburg BSO,BSO,Planung,20200401
 DE16660,LMR,Magdeburg-Rothensee,Mg-Rothensee,Bf,Betrieb,20200401
@@ -10533,7 +10533,7 @@ DE17453,LNDG,Nemsdorf-Göhrendorf,Nemsdf-Göhrendf,Hp,Betrieb,20081214
 DE17437,LNE,Nedlitz,Nedlitz,Bf,a.B.,20200401
 DE17445,LNEI,Neichen,Neichen,Bf,a.B.,20200401
 DE17514,LNEK,Neuendorf-Karritz,Neuendf-Karritz,Hp,a.B.,20200401
-,LNEKP,Neuendorf, Hst PVG,Neuendorf PVG,Bush,Betrieb,19990101
+,LNEKP,"Neuendorf, Hst PVG",Neuendorf PVG,Bush,Betrieb,19990101
 DE17460,LNER,Nerchau,Nerchau,Bf,a.B.,20200401
 DE17712,LNF,Niedergörsdorf,Niedergörsdorf,Bf,Betrieb,20200401
 DE17531,LNG,Neugarten,Neugarten,Abzw,Betrieb,20201001
@@ -10562,8 +10562,8 @@ DE17711,LNOE,Niedergörne,Niedergörne,vp-Bf,Betrieb,20200401
 DE17809,LNOR,Nordgermersleben,Nordgermersleben,Hp,a.B.,20200401
 DE17729,LNR,Niederndodeleben,Niederndodeleben,Bf,Betrieb,20200401
 DE17455,LNS,Nennhausen,Nennhausen,Bf,Betrieb,20200401
-,LNS A,Nennhausen, Apotheke,Nennhsn,Apotheke,Bush,Betrieb,19990101
-,LNS S,Nennhausen, Schule,Nennhsn, Schule,Bush,Betrieb,19990101
+,LNS A,"Nennhausen, Apotheke","Nennhsn,Apotheke",Bush,Betrieb,19990101
+,LNS S,"Nennhausen, Schule","Nennhsn, Schule",Bush,Betrieb,19990101
 DE16219,LNW,Leipzig Messe,Leipzig Messe,Bf,Betrieb,20200401
 DE16220,LNW H,Leipzig Messe Hp,Leipzig Messe Hp,Hp,Betrieb,20081214
 DE16221,LNW N,Leipzig Messe Nord,Lpz Messe Nord,Bft,Betrieb,20081214
@@ -10618,7 +10618,7 @@ DE18515,LPRE,Prettin,Prettin,Bf,a.B.,20200401
 DE18539,LPRL,Prödel,Prödel,Hp Bk,Betrieb,20200401
 DE18329,LPRO,Petersroda,Petersroda,Hp,Betrieb,20200401
 DE18517,LPRZ,Pretzier (Altm),Pretzier (Altm),Hp,Betrieb,20200401
-,LPRZV,Pretzier (Altm), Hst VGS,Pretzier VGS,Bush,Betrieb,19990101
+,LPRZV,"Pretzier (Altm), Hst VGS",Pretzier VGS,Bush,Betrieb,19990101
 DE16232,LPSD,Leipzig Püchauer Straße,Püchauer Straße,Abzw,a.B.,20200401
 DE16233,LPSDC,Leipzig Püchauer Straße (C),Lpz Püch Str(C),Abzw,a.B.,20200401
 DE18500,LPT,Pratau,Pratau,Bf,Betrieb,20200401
@@ -13119,7 +13119,7 @@ DE21474,NZY,Zeyern,Zeyern,Anst,a.B.,20201001
 ,QBGS,Berlin-Gesundbrunnen Ü 1048 am Uw,Ü 1048 am Uw,ÜSt,Betrieb,20201001
 ,QBGS1,Berlin-Gesundbrunnen T 1048/1 Bf,T 1048/1 Bf,TrSt,Betrieb,20201001
 ,QBGS2,Berlin-Gesundbrunnen T 1048/2 ESTW Nordk,T 1048/2 ESTW N,TrSt,Betrieb,20201001
-,QBGS3,Berlin-Gesundbrunnen TÜ 1047 30 / 0,4,TÜ 1047 30 / 0,4,ÜSt,Betrieb,20201001
+,QBGS3,"Berlin-Gesundbrunnen TÜ 1047 30 / 0,4","TÜ 1047 30 / 0,4",ÜSt,Betrieb,20201001
 ,QBGSB,Großbeeren Ubf TÜ 3030,TÜ 3030,ÜSt,Betrieb,20201001
 ,QBGU,Guben TÜ 2015,TÜ 2015,ÜSt,Betrieb,20170630
 ,QBGZ1,Berlin-Grunewald EZV 1011 Z 1 Gbf,EZV 1011 Z1,ÜSt,Betrieb,20201001
@@ -16482,7 +16482,7 @@ DE10332,UAE,Auehütte,Auehütte,Hp,Betrieb,20081214
 DE10119,UAL,Allstedt,Allstedt,Bf,a.B.,20040316
 DE24663,UAM,Ammerbach,Ammerbach,Bk,a.B.,20200401
 DE10227,UAMM,Ammern,Ammern,Hp,Betrieb,20081214
-,UAMO,Ammern, OBI-Markt,Ammern.OBI-Markt,Bush,Betrieb,19990101
+,UAMO,"Ammern, OBI-Markt",Ammern.OBI-Markt,Bush,Betrieb,19990101
 DE10286,UAO,Arnstadt Ost,Arnstadt Ost,Bf,a.B.,20040316
 DE10263,UAP,Apolda,Apolda,Bf,Betrieb,20200401
 DE10272,UAR,Arenshausen,Arenshausen,Hp,Betrieb,20200401
@@ -16553,9 +16553,9 @@ DE12038,UDA,Dachrieden,Dachrieden,Bf,Betrieb,20081214
 DE12316,UDF,Dorndorf (Rhön),Dorndorf (Rhön),Bf,a.B.,20040117
 DE12315,UDG,Dornburg (Saale),Dornburg (Saale),Bf,Betrieb,20200401
 DE12236,UDI,Dingelstädt (Eichsfeld),Dingelstädt,Bf,a.B.,20040316
-,UDI B,Dingelstädt, Bahnhofstraße,Dingelst Bfstr,Bush,Betrieb,19990101
+,UDI B,"Dingelstädt, Bahnhofstraße",Dingelst Bfstr,Bush,Betrieb,19990101
 ,UDI L,Dingelstädt ZOB,Dingelstädt ZOB,Bush,Betrieb,20100429
-,UDI W,Dingelstädt, Weihbühl,Dingelst Weihb,Bush,Betrieb,19990101
+,UDI W,"Dingelstädt, Weihbühl",Dingelst Weihb,Bush,Betrieb,19990101
 DE12203,UDN,Dietzhausen,Dietzhausen,Bf,Betrieb,20081214
 ,UDN B,Dietzhausen Bushaltestelle,Dietzhausen Bush,Bush,Betrieb,19990101
 DE12298,UDO,Donndorf (Unstrut),Donndorf (Unstr),vp-Hp,ehemals,20240501
@@ -16620,7 +16620,7 @@ DE12980,UERL,Erlau (Thür),Erlau (Thür),vp-Hp,a.B.,20090210
 DE12993,UERN,Ernstthal am Rennsteig,Ernstth a Rennst,vp-Bf,Betrieb,20200401
 DE24657,UERX,Erfurt NBS ESTW-UZ,Erfurt NBS UZ,BZ,Betrieb,20200401
 DE13106,UET,Etzleben,Etzleben,Bf,Betrieb,20081214
-,UET B,Etzleben, Bushaltestelle,Etzleben Bush,Bush,Betrieb,19990101
+,UET B,"Etzleben, Bushaltestelle",Etzleben Bush,Bush,Betrieb,19990101
 DE12955,UEW,Erfurt West,Erfurt West,Hp,a.B.,20030101
 DE12857,UEX,Elxleben,Elxleben,Hp,Betrieb,20081214
 DE12889,UEZ,Endschütz,Endschütz,Hp,a.B.,20200401
@@ -16645,7 +16645,7 @@ DE14040,UGBB,Großbrembach,Großbrembach,Bf,Betrieb,20200401
 DE14037,UGBD,Großbodungen,Großbodungen,Hp,a.B.,20200401
 DE13668,UGBG,Geraberg,Geraberg,Hp,Betrieb,20081214
 DE13584,UGBH,Gebra (Hainleite),Gebra(Hainleite),Hp,Betrieb,20200401
-,UGBP,Gehlberg Ort, Post,Gehlberg Post,Bush,Betrieb,19990101
+,UGBP,"Gehlberg Ort, Post",Gehlberg Post,Bush,Betrieb,19990101
 DE14039,UGBR,Großbreitenbach (Thür),Großbreitenbach,Bf,a.B.,20030101
 ,UGBX,Goldberg-Tunnel Tbv,Goldberg Tbv,Tbv,Betrieb,20200401
 DE14108,UGC,Großschwabhausen,Großschwabhausen,Bf,Betrieb,20200401
@@ -16802,7 +16802,7 @@ DE15941,UKU,Kühnhausen,Kühnhausen,Bf,Betrieb,20081214
 DE15861,UKW,Krauschwitz (b Teuchern),Krauschwitz b Te,vp-Hp,a.B.,20141214
 DE15794,UKZ,Könitz (Thür),Könitz (Thür),Bf,Betrieb,20081214
 DE16196,UL,Leinefelde,Leinefelde,Bf,Betrieb,20200401
-,UL  M,Leinefelde, Milchhof,Leinef Milchhof,Bush,Betrieb,19990101
+,UL  M,"Leinefelde, Milchhof",Leinef Milchhof,Bush,Betrieb,19990101
 DE16138,ULA,Lauscha (Thür),Lauscha (Thür),vp-Bf,Betrieb,20201001
 DE16068,ULAO,Langenorla Ost,Langenorla Ost,Hp,Betrieb,20081214
 DE16069,ULAW,Langenorla West,Langenorla West,Hp,Betrieb,20081214
@@ -16954,7 +16954,7 @@ DE19104,UR  G,Rudolstadt (Thür) Gbf,Rudolst (Th) Gbf,Bft,Betrieb,20081214
 DE18672,URAU,Rauenstein (Thür),Rauenstein Thür,vp-Bf,Betrieb,20201001
 ,URBX,Rehberg-Tunnel Tbv,Rehberg Tbv,Tbv,Betrieb,20200401
 DE18761,URD,Reinsdorf (b Artern),Reinsdorf (b Ar),Hp,Betrieb,20081214
-,URD B,Reinsdorf (b Artern), Bushaltestelle,Reinsdorf Bush,Bush,Betrieb,19990101
+,URD B,"Reinsdorf (b Artern), Bushaltestelle",Reinsdorf Bush,Bush,Betrieb,19990101
 DE18764,URDN,Reinsdorf (bei Nebra),Reinsdorf (b Nb),Hp,Betrieb,20201001
 DE18799,UREN,Rennsteig,Rennsteig,vp-Bf,Betrieb,20090210
 DE18904,URGS,Ringleben-Gebesee,Ringlebe-Gebesee,Bf,Betrieb,20100101
@@ -17125,9 +17125,9 @@ DE20901,UWM F,Weimar Stw W1,Weimar W1,Bft,Betrieb,20081214
 DE20899,UWMB,Weimar Berkaer Bf,Weimar Berka Bf,Bf,Betrieb,20081214
 DE20902,UWMT,Weimar West,Weimar West,Hp,Betrieb,20081214
 DE20750,UWN,Waltershausen,Waltershausen,Bf,Betrieb,20081214
-,UWN A,Waltershausen, Albrechtstraße,Waltersh Albrstr,Bush,Betrieb,19990101
-,UWN G,Waltershausen, Goethestraße,Waltersh Goethe,Bush,Betrieb,19990101
-,UWN O,Waltershausen, Ohrdrufer Straße,Waltersh Ohrdruf,Bush,Betrieb,19990101
+,UWN A,"Waltershausen, Albrechtstraße",Waltersh Albrstr,Bush,Betrieb,19990101
+,UWN G,"Waltershausen, Goethestraße",Waltersh Goethe,Bush,Betrieb,19990101
+,UWN O,"Waltershausen, Ohrdrufer Straße",Waltersh Ohrdruf,Bush,Betrieb,19990101
 DE25552,UWNB,Waltershausen Bahnsteig,Waltersh.-Bahnst,Bft,Betrieb,20240701
 ,UWNG,Waltershausen Gleisdreieck,Waltersh.Gleisdr,Tp,Betrieb,19990101
 DE20751,UWNS,Waltershausen-Schnepfenthal,Waltersh-Schnepf,Hp,Betrieb,20081214
@@ -17388,8 +17388,8 @@ DE10780,WBE,Bentwisch,Bentwisch,Bf,Betrieb,20200401
 DE10817,WBER,Bergsdorf,Bergsdorf,Hp,Betrieb,20081214
 DE10738,WBES,Beetz-Sommerfeld,Beetz-Sommerfeld,Hp,Betrieb,20201001
 ,WBESB,Beetz-Sommerfeld Bahnhofstraße,Sommerfeld Bhfst,Bush,Betrieb,20191128
-,WBESD,Sommerfeld, Dorf,Sommerfeld, Dorf,Bush,Betrieb,19990101
-,WBESG,Beetz, Gemeindeverwaltung,Beetz, Gemeinde,Bush,Betrieb,19990101
+,WBESD,"Sommerfeld, Dorf","Sommerfeld, Dorf",Bush,Betrieb,19990101
+,WBESG,"Beetz, Gemeindeverwaltung","Beetz, Gemeinde",Bush,Betrieb,19990101
 ,WBEU,Beuchow,Beuchow,NE-Hp,Betrieb,20081214
 ,WBF,Bergfeld,Bergfeld,NE-Hp,a.B.,20060401
 DE10792,WBG,Bergen auf Rügen,Bergen auf Rügen,Bf,Betrieb,20201001
@@ -17524,11 +17524,11 @@ DE13498,WF  B,Fürstenberg (Havel) B3,Fürstenberg B3,Bft,ehemals,20081223
 DE13147,WFAG,Falkenhagen (Prign) DB-Grenze,Falkenhgn DB-Gr,Gp,Betrieb,20201001
 ,WFAP,Falkenhagen Gewerbepark Prignitz,Falkenh Gew-Park,NE-Bft,Betrieb,20240609
 ,WFAU,Falkenhagen Umschlagterminal,Falkenhagen Umt,NE-Bft,Betrieb,20240609
-,WFB B,Fehrbellin, Brücke,Fehrbellin Br,Bush,Betrieb,19990101
-,WFB M,Fehrbellin, Marnholz,Fehrbellin Marnh,Bush,Betrieb,19990101
-,WFB P,Fehrbellin, Post,Fehebellin Post,Bush,Betrieb,19990101
-,WFB R,Fehrbellin, Rathaus,Fehrbellin Rath,Bush,Betrieb,19990101
-,WFB S,Fehrbellin, Berliner Straße,Fehrbellin Berl,Bush,Betrieb,19990101
+,WFB B,"Fehrbellin, Brücke",Fehrbellin Br,Bush,Betrieb,19990101
+,WFB M,"Fehrbellin, Marnholz",Fehrbellin Marnh,Bush,Betrieb,19990101
+,WFB P,"Fehrbellin, Post",Fehebellin Post,Bush,Betrieb,19990101
+,WFB R,"Fehrbellin, Rathaus",Fehrbellin Rath,Bush,Betrieb,19990101
+,WFB S,"Fehrbellin, Berliner Straße",Fehrbellin Berl,Bush,Betrieb,19990101
 DE13144,WFBG,Falkenberg (Mark),Falkenberg (M),Hp,Betrieb,20201001
 ,WFBGB,Falkenberg (Mark) Ortsmitte,Falkenberg M Ort,Bush,Betrieb,20200507
 DE13422,WFD,Fretzdorf,Fretzdorf,Hp,Betrieb,20201001
@@ -17662,7 +17662,7 @@ DE14906,WHML,Himmelpfort,Himmelpfort,Hp,a.B.,20200401
 DE14992,WHMT,Hohen Mistorf,Hohen Mistorf,Bf,a.B.,20040219
 ,WHN,Neustrelitz Hafen,Neustrelitz Hfn,NE-Bf,Betrieb,20081214
 DE15050,WHO,Holthusen,Holthusen,Bf,Betrieb,20201001
-,WHO D,Holthusen, Am Dorfplatz,Holthusen Dorfpl,Bush,,20240401
+,WHO D,"Holthusen, Am Dorfplatz",Holthusen Dorfpl,Bush,,20240401
 DE14999,WHOD,Hohendorf,Hohendorf,Hp,Betrieb,20091213
 DE15130,WHOE,Hövet,Hövet,Hp,a.B.,20201001
 DE15020,WHOF,Hohenofen,Hohenofen,Hp,Betrieb,20201001
@@ -17897,8 +17897,8 @@ DE17472,WNP,Neu Placht,Neu Placht,Bf,a.B.,20200401
 ,WNP B,Neu Placht                        (Bush),Neu Placht(Bush),Bush,Betrieb,19990101
 ,WNPG,Neu Pudagla,Neu Pudagla,NE-Hp,Betrieb,20130904
 DE17597,WNR,Neuruppin,Neuruppin,Bf,Betrieb,20201001
-,WNR A,Neuruppin, Ärztehaus,Neuruppin(Ärzte),Bush,Betrieb,19990101
-,WNR B,Neuruppin, Busbahnhof,Neuruppin, Busb,Bush,Betrieb,19990101
+,WNR A,"Neuruppin, Ärztehaus",Neuruppin(Ärzte),Bush,Betrieb,19990101
+,WNR B,"Neuruppin, Busbahnhof","Neuruppin, Busb",Bush,Betrieb,19990101
 ,WNR P,Neuruppin Pfarrkirche,Neuruppin Pfarrk,Bush,Betrieb,19991102
 ,WNR S,Neuruppin Steinstraße,Neuruppin Steins,Bush,Betrieb,19990101
 DE17598,WNRG,Neuruppin DB-Grenze,Neuruppin DB-Gr,Gp,Betrieb,20201001
@@ -18018,7 +18018,7 @@ DE18620,WRAK,Rakow,Rakow,Hp,Betrieb,20201001
 ,WRAKA,Rakow Alte Schule,Rakow Alte Schul,Bush,Betrieb,20210107
 DE18684,WRAV,Ravenhorst (Kr Ribnitz-Damgarten),Ravenhorst,Hp,a.B.,20201001
 DE19047,WRB,Rostock-Bramow,Rostock-Bramow,Bf,Betrieb,20200401
-,WRB H,Rostock-Bramow, Carl-Hopp Str.,Rostock C-Hopp-S,Bush,Betrieb,20190704
+,WRB H,"Rostock-Bramow, Carl-Hopp Str.",Rostock C-Hopp-S,Bush,Betrieb,20190704
 ,WRBB,Ribbeck Bush,Ribbeck Bush,Bush,Betrieb,20040722
 DE19048,WRD,Rostock-Dierkow,Rostock-Dierkow,Bft,Betrieb,20200401
 DE18702,WRDL,Reddelich,Reddelich,Hp,Betrieb,20081214
@@ -23602,260 +23602,260 @@ DE13915,WZWG,Gransee Ziegelwerke,Ziegelw Gransee,Awanst,a.B.,20200401
 DE15398,YBBAK,Karower Kreuz Streckenwechsel 6067/6087,Karower Kr Strw,Strw,Betrieb,20201001
 DE12426,YBBDB,Dranse Streckenwechsel 6941/6942,Strw 6941/6942,Strw,Betrieb,20091213
 DE10798,YBBFE,Bergfelde Streckenwechsel 6009/6010,Bergfelde Strw,Strw,Betrieb,20201001
-DE11000,YBBFR,Berlin-Friedrichshagen - Berlin-Rahnsd,PD-Gr km 16,100,PDGr,Betrieb,20201001
-DE13827,YBBGD,Golßen (Niederlausitz) - Drahnsdorf,PD-Gr km 64,053,PDGr,Betrieb,20201001
+DE11000,YBBFR,Berlin-Friedrichshagen - Berlin-Rahnsd,"PD-Gr km 16,100",PDGr,Betrieb,20201001
+DE13827,YBBGD,Golßen (Niederlausitz) - Drahnsdorf,"PD-Gr km 64,053",PDGr,Betrieb,20201001
 DE14994,YBBHN,Hohen Neuendorf Strw 6088/6090/6092,Hohen Neuend Sw,Strw,Betrieb,20201001
 DE11241,YBBIK,Biesdorfer Kreuz Nord Strw 6067/6080,Biesdf Kr N Strw,Strw,Betrieb,20200401
-DE11049,YBBKE,Berlin-Köpenick - Erkner,PD-Gr km 16,035,PDGr,Betrieb,20201001
-DE11046,YBBKH,Berlin-Kaulsdorf - Hoppegarten (Mark),PD-Gr km 14,400,PDGr,Betrieb,20201001
-DE11068,YBBMB,Berlin-Mahlsdorf - Birkenstein,PD-Gr km 14,400,PDGr,Betrieb,20201001
-DE16946,YBBME,Melchow - Eberswalde Hbf,PD-Gr km 37,000,PDGr,Betrieb,20201001
+DE11049,YBBKE,Berlin-Köpenick - Erkner,"PD-Gr km 16,035",PDGr,Betrieb,20201001
+DE11046,YBBKH,Berlin-Kaulsdorf - Hoppegarten (Mark),"PD-Gr km 14,400",PDGr,Betrieb,20201001
+DE11068,YBBMB,Berlin-Mahlsdorf - Birkenstein,"PD-Gr km 14,400",PDGr,Betrieb,20201001
+DE16946,YBBME,Melchow - Eberswalde Hbf,"PD-Gr km 37,000",PDGr,Betrieb,20201001
 DE11079,YBBMO,Berlin-Moabit Streckenwechsel 6020/7397,Bln-Moabit Strw,Strw,Betrieb,20201001
 DE17004,YBBMZ,Merzdorf Streckenwechsel 6345/6220,Merzdorf Strw,Strw,Betrieb,20200401
 DE10901,YBBNB,Berlin Nordbahnhof Strw 6032/6002,Nordbf Strw,Strw,Betrieb,20201001
-DE17404,YBBNP,Nauen - Paulinenaue,PD-Gr km 38,200,PDGr,Betrieb,20201001
+DE17404,YBBNP,Nauen - Paulinenaue,"PD-Gr km 38,200",PDGr,Betrieb,20201001
 DE18306,YBBPO,Peitz Ost Streckenwechsel 6220/6345,Peitz Ost Strw,Strw,Betrieb,20200401
-DE18863,YBBRD,Ribnitz-Damgarten O - Ribnitz-Damgart W,PD-Gr km 41,300,PDGr,Betrieb,20201001
+DE18863,YBBRD,Ribnitz-Damgarten O - Ribnitz-Damgart W,"PD-Gr km 41,300",PDGr,Betrieb,20201001
 ,YBBSE,Schöneicher Plan Strw 6515/6543,Schöneicher P Sw,NE-Strw,Betrieb,20091213
-DE19196,YBBSN,Sachsenhausen (Nordb) - Nassenheide,PD-Gr km 32,200,PDGr,Betrieb,20201001
+DE19196,YBBSN,Sachsenhausen (Nordb) - Nassenheide,"PD-Gr km 32,200",PDGr,Betrieb,20201001
 DE10953,YBBTW,Berlin Treptower Park Strw 6170/6164,Treptower P Strw,Strw,Betrieb,20200401
-DE20785,YBBWG,Waren (Müritz) - Grabowhöfe,PD-Gr km 40,000,PDGr,Betrieb,20201001
+DE20785,YBBWG,Waren (Müritz) - Grabowhöfe,"PD-Gr km 40,000",PDGr,Betrieb,20201001
 DE10972,YBBYO,Berlin Yorckstraße Strw 6034/6035,Yorckstr Strw,Strw,Betrieb,20201001
 DE11159,YBBZD,Berlin-Zehlendorf Strw 6184/6177,Zehlendorf Strw,Strw,Betrieb,20201001
-DE13962,YBHGG,Grieben - Grevesmühlen,RB-Gr km 32,200,RBGr,Betrieb,20221001
-DE10142,YBLAG,Altdöbern - Großräschen,RB-Gr km 113,750,RBGr,Betrieb,20221001
-DE10587,YBLBN,Bahnsdorf - Neupetershain,RB-Gr km 56,200,RBGr,Betrieb,20221001
-DE18167,YBLBO,Osterburg - Behrend,RB-Gr km 33,030,RBGr,Betrieb,20221001
-DE10760,YBLBW,Belzig - Wiesenburg,RB-Gr km 75,000,RBGr,Betrieb,20221001
-,YBLDG,Dippmannsdorf - Golzow,RB-Gr km 37,940,NE-RBGr,Betrieb,20140501
-DE15315,YBLDN,Jüterbog - Niedergörsdorf,RB-Gr km 67,600,RBGr,Betrieb,20221001
-DE17532,YBLGB,Neugarten - Groß Behnitz,RB-Gr km 37,000,RBGr,Betrieb,20221001
-DE19858,YBLGN,Spreewitz - Graustein,RB-Gr km 18,500,RBGr,Betrieb,20221001
-DE18859,YBLGR,Rhinow - Großderschau,RB-Gr km 112,500,RBGr,Betrieb,20221001
-DE13920,YBLGS,Graustein - Schleife,RB-Gr km 143,562,RBGr,Betrieb,20221001
-DE25475,YBLHS,Schlieben - Hohenbucko,RB-Gr km 27,600,vp-RBGr,ehemals,20240501
-DE15924,YBLKG,Krüden - Geestgottberg,RB-Gr km 42,447,RBGr,Betrieb,20221001
-DE21452,YBLLZ,Zellendorf - Linda,RB-Gr km 78,343,RBGr,Betrieb,20221001
-DE19111,YBLOR,Rückersdorf - Hohenleipisch,RB-Gr km 110,000,RBGr,Betrieb,20221001
+DE13962,YBHGG,Grieben - Grevesmühlen,"RB-Gr km 32,200",RBGr,Betrieb,20221001
+DE10142,YBLAG,Altdöbern - Großräschen,"RB-Gr km 113,750",RBGr,Betrieb,20221001
+DE10587,YBLBN,Bahnsdorf - Neupetershain,"RB-Gr km 56,200",RBGr,Betrieb,20221001
+DE18167,YBLBO,Osterburg - Behrend,"RB-Gr km 33,030",RBGr,Betrieb,20221001
+DE10760,YBLBW,Belzig - Wiesenburg,"RB-Gr km 75,000",RBGr,Betrieb,20221001
+,YBLDG,Dippmannsdorf - Golzow,"RB-Gr km 37,940",NE-RBGr,Betrieb,20140501
+DE15315,YBLDN,Jüterbog - Niedergörsdorf,"RB-Gr km 67,600",RBGr,Betrieb,20221001
+DE17532,YBLGB,Neugarten - Groß Behnitz,"RB-Gr km 37,000",RBGr,Betrieb,20221001
+DE19858,YBLGN,Spreewitz - Graustein,"RB-Gr km 18,500",RBGr,Betrieb,20221001
+DE18859,YBLGR,Rhinow - Großderschau,"RB-Gr km 112,500",RBGr,Betrieb,20221001
+DE13920,YBLGS,Graustein - Schleife,"RB-Gr km 143,562",RBGr,Betrieb,20221001
+DE25475,YBLHS,Schlieben - Hohenbucko,"RB-Gr km 27,600",vp-RBGr,ehemals,20240501
+DE15924,YBLKG,Krüden - Geestgottberg,"RB-Gr km 42,447",RBGr,Betrieb,20221001
+DE21452,YBLLZ,Zellendorf - Linda,"RB-Gr km 78,343",RBGr,Betrieb,20221001
+DE19111,YBLOR,Rückersdorf - Hohenleipisch,"RB-Gr km 110,000",RBGr,Betrieb,20221001
 DE20360,YBLST,Tröbitz - Schönborn,RB-Gr km 110,RBGr,Betrieb,20221001
-DE21401,YBLWB,Wustermark - Ribbeck,RB-Gr km 137,000,RBGr,Betrieb,20221001
-DE21003,YBLWG,Werder - Groß Kreutz,RB-Gr km 37,900,RBGr,Betrieb,20221001
-DE25557,YBWHS,Hubertushöhe - Wendisch Rietz,PD-Gr km 28,82,PDGr,Betrieb,20240101
-DE25489,YBWKB,Kremmen - Beetz-Sommerfeld,PD-Gr km 2,000,PDGr,Betrieb,20230606
-DE19544,YBWSB,Schwanheide - Büchen,RB-Gr km 236,475,RBGr,Betrieb,20221001
-DE10239,YDDAD,Angermund - Duisburg-Rahm,PD-Gr km 53,380,PDGr,Betrieb,20201001
-DE10325,YDDAE,Au (Sieg) - Etzbach,PD-Gr km 66,500,PDGr,Betrieb,20201001
-DE12330,YDDAS,Dortm-Aplerbeck - Dortm-Sölde,PD-Gr km 178,900,PDGr,Betrieb,20201001
-DE11540,YDDBB,Brachelen - Baal,PD-Gr km 38,500,PDGr,Betrieb,20201001
-DE11388,YDDBD,Bochum Stockumer Str - Dortm-Lütgendortm,PD-Gr km 2,035,PDGr,Betrieb,20201001
-DE10718,YDDBF,Bedburg (Erft) - Frimmersdorf,PD-Gr km 23,150,PDGr,Betrieb,20201001
-DE11400,YDDBL,Bochum-Langendreer - Dortm-Lütgend Gbf,PD-Gr km 59,100,PDGr,Betrieb,20201001
-DE11377,YDDBO,Bochum Hbf - Dortmund-Lütgendortmund,PD-Gr km 154,830,PDGr,Betrieb,20201001
-DE10814,YDDBP,Bergkamen - Pelkum,PD-Gr km 65,100,PDGr,Betrieb,20201001
-DE25295,YDDEH,Urft (Steinfeld) - Nettersheim,PD-Gr km 61,615,PDGr,Betrieb,20221001
-DE13773,YDDGF,Gladbeck-Zweckel - Feldhausen,PD-Gr km 13,000,PDGr,Betrieb,20201001
-DE25476,YDDGG,Gelsenkirchen-Buer Süd - Gladbeck Ost,GE-Gr km 7,076,PDGr,Betrieb,20220608
-DE25296,YDDGR,Düsseldorf Flughafen-Duisburg-Großenbaum,PD-Gr km 53,380,PDGr,Betrieb,20221001
-DE14817,YDDHC,Herne - Castrop-Rauxel Hbf,PD-Gr km 102,100,PDGr,Betrieb,20201001
-DE15473,YDDKA,Kempen (Niederrhein) - Aldekerk,PD-Gr km 69,700,PDGr,Betrieb,20201001
-DE12331,YDDKK,Dortm-Kley (Üst) - Dortm-Kley,PD-Gr km 10,250,PDGr,Betrieb,20201001
-DE15683,YDDKL,Köln Bruder Klaus Siedl - Lev-Küppersteg,PD-Gr km 7,769,PDGr,Betrieb,20201001
-DE12394,YDDKM,Dortmund-Kurl - Kamen-Methler,PD-Gr km 131,100,PDGr,Betrieb,20201001
-DE16343,YDDLK,Leverkusen Morsbroich - Köln-Dünnwald,PD-Gr km 54,700,PDGr,Betrieb,20201001
-DE16350,YDDLN,Leverkusen-Schlebusch - Köln Neurather R,PD-Gr km 26,000,PDGr,Betrieb,20201001
-DE16602,YDDLW,Lünen - Werne (a d Lippe),PD-Gr km 6,000,PDGr,Betrieb,20201001
-DE12332,YDDMD,Dortm-Marten - Dortm-Rahm,PD-Gr km 16,000,PDGr,Betrieb,20201001
-DE16837,YDDML,Marl-Hamm - Marl Lippe,PD-Gr km 14,790,PDGr,Betrieb,20201001
-DE12612,YDDMR,Duisburg-Mühlenberg - Rheinhausen,PD-Gr km 9,450,PDGr,Betrieb,20201001
-DE12613,YDDMT,Duisburg-Mühlenberg - Trompet,PD-Gr km 4,615,PDGr,Betrieb,20201001
-DE25297,YDDPE,Marl-Sinsen - Marl Lippe,PD-Gr km 21,730,PDGr,Betrieb,20211201
-DE18902,YDDRB,Ringelstein - Büren Spechtenberg,PD-Gr km 40,000,PDGr,Betrieb,20201001
-DE18983,YDDRG,Rommerskirchen - Grevenbroich Erftwerk,PD-Gr km 21,413,PDGr,Betrieb,20201001
-DE18665,YDDRH,Ratingen Ost - Hösel,PD-Gr km 11,300,PDGr,Betrieb,20201001
-DE19588,YDDSE,Schwelm - Ennepetal,PD-Gr km 127,000,PDGr,Betrieb,20201001
-DE19613,YDDSH,Schwerte (Ruhr) - Holzwickede,PD-Gr km 161,500,PDGr,Betrieb,20201001
-DE15769,YDDSL,Köln-Stammheim - Leverkusen Bayerwerk,PD-Gr km 9,234,PDGr,Betrieb,20201001
-DE20276,YDDTR,Tiefenbroich - Ratingen West,PD-Gr km 16,010,PDGr,Betrieb,20201001
-DE20485,YDDUK,Unna West - Unna-Königsborn,PD-Gr km 1,800,PDGr,Betrieb,20240901
-DE25298,YDDVW,Gevelsberg-Kipp - Gevelsberg Hbf,PD-Gr km 45,713,PDGr,Betrieb,20211201
-DE21226,YDDWD,Witten-Annen Nord - Dortmund-Kruckel,PD-Gr km 22,400,PDGr,Betrieb,20201001
-DE20986,YDDWH,Wengern Ost - Hagen-Vorhalle,PD-Gr km 68,800,PDGr,Betrieb,20201001
-DE20755,YDDWL,Waltrop - Lünen Süd,PD-Gr km 49,000,PDGr,Betrieb,20201001
-DE25299,YDDWO,Köln-Worringen - Dormagen Chempark,PD-Gr km 16,310,PDGr,Betrieb,20211201
-DE21075,YDDWW,Wetter (Ruhr) - Witten Hbf,PD-Gr km 9,200,PDGr,Betrieb,20201001
-DE10155,YDFAB,Altenbeken - Buke,RB-Gr km 113,200,RBGr,Betrieb,20221001
-DE12986,YDFES,Erndtebrück - Schameder,RB-Gr km 29,658,RBGr,Betrieb,20221001
-DE14286,YDFHS,Haiger - Sechshelden,RB-Gr km 120,000,RBGr,Betrieb,20221001
-DE10456,YDFHU,Bad Honnef - Unkel,RB-Gr km 104,850,RBGr,Betrieb,20221001
-DE12042,YDFJP,Dahlem - Jünkerath,RB-Gr km 79,483,RBGr,Betrieb,20221001
-DE11461,YDFNR,Bonn - Rolandseck,RB-Gr km 44,160,RBGr,Betrieb,20221001
-DE19725,YDFSM,Siegburg - Montabaur,RB-Gr km 61,142,RBGr,Betrieb,20221001
-DE19327,YDFSW,Scherfede - Warburg,RB-Gr km 291,490,RBGr,Betrieb,20221001
-DE21169,YDFWB,Willingen - Brilon Wald,RB-Gr km 68,522,RBGr,Betrieb,20201001
-DE12250,YDHDH,Dissen-Bad Rothenfelde - Hankensberge,RB-Gr km 28,923,RBGr,Betrieb,20221001
-DE10804,YDHHB,Bergheim - Himmighausen,RB-Gr km 98,600,RBGr,Betrieb,20221001
+DE21401,YBLWB,Wustermark - Ribbeck,"RB-Gr km 137,000",RBGr,Betrieb,20221001
+DE21003,YBLWG,Werder - Groß Kreutz,"RB-Gr km 37,900",RBGr,Betrieb,20221001
+DE25557,YBWHS,Hubertushöhe - Wendisch Rietz,"PD-Gr km 28,82",PDGr,Betrieb,20240101
+DE25489,YBWKB,Kremmen - Beetz-Sommerfeld,"PD-Gr km 2,000",PDGr,Betrieb,20230606
+DE19544,YBWSB,Schwanheide - Büchen,"RB-Gr km 236,475",RBGr,Betrieb,20221001
+DE10239,YDDAD,Angermund - Duisburg-Rahm,"PD-Gr km 53,380",PDGr,Betrieb,20201001
+DE10325,YDDAE,Au (Sieg) - Etzbach,"PD-Gr km 66,500",PDGr,Betrieb,20201001
+DE12330,YDDAS,Dortm-Aplerbeck - Dortm-Sölde,"PD-Gr km 178,900",PDGr,Betrieb,20201001
+DE11540,YDDBB,Brachelen - Baal,"PD-Gr km 38,500",PDGr,Betrieb,20201001
+DE11388,YDDBD,Bochum Stockumer Str - Dortm-Lütgendortm,"PD-Gr km 2,035",PDGr,Betrieb,20201001
+DE10718,YDDBF,Bedburg (Erft) - Frimmersdorf,"PD-Gr km 23,150",PDGr,Betrieb,20201001
+DE11400,YDDBL,Bochum-Langendreer - Dortm-Lütgend Gbf,"PD-Gr km 59,100",PDGr,Betrieb,20201001
+DE11377,YDDBO,Bochum Hbf - Dortmund-Lütgendortmund,"PD-Gr km 154,830",PDGr,Betrieb,20201001
+DE10814,YDDBP,Bergkamen - Pelkum,"PD-Gr km 65,100",PDGr,Betrieb,20201001
+DE25295,YDDEH,Urft (Steinfeld) - Nettersheim,"PD-Gr km 61,615",PDGr,Betrieb,20221001
+DE13773,YDDGF,Gladbeck-Zweckel - Feldhausen,"PD-Gr km 13,000",PDGr,Betrieb,20201001
+DE25476,YDDGG,Gelsenkirchen-Buer Süd - Gladbeck Ost,"GE-Gr km 7,076",PDGr,Betrieb,20220608
+DE25296,YDDGR,Düsseldorf Flughafen-Duisburg-Großenbaum,"PD-Gr km 53,380",PDGr,Betrieb,20221001
+DE14817,YDDHC,Herne - Castrop-Rauxel Hbf,"PD-Gr km 102,100",PDGr,Betrieb,20201001
+DE15473,YDDKA,Kempen (Niederrhein) - Aldekerk,"PD-Gr km 69,700",PDGr,Betrieb,20201001
+DE12331,YDDKK,Dortm-Kley (Üst) - Dortm-Kley,"PD-Gr km 10,250",PDGr,Betrieb,20201001
+DE15683,YDDKL,Köln Bruder Klaus Siedl - Lev-Küppersteg,"PD-Gr km 7,769",PDGr,Betrieb,20201001
+DE12394,YDDKM,Dortmund-Kurl - Kamen-Methler,"PD-Gr km 131,100",PDGr,Betrieb,20201001
+DE16343,YDDLK,Leverkusen Morsbroich - Köln-Dünnwald,"PD-Gr km 54,700",PDGr,Betrieb,20201001
+DE16350,YDDLN,Leverkusen-Schlebusch - Köln Neurather R,"PD-Gr km 26,000",PDGr,Betrieb,20201001
+DE16602,YDDLW,Lünen - Werne (a d Lippe),"PD-Gr km 6,000",PDGr,Betrieb,20201001
+DE12332,YDDMD,Dortm-Marten - Dortm-Rahm,"PD-Gr km 16,000",PDGr,Betrieb,20201001
+DE16837,YDDML,Marl-Hamm - Marl Lippe,"PD-Gr km 14,790",PDGr,Betrieb,20201001
+DE12612,YDDMR,Duisburg-Mühlenberg - Rheinhausen,"PD-Gr km 9,450",PDGr,Betrieb,20201001
+DE12613,YDDMT,Duisburg-Mühlenberg - Trompet,"PD-Gr km 4,615",PDGr,Betrieb,20201001
+DE25297,YDDPE,Marl-Sinsen - Marl Lippe,"PD-Gr km 21,730",PDGr,Betrieb,20211201
+DE18902,YDDRB,Ringelstein - Büren Spechtenberg,"PD-Gr km 40,000",PDGr,Betrieb,20201001
+DE18983,YDDRG,Rommerskirchen - Grevenbroich Erftwerk,"PD-Gr km 21,413",PDGr,Betrieb,20201001
+DE18665,YDDRH,Ratingen Ost - Hösel,"PD-Gr km 11,300",PDGr,Betrieb,20201001
+DE19588,YDDSE,Schwelm - Ennepetal,"PD-Gr km 127,000",PDGr,Betrieb,20201001
+DE19613,YDDSH,Schwerte (Ruhr) - Holzwickede,"PD-Gr km 161,500",PDGr,Betrieb,20201001
+DE15769,YDDSL,Köln-Stammheim - Leverkusen Bayerwerk,"PD-Gr km 9,234",PDGr,Betrieb,20201001
+DE20276,YDDTR,Tiefenbroich - Ratingen West,"PD-Gr km 16,010",PDGr,Betrieb,20201001
+DE20485,YDDUK,Unna West - Unna-Königsborn,"PD-Gr km 1,800",PDGr,Betrieb,20240901
+DE25298,YDDVW,Gevelsberg-Kipp - Gevelsberg Hbf,"PD-Gr km 45,713",PDGr,Betrieb,20211201
+DE21226,YDDWD,Witten-Annen Nord - Dortmund-Kruckel,"PD-Gr km 22,400",PDGr,Betrieb,20201001
+DE20986,YDDWH,Wengern Ost - Hagen-Vorhalle,"PD-Gr km 68,800",PDGr,Betrieb,20201001
+DE20755,YDDWL,Waltrop - Lünen Süd,"PD-Gr km 49,000",PDGr,Betrieb,20201001
+DE25299,YDDWO,Köln-Worringen - Dormagen Chempark,"PD-Gr km 16,310",PDGr,Betrieb,20211201
+DE21075,YDDWW,Wetter (Ruhr) - Witten Hbf,"PD-Gr km 9,200",PDGr,Betrieb,20201001
+DE10155,YDFAB,Altenbeken - Buke,"RB-Gr km 113,200",RBGr,Betrieb,20221001
+DE12986,YDFES,Erndtebrück - Schameder,"RB-Gr km 29,658",RBGr,Betrieb,20221001
+DE14286,YDFHS,Haiger - Sechshelden,"RB-Gr km 120,000",RBGr,Betrieb,20221001
+DE10456,YDFHU,Bad Honnef - Unkel,"RB-Gr km 104,850",RBGr,Betrieb,20221001
+DE12042,YDFJP,Dahlem - Jünkerath,"RB-Gr km 79,483",RBGr,Betrieb,20221001
+DE11461,YDFNR,Bonn - Rolandseck,"RB-Gr km 44,160",RBGr,Betrieb,20221001
+DE19725,YDFSM,Siegburg - Montabaur,"RB-Gr km 61,142",RBGr,Betrieb,20221001
+DE19327,YDFSW,Scherfede - Warburg,"RB-Gr km 291,490",RBGr,Betrieb,20221001
+DE21169,YDFWB,Willingen - Brilon Wald,"RB-Gr km 68,522",RBGr,Betrieb,20201001
+DE12250,YDHDH,Dissen-Bad Rothenfelde - Hankensberge,"RB-Gr km 28,923",RBGr,Betrieb,20221001
+DE10804,YDHHB,Bergheim - Himmighausen,"RB-Gr km 98,600",RBGr,Betrieb,20221001
 DE11385,YEEBP,Bochum Präsident Streckenw 2151/2152,Bo Präsident Stw,Strw,Betrieb,20201001
 DE16637,YEECC,Lutum Streckenwechsel 2273/2265,Lutum Strw,Strw,Betrieb,20081214
 DE11371,YEEDB,Bocholt Streckenwechsel 2263/2265,Bocholt Strw,Strw,Betrieb,20081214
-DE12884,YEHEM,Emsdetten - Mesum,RB-Gr km 197,550,RBGr,Betrieb,20221001
-DE14798,YEHHK,Herford - Kirchlengern,RB-Gr km 6,000,RBGr,Betrieb,20221001
-DE16299,YEHLH,Lengerich - Natrup-Hagen,RB-Gr km 102,500,RBGr,Betrieb,20221001
-DE10374,YFFAN,Auringen-Medenbach - Niedernhsn (Taunus),PD-Gr km 18,000,PDGr,Betrieb,20201001
-DE11604,YFFBK,Breckenheim - Wiesbaden Kinzenberg,PD-Gr km 5,000,PDGr,Betrieb,20201001
-DE12434,YFFBL,Dreieich-Buchschlag - Langen Flugsich,PD-Gr km 65,189,PDGr,Betrieb,20201001
-DE10385,YFFBS,Babenhausen (Hess) - Stockstadt (Main),PD-Gr km 65,125,PDGr,Betrieb,20201001
-DE11487,YFFBW,Boppard-Hirzenach - Werlau,PD-Gr km 119,700,PDGr,Betrieb,20201001
-DE12433,YFFDL,Dreieich-Buchschlag - Langen (Hess),PD-Gr km 11,400,PDGr,Betrieb,20201001
-DE13230,YFFHT,Flörsheim (Main) - Flörsh Taubertsmühle,PD-Gr km 24,200,PDGr,Betrieb,20201001
-DE15454,YFFKL,Kaub - Loreley,PD-Gr km 88,814,PDGr,Betrieb,20201001
+DE12884,YEHEM,Emsdetten - Mesum,"RB-Gr km 197,550",RBGr,Betrieb,20221001
+DE14798,YEHHK,Herford - Kirchlengern,"RB-Gr km 6,000",RBGr,Betrieb,20221001
+DE16299,YEHLH,Lengerich - Natrup-Hagen,"RB-Gr km 102,500",RBGr,Betrieb,20221001
+DE10374,YFFAN,Auringen-Medenbach - Niedernhsn (Taunus),"PD-Gr km 18,000",PDGr,Betrieb,20201001
+DE11604,YFFBK,Breckenheim - Wiesbaden Kinzenberg,"PD-Gr km 5,000",PDGr,Betrieb,20201001
+DE12434,YFFBL,Dreieich-Buchschlag - Langen Flugsich,"PD-Gr km 65,189",PDGr,Betrieb,20201001
+DE10385,YFFBS,Babenhausen (Hess) - Stockstadt (Main),"PD-Gr km 65,125",PDGr,Betrieb,20201001
+DE11487,YFFBW,Boppard-Hirzenach - Werlau,"PD-Gr km 119,700",PDGr,Betrieb,20201001
+DE12433,YFFDL,Dreieich-Buchschlag - Langen (Hess),"PD-Gr km 11,400",PDGr,Betrieb,20201001
+DE13230,YFFHT,Flörsheim (Main) - Flörsh Taubertsmühle,"PD-Gr km 24,200",PDGr,Betrieb,20201001
+DE15454,YFFKL,Kaub - Loreley,"PD-Gr km 88,814",PDGr,Betrieb,20201001
 DE17722,YFFNL,Niederlahnstein Streckenw 2324/3507,Niederlst Strw,Strw,Betrieb,20200401
-DE17760,YFFNW,Niederweimar - Niederwalgern,PD-Gr km 113,900,PDGr,Betrieb,20201001
-DE18940,YFFRE,Rödermark-Ober Roden - Eppertshausen,PD-Gr km 22,666,PDGr,Betrieb,20201001
-DE19125,YFFRR,Rüsselsheim - Raunheim,PD-Gr km 14,613,PDGr,Betrieb,20201001
-DE10550,YFFSS,Bad Soden-Salmünster - Steinau (Straße),PD-Gr km 62,950,PDGr,Betrieb,20201001
-DE10100,YFHAB,Albungen - Bad Sooden-Allendorf,RB-Gr km 211,057,RBGr,Betrieb,20221001
-DE12428,YFHGH,Dransfeld - Hann Münden,RB-Gr km 132,000,RBGr,a.B.,20201001
-DE15132,YFHHL,Höxter - Lüchtringen,RB-Gr km 44,800,RBGr,Betrieb,20221001
-DE18201,YFHLO,Ottbergen - Lauenförde,RB-Gr km 8,400,RBGr,Betrieb,20221001
-DE12914,YFKAE,Eppelsheim - Alzey,RB-Gr km 23,317,RBGr,Betrieb,20221001
-DE11695,YFKBK,Bretzenheim - Bad Kreuznach,RB-Gr km 12,792,RBGr,Betrieb,20201001
-DE12645,YFKEK,Eberbach - Kailbach,RB-Gr km 0,431,RBGr,Betrieb,20221001
-DE13650,YFKGK,Gensingen-Horrw - Bad Kreuznach,RB-Gr km 13,100,RBGr,Betrieb,20201001
-DE21300,YFKHW,Worms - Hofheim,RB-Gr km 3,366,RBGr,Betrieb,20221001
-DE15219,YFKIA,Ingelbach - Altenkirchen,RB-Gr km 58,833,RBGr,Betrieb,20221001
-DE16067,YFKLS,Langenlonsheim - Schweppenhausen,RB-Gr km 0,980,RBGr,Betrieb,20201001
-DE17018,YFKMO,Mettenheim - Osthofen,RB-Gr km 36,000,RBGr,Betrieb,20221001
-DE18830,YFKOR,Rheindürkheim - Ibersheim,RB-Gr km 3,100,RBGr,a.B.,20200401
-DE19696,YFKSR,Selters - Raubach,RB-Gr km 36,760,RBGr,Betrieb,20091213
-DE19180,YFKST,Saarhölzbach - Taben,RB-Gr km 51,272,RBGr,Betrieb,20221001
-DE20908,YFKWB,Weinheim - Birkenau,RB-Gr km 0,396,RBGr,Betrieb,20221001
-DE13156,YFMFH,Faulbach - Hasloch,RB-Gr km 26,745,RBGr,Betrieb,20201001
-DE16125,YFMLH,Laufach - Hösbach,RB-Gr km 79,625,RBGr,Betrieb,20221001
-DE19984,YFNJ,Sterbfritz - Jossa,RB-Gr km 32,000,RBGr,Betrieb,20221001
-DE13530,YFNLM,Fulda - Mottgers,RB-Gr km 264,930,RBGr,Betrieb,20221001
-DE12068,YFRDM,Darmstadt - Mannheim,RB-Gr km 53,400,RBGr,Planung,20200401
-DE14776,YFRLH,Heppenheim - Laudenbach,RB-Gr km 56,000,RBGr,Betrieb,20221001
-DE16772,YFRML,Mannheim-Waldhof - Lampertheim,RB-Gr km 15,040,RBGr,Betrieb,20221001
+DE17760,YFFNW,Niederweimar - Niederwalgern,"PD-Gr km 113,900",PDGr,Betrieb,20201001
+DE18940,YFFRE,Rödermark-Ober Roden - Eppertshausen,"PD-Gr km 22,666",PDGr,Betrieb,20201001
+DE19125,YFFRR,Rüsselsheim - Raunheim,"PD-Gr km 14,613",PDGr,Betrieb,20201001
+DE10550,YFFSS,Bad Soden-Salmünster - Steinau (Straße),"PD-Gr km 62,950",PDGr,Betrieb,20201001
+DE10100,YFHAB,Albungen - Bad Sooden-Allendorf,"RB-Gr km 211,057",RBGr,Betrieb,20221001
+DE12428,YFHGH,Dransfeld - Hann Münden,"RB-Gr km 132,000",RBGr,a.B.,20201001
+DE15132,YFHHL,Höxter - Lüchtringen,"RB-Gr km 44,800",RBGr,Betrieb,20221001
+DE18201,YFHLO,Ottbergen - Lauenförde,"RB-Gr km 8,400",RBGr,Betrieb,20221001
+DE12914,YFKAE,Eppelsheim - Alzey,"RB-Gr km 23,317",RBGr,Betrieb,20221001
+DE11695,YFKBK,Bretzenheim - Bad Kreuznach,"RB-Gr km 12,792",RBGr,Betrieb,20201001
+DE12645,YFKEK,Eberbach - Kailbach,"RB-Gr km 0,431",RBGr,Betrieb,20221001
+DE13650,YFKGK,Gensingen-Horrw - Bad Kreuznach,"RB-Gr km 13,100",RBGr,Betrieb,20201001
+DE21300,YFKHW,Worms - Hofheim,"RB-Gr km 3,366",RBGr,Betrieb,20221001
+DE15219,YFKIA,Ingelbach - Altenkirchen,"RB-Gr km 58,833",RBGr,Betrieb,20221001
+DE16067,YFKLS,Langenlonsheim - Schweppenhausen,"RB-Gr km 0,980",RBGr,Betrieb,20201001
+DE17018,YFKMO,Mettenheim - Osthofen,"RB-Gr km 36,000",RBGr,Betrieb,20221001
+DE18830,YFKOR,Rheindürkheim - Ibersheim,"RB-Gr km 3,100",RBGr,a.B.,20200401
+DE19696,YFKSR,Selters - Raubach,"RB-Gr km 36,760",RBGr,Betrieb,20091213
+DE19180,YFKST,Saarhölzbach - Taben,"RB-Gr km 51,272",RBGr,Betrieb,20221001
+DE20908,YFKWB,Weinheim - Birkenau,"RB-Gr km 0,396",RBGr,Betrieb,20221001
+DE13156,YFMFH,Faulbach - Hasloch,"RB-Gr km 26,745",RBGr,Betrieb,20201001
+DE16125,YFMLH,Laufach - Hösbach,"RB-Gr km 79,625",RBGr,Betrieb,20221001
+DE19984,YFNJ,Sterbfritz - Jossa,"RB-Gr km 32,000",RBGr,Betrieb,20221001
+DE13530,YFNLM,Fulda - Mottgers,"RB-Gr km 264,930",RBGr,Betrieb,20221001
+DE12068,YFRDM,Darmstadt - Mannheim,"RB-Gr km 53,400",RBGr,Planung,20200401
+DE14776,YFRLH,Heppenheim - Laudenbach,"RB-Gr km 56,000",RBGr,Betrieb,20221001
+DE16772,YFRML,Mannheim-Waldhof - Lampertheim,"RB-Gr km 15,040",RBGr,Betrieb,20221001
 DE19418,YFRSR,Schneeberg Streckenwechsel 5223/4124,Strw 5223/4124,Strw,Betrieb,20201001
-DE16451,YHELF,Löhne Rbf - Herford,RB-Gr km 89,9,RBGr,Betrieb,20221001
-DE16447,YHELH,Löhne - Herford,RB-Gr km 89,900,RBGr,Betrieb,20221001
-DE13719,YHFGH,Gertenbach - Hedemünden,RB-Gr km 182,000,RBGr,Betrieb,20221001
-DE15312,YHFJL,Jühnde - Ihringhausen,RB-Gr km 113,800,RBGr,Betrieb,20221001
+DE16451,YHELF,Löhne Rbf - Herford,"RB-Gr km 89,9",RBGr,Betrieb,20221001
+DE16447,YHELH,Löhne - Herford,"RB-Gr km 89,900",RBGr,Betrieb,20221001
+DE13719,YHFGH,Gertenbach - Hedemünden,"RB-Gr km 182,000",RBGr,Betrieb,20221001
+DE15312,YHFJL,Jühnde - Ihringhausen,"RB-Gr km 113,800",RBGr,Betrieb,20221001
 ,YHHAB,Achterberg Streckenwechsel 9203/9209,Achterberg Strw,NE-Strw,Betrieb,20120216
-DE10636,YHHBA,Bargteheide - Ahrensburg,PD-Gr km 39,750,PDGr,Betrieb,20201001
+DE10636,YHHBA,Bargteheide - Ahrensburg,"PD-Gr km 39,750",PDGr,Betrieb,20201001
 DE11648,YHHBG,Bremen-Grolland Streckenw 1415/9149,Brm-Grolland Sw,Strw,Betrieb,20200401
-DE14183,YHHGB,Güster - Büchen,PD-Gr km 41,500,PDGr,Betrieb,20201001
-DE13568,YHHGE,Garßen - Eschede,PD-Gr km 54,290,PDGr,Betrieb,20201001
-DE16095,YHHLD,Lathen - Dörpen,PD-Gr km 283,200,PDGr,Betrieb,20201001
-DE14236,YHHLH,Hagen (Han) - Linsburg,PD-Gr km 43,900,PDGr,Betrieb,20201001
-DE14870,YHHOR,Hessisch Oldendorf - Rinteln,PD-Gr km 48,500,PDGr,Betrieb,20201001
-DE18374,YHHPT,Pinneberg - Tornesch,PD-Gr km 19,880,PDGr,Betrieb,20201001
-DE18732,YHHRL,Rehren - Lindhorst (Schaumb-Lippe),PD-Gr km 32,150,PDGr,Betrieb,20201001
-DE19284,YHHSE,Schäferhof - Estorf (Weser),PD-Gr km 9,800,PDGr,Betrieb,20201001
-DE19316,YHHSL,Scheeßel - Lauenbrück,PD-Gr km 296,000,PDGr,Betrieb,20201001
-DE20406,YHHTB,Twistringen - Bassum,PD-Gr km 203,500,PDGr,Betrieb,20201001
-DE14849,YHLHS,Herzberg - Scharzfeld,RB-Gr km 117,070,RBGr,Betrieb,20221001
-DE19913,YHLVI,Stapelburg - Vienenburg,RB-Gr km 29,083,RBGr,Betrieb,20221001
-DE25192,YKFHB,Hochspeyer - Bad Münster,RB-Gr km 35,116,RBGr,Betrieb,20210501
-DE25314,YKFRA,Rockenhausen - Alsenz,PD-Gr km 35,1+16,PDGr,Betrieb,20230101
-DE10581,YKKBB,Baden-Baden - Bühl (Baden),PD-Gr km 111,330,PDGr,Betrieb,20201001
-DE12646,YKKEL,Eberbach - Lindach,PD-Gr km 24,900,PDGr,Betrieb,20201001
+DE14183,YHHGB,Güster - Büchen,"PD-Gr km 41,500",PDGr,Betrieb,20201001
+DE13568,YHHGE,Garßen - Eschede,"PD-Gr km 54,290",PDGr,Betrieb,20201001
+DE16095,YHHLD,Lathen - Dörpen,"PD-Gr km 283,200",PDGr,Betrieb,20201001
+DE14236,YHHLH,Hagen (Han) - Linsburg,"PD-Gr km 43,900",PDGr,Betrieb,20201001
+DE14870,YHHOR,Hessisch Oldendorf - Rinteln,"PD-Gr km 48,500",PDGr,Betrieb,20201001
+DE18374,YHHPT,Pinneberg - Tornesch,"PD-Gr km 19,880",PDGr,Betrieb,20201001
+DE18732,YHHRL,Rehren - Lindhorst (Schaumb-Lippe),"PD-Gr km 32,150",PDGr,Betrieb,20201001
+DE19284,YHHSE,Schäferhof - Estorf (Weser),"PD-Gr km 9,800",PDGr,Betrieb,20201001
+DE19316,YHHSL,Scheeßel - Lauenbrück,"PD-Gr km 296,000",PDGr,Betrieb,20201001
+DE20406,YHHTB,Twistringen - Bassum,"PD-Gr km 203,500",PDGr,Betrieb,20201001
+DE14849,YHLHS,Herzberg - Scharzfeld,"RB-Gr km 117,070",RBGr,Betrieb,20221001
+DE19913,YHLVI,Stapelburg - Vienenburg,"RB-Gr km 29,083",RBGr,Betrieb,20221001
+DE25192,YKFHB,Hochspeyer - Bad Münster,"RB-Gr km 35,116",RBGr,Betrieb,20210501
+DE25314,YKFRA,Rockenhausen - Alsenz,"PD-Gr km 35,1+16",PDGr,Betrieb,20230101
+DE10581,YKKBB,Baden-Baden - Bühl (Baden),"PD-Gr km 111,330",PDGr,Betrieb,20201001
+DE12646,YKKEL,Eberbach - Lindach,"PD-Gr km 24,900",PDGr,Betrieb,20201001
 DE15765,YKKEZ,Köln-Nippes Streckenwechsel 2618/2610,Köln-Nippes Strw,Strw,Betrieb,20200401
-DE25477,YKKGG,Graben-Neudorf - Graben-Neudorf Nord,GE-Gr km 9,956,PDGr,Betrieb,20220611
-DE20138,YKKGS,Süßen - Gingen (Fils),PD-Gr km 51,500,PDGr,Betrieb,20201001
-DE14951,YKKHF,Hochspeyer - Frankenstein (Pfalz),PD-Gr km 56,350,PDGr,Betrieb,20201001
-DE14830,YKKHG,Herrenberg - Gäufelden,PD-Gr km 42,650,PDGr,Betrieb,20201001
-DE25260,YKKKF,Kraichtal-Freudensteintunnel,PD-Gr km 60,000,PDGr,Betrieb,20220101
-DE25318,YKKKS,Kirschbaumwasen - Schönmünzach,PD-Gr km 35,010,PDGr,Betrieb,20220302
-DE17372,YKKMF,Murrhardt - Fornsbach,PD-Gr km 38,000,PDGr,Betrieb,20201001
-DE21695,YKKNM,Nabern - Merklingen,PD-Gr km 44,100,PDGr,Betrieb,20201001
+DE25477,YKKGG,Graben-Neudorf - Graben-Neudorf Nord,"GE-Gr km 9,956",PDGr,Betrieb,20220611
+DE20138,YKKGS,Süßen - Gingen (Fils),"PD-Gr km 51,500",PDGr,Betrieb,20201001
+DE14951,YKKHF,Hochspeyer - Frankenstein (Pfalz),"PD-Gr km 56,350",PDGr,Betrieb,20201001
+DE14830,YKKHG,Herrenberg - Gäufelden,"PD-Gr km 42,650",PDGr,Betrieb,20201001
+DE25260,YKKKF,Kraichtal-Freudensteintunnel,"PD-Gr km 60,000",PDGr,Betrieb,20220101
+DE25318,YKKKS,Kirschbaumwasen - Schönmünzach,"PD-Gr km 35,010",PDGr,Betrieb,20220302
+DE17372,YKKMF,Murrhardt - Fornsbach,"PD-Gr km 38,000",PDGr,Betrieb,20201001
+DE21695,YKKNM,Nabern - Merklingen,"PD-Gr km 44,100",PDGr,Betrieb,20201001
 DE15710,YKKNR,Köln Neurather Ring Strw 2652/2659/2730,Neurather Rg Sw,Strw,Betrieb,20200401
-DE19205,YKKSA,Salem - Bermatingen-Ahausen,PD-Gr km 33,421,PDGr,Betrieb,20201001
-DE19775,YKKSB,Sinzheim (b Bühl) - Baden-Baden Rebland,PD-Gr km 111,330,PDGr,Betrieb,20201001
-DE19969,YKKSG,Steinsfurt - Grombach,PD-Gr km 13,920,PDGr,Betrieb,20201001
-DE15601,YKKWK,Kleinsteinbach - Wilferdingen-Singen,PD-Gr km 11,475,PDGr,Betrieb,20201001
-DE20703,YKKWL,Waldhausen (b Schornd) - Lorch (Württ),PD-Gr km 36,280,PDGr,Betrieb,20201001
-DE10182,YKMAI,Altenstadt - Illertissen,RB-Gr km 58,600,RBGr,Betrieb,20201001
-DE13108,YKMBE,Eubigheim - Boxberg,RB-Gr km 99,960,RBGr,Betrieb,20221001
-DE14198,YKMGN,Gundelfingen - Neuoffingen,RB-Gr km 95,782,RBGr,Betrieb,20221001
-DE14176,YKMGW,Günzburg - Wasserburg,RB-Gr km 2,000,RBGr,Betrieb,20221001
-DE18091,YKMNO,Offingen - Neuoffingen,RB-Gr km 54,788,RBGr,Betrieb,20221001
-DE19508,YKMNS,Schrozberg - Niederstetten,RB-Gr km 30,800,RBGr,Betrieb,20201001
+DE19205,YKKSA,Salem - Bermatingen-Ahausen,"PD-Gr km 33,421",PDGr,Betrieb,20201001
+DE19775,YKKSB,Sinzheim (b Bühl) - Baden-Baden Rebland,"PD-Gr km 111,330",PDGr,Betrieb,20201001
+DE19969,YKKSG,Steinsfurt - Grombach,"PD-Gr km 13,920",PDGr,Betrieb,20201001
+DE15601,YKKWK,Kleinsteinbach - Wilferdingen-Singen,"PD-Gr km 11,475",PDGr,Betrieb,20201001
+DE20703,YKKWL,Waldhausen (b Schornd) - Lorch (Württ),"PD-Gr km 36,280",PDGr,Betrieb,20201001
+DE10182,YKMAI,Altenstadt - Illertissen,"RB-Gr km 58,600",RBGr,Betrieb,20201001
+DE13108,YKMBE,Eubigheim - Boxberg,"RB-Gr km 99,960",RBGr,Betrieb,20221001
+DE14198,YKMGN,Gundelfingen - Neuoffingen,"RB-Gr km 95,782",RBGr,Betrieb,20221001
+DE14176,YKMGW,Günzburg - Wasserburg,"RB-Gr km 2,000",RBGr,Betrieb,20221001
+DE18091,YKMNO,Offingen - Neuoffingen,"RB-Gr km 54,788",RBGr,Betrieb,20221001
+DE19508,YKMNS,Schrozberg - Niederstetten,"RB-Gr km 30,800",RBGr,Betrieb,20201001
 DE19424,YKMSN,Schnelldorf Streckenwechsel 4951/5902,StrWe 4951/5902,Strw,Betrieb,20200401
-DE21255,YKMWK,Wolfegg - Kißlegg,RB-Gr km 56,855,RBGr,Betrieb,20221001
-DE13714,YLFGD,Gerstungen - Obersuhl,RB-Gr km 191,343,RBGr,Betrieb,20221001
-DE10273,YLHAE,Arenshausen - Eichenberg,RB-Gr km 168,600,RBGr,Betrieb,20221001
-DE14578,YLHBL,Harbke - Helmstedt,RB-Gr km 14,850,RBGr,Betrieb,20221001
-DE18048,YLHOV,Oebisfelde - Vorsfelde,RB-Gr km 168,938,RBGr,Betrieb,20221001
-DE18049,YLHOW,Oebisfelde - Vorsfelde Nahgleis,RB-Gr km 0,611,RBGr,Betrieb,20221001
-DE19420,YLHSN,Schnega - Soltendiek,RB-Gr km 82,631,RBGr,Betrieb,20221001
+DE21255,YKMWK,Wolfegg - Kißlegg,"RB-Gr km 56,855",RBGr,Betrieb,20221001
+DE13714,YLFGD,Gerstungen - Obersuhl,"RB-Gr km 191,343",RBGr,Betrieb,20221001
+DE10273,YLHAE,Arenshausen - Eichenberg,"RB-Gr km 168,600",RBGr,Betrieb,20221001
+DE14578,YLHBL,Harbke - Helmstedt,"RB-Gr km 14,850",RBGr,Betrieb,20221001
+DE18048,YLHOV,Oebisfelde - Vorsfelde,"RB-Gr km 168,938",RBGr,Betrieb,20221001
+DE18049,YLHOW,Oebisfelde - Vorsfelde Nahgleis,"RB-Gr km 0,611",RBGr,Betrieb,20221001
+DE19420,YLHSN,Schnega - Soltendiek,"RB-Gr km 82,631",RBGr,Betrieb,20221001
 DE16326,YLLAL,Leuna DB-Grenze/MUEG,Leuna DB-Grenze,PDGr,Betrieb,20221211
-DE25324,YLLBG,Bad Dürrenberg - Großkorbetha,PD-Gr km 26,330,PDGr,Betrieb,20220315
-DE10487,YLLBW,Bad Liebenwerda - Wahrenbrück,PD-Gr km 136,200,PDGr,Betrieb,20201001
+DE25324,YLLBG,Bad Dürrenberg - Großkorbetha,"PD-Gr km 26,330",PDGr,Betrieb,20220315
+DE10487,YLLBW,Bad Liebenwerda - Wahrenbrück,"PD-Gr km 136,200",PDGr,Betrieb,20201001
 DE11925,YLLCH,Chemnitz Hbf Streckenwechsel 6257/6258,Chemn Hbf Strw,Strw,Betrieb,20200401
 DE11948,YLLCI,Chemnitz-Hilbersdorf Strw 6258/6257,Chemn-Hilb Strw,Strw,Betrieb,20200401
 DE16247,YLLCO,Leipzig-Connewitz Streckenw 6375/6377,Lpz-Connew Strw,Strw,a.B.,20200401
-DE25504,YLLDD,Dessau Hbf ? Dessau-Alten,PD-Gr km 2,000,PDGr,Betrieb,20230806
-DE12290,YLLDK,Domnitz (Saalkr) - Könnern,PD-Gr km 24,700,PDGr,Betrieb,20201001
+DE25504,YLLDD,Dessau Hbf ? Dessau-Alten,"PD-Gr km 2,000",PDGr,Betrieb,20230806
+DE12290,YLLDK,Domnitz (Saalkr) - Könnern,"PD-Gr km 24,700",PDGr,Betrieb,20201001
 DE12846,YLLEW,Elsterwerda Streckenwechsel 6135/6248,Elsterwerda Strw,Strw,Betrieb,20200401
-DE25326,YLLGG,Grimma - Großbothen,PD-Gr km 24,300,PDGr,Betrieb,20220315
-DE13981,YLLGL,Gröbers Ost - Leipzig/Halle Flughafen,PD-Gr km 290,449,PDGr,Betrieb,20201001
-DE25325,YLLGN,Geithain - Narsdorf,PD-Gr km 30,200,PDGr,Betrieb,20220315
-DE25327,YLLGS,Großkugel - Schkeuditz,PD-Gr km 101,867,PDGr,Betrieb,20220315
-DE14086,YLLGW,Großkorbetha - Weißenfels,PD-Gr km 29,000,PDGr,Betrieb,20201001
+DE25326,YLLGG,Grimma - Großbothen,"PD-Gr km 24,300",PDGr,Betrieb,20220315
+DE13981,YLLGL,Gröbers Ost - Leipzig/Halle Flughafen,"PD-Gr km 290,449",PDGr,Betrieb,20201001
+DE25325,YLLGN,Geithain - Narsdorf,"PD-Gr km 30,200",PDGr,Betrieb,20220315
+DE25327,YLLGS,Großkugel - Schkeuditz,"PD-Gr km 101,867",PDGr,Betrieb,20220315
+DE14086,YLLGW,Großkorbetha - Weißenfels,"PD-Gr km 29,000",PDGr,Betrieb,20201001
 DE15125,YLLHC,Hosena Streckenwechsel 6198/6194,Hosena Strw,Strw,Betrieb,20200401
-DE14874,YLLHK,Hettstedt - Klostermansfeld Umspannwerk,PD-Gr km 175,730,PDGr,Betrieb,20201001
-DE15838,YLLKA,Köthen - Arensdorf,PD-Gr km 54,500,PDGr,Betrieb,20201001
+DE14874,YLLHK,Hettstedt - Klostermansfeld Umspannwerk,"PD-Gr km 175,730",PDGr,Betrieb,20201001
+DE15838,YLLKA,Köthen - Arensdorf,"PD-Gr km 54,500",PDGr,Betrieb,20201001
 DE15641,YLLKN,Knappenrode Streckenwechsel 6579/6221,Knappenrode Strw,Strw,Betrieb,20200401
-DE16914,YLLMG,Meerane - Gößnitz,PD-Gr km 10,300,PDGr,Betrieb,20201001
-DE16910,YLLMJ,Medewitz (Mark) - Jeber-Bergfrieden,PD-Gr km 7,590,PDGr,Betrieb,20201001
-DE17493,YLLNJ,Neuburxdorf - Jacobsthal,PD-Gr km 131,200,PDGr,Betrieb,20201001
-DE18450,YLLPC,Ponitz - Crimmitschau,PD-Gr km 57,880,PDGr,Betrieb,20201001
-DE18987,YLLRG,Ronneburg (Thür) - Gera-Gessental,PD-Gr km 26,144,PDGr,Betrieb,20201001
-DE25503,YLLRK,Reußen - Klitschmar,PD-Gr km 14,800,PDGr,Betrieb,20230806
-DE18977,YLLRR,Roitzsch Abzw - Roitzsch (Kr Bitterfeld),PD-Gr km 136,295,PDGr,Betrieb,20201001
+DE16914,YLLMG,Meerane - Gößnitz,"PD-Gr km 10,300",PDGr,Betrieb,20201001
+DE16910,YLLMJ,Medewitz (Mark) - Jeber-Bergfrieden,"PD-Gr km 7,590",PDGr,Betrieb,20201001
+DE17493,YLLNJ,Neuburxdorf - Jacobsthal,"PD-Gr km 131,200",PDGr,Betrieb,20201001
+DE18450,YLLPC,Ponitz - Crimmitschau,"PD-Gr km 57,880",PDGr,Betrieb,20201001
+DE18987,YLLRG,Ronneburg (Thür) - Gera-Gessental,"PD-Gr km 26,144",PDGr,Betrieb,20201001
+DE25503,YLLRK,Reußen - Klitschmar,"PD-Gr km 14,800",PDGr,Betrieb,20230806
+DE18977,YLLRR,Roitzsch Abzw - Roitzsch (Kr Bitterfeld),"PD-Gr km 136,295",PDGr,Betrieb,20201001
 DE16238,YLLTA,Leipzig Tabakmühle Strw 6375/6376,Lpz Tabakmü Strw,Strw,Betrieb,20200401
-DE25323,YLLTD,Teuchern - Deuben,PD-Gr km 18,400,PDGr,Betrieb,20220315
-DE20248,YLLTH,Tharandt - Höckendorf Edle Krone,PD-Gr km 15,900,PDGr,Betrieb,20201001
+DE25323,YLLTD,Teuchern - Deuben,"PD-Gr km 18,400",PDGr,Betrieb,20220315
+DE20248,YLLTH,Tharandt - Höckendorf Edle Krone,"PD-Gr km 15,900",PDGr,Betrieb,20201001
 DE20300,YLLTN,Tornitz Streckenwechsel,Tornitz Strw,Strw,Planung,20201001
-DE21587,YLLTS,Teutleben - Saubachtal,PD-Gr km 226,904,PDGr,Planung,20201001
+DE21587,YLLTS,Teutleben - Saubachtal,"PD-Gr km 226,904",PDGr,Planung,20201001
 DE21087,YLLWI,Wiederitzsch Streckenwechsel 6381/6369,Wiederitzs Strw,Strw,Betrieb,20200401
-DE25328,YLLWK,Wurzen - Kühren,PD Gr km 31,000,PDGr,Betrieb,20220315
-DE25329,YLLZH,Zeitz - Haynsburg,PD-Gr km 47,000,PDGr,Betrieb,20220315
-DE12807,YLMBE,Eisfeld - Bachfeld,RB-Gr km 0,843,RBGr,Betrieb,20221001
-DE16137,YLMEO,Lauscha - Ernstthal,RB-Gr km 44,000,vp-RBGr,Betrieb,20221001
-DE14217,YLMGS,Gutenfürst - Hof,RB-Gr km 151,699,RBGr,Betrieb,20221001
-DE16955,YLMMR,Mellrichstadt - Rentwertshausen,RB-Gr km 57,690,RBGr,Betrieb,20221001
+DE25328,YLLWK,Wurzen - Kühren,"PD Gr km 31,000",PDGr,Betrieb,20220315
+DE25329,YLLZH,Zeitz - Haynsburg,"PD-Gr km 47,000",PDGr,Betrieb,20220315
+DE12807,YLMBE,Eisfeld - Bachfeld,"RB-Gr km 0,843",RBGr,Betrieb,20221001
+DE16137,YLMEO,Lauscha - Ernstthal,"RB-Gr km 44,000",vp-RBGr,Betrieb,20221001
+DE14217,YLMGS,Gutenfürst - Hof,"RB-Gr km 151,699",RBGr,Betrieb,20221001
+DE16955,YLMMR,Mellrichstadt - Rentwertshausen,"RB-Gr km 57,690",RBGr,Betrieb,20221001
 DE18537,YLMPF,Probstzella Streckenwechsel 6383/5010,Probstzella Strw,Strw,Betrieb,20200401
-DE18931,YMLRT,Rödental - Theuern,RB-Gr km 117,357,RBGr,Betrieb,20221001
-DE10117,YMMAK,Allersberg (Rothsee) - Kinding (Altmühl),PD-Gr km 45,000,PDGr,Betrieb,20201001
-DE16817,YMMBE,Markt Bibart - Markt Einersheim,PD-Gr km 57,600,PDGr,Betrieb,20201001
-DE10492,YMMBM,Bad Mergentheim Streckenw 4922/4953,6,1/60,3 Bad MGH,Strw,Betrieb,20201001
-DE12113,YMMDN,Deining (Oberpf) - Neumarkt (Oberpf),PD-Gr km 55,000,PDGr,Betrieb,20201001
+DE18931,YMLRT,Rödental - Theuern,"RB-Gr km 117,357",RBGr,Betrieb,20221001
+DE10117,YMMAK,Allersberg (Rothsee) - Kinding (Altmühl),"PD-Gr km 45,000",PDGr,Betrieb,20201001
+DE16817,YMMBE,Markt Bibart - Markt Einersheim,"PD-Gr km 57,600",PDGr,Betrieb,20201001
+DE10492,YMMBM,Bad Mergentheim Streckenw 4922/4953,"6,1/60,3 Bad MGH",Strw,Betrieb,20201001
+DE12113,YMMDN,Deining (Oberpf) - Neumarkt (Oberpf),"PD-Gr km 55,000",PDGr,Betrieb,20201001
 DE25561,YMMEB,Elsenbach Streckenwechsel 5700/5832,Strw 5700/5832,vp-Strw,Planung,20240215
-DE13101,YMMEN,Etzelwang - Neukirchen (b Sulzb-Rosenbg),PD-Gr km 44,470,PDGr,Betrieb,20201001
-DE13405,YMMFM,Freising - Marzling,PD-Gr km 44,200,PDGr,Betrieb,20201001
-DE13633,YMMGE,Geltendorf - Epfenhausen,PD-Gr km 44,300,PDGr,Betrieb,20201001
-DE15513,YMMKS,Kinsau - Schongau,PD-Gr km 27,000,PDGr,Betrieb,20201001
-DE25286,YMMKT,Kemnath - Trabitz,PD-GR km 30,552,PDGr,Betrieb,20211101
-DE18112,YMMOL,Olching Streckenwechsel 5561/5560,km 3,6/6,8 (MOL),Strw,Betrieb,20200401
-DE18327,YMMPP,Petershausen (Oberbay) - Paindorf,PD-Gr km 39,800,PDGr,Betrieb,20201001
-DE25287,YMMPW,Pechbrunn - Wiesau,PD-GR km 34,664,PDGr,Betrieb,20211101
-DE19143,YMMSA,Saal (Donau) - Abensberg,PD-Gr km 28,400,PDGr,Betrieb,20201001
-DE19904,YMMSE,Staffelbach - Ebelsbach-Eltmann,PD-Gr km 17,400,PDGr,Betrieb,20201001
-DE20335,YMMTD,Treuchtlingen - Windsfeld-Dittenheim,PD-Gr km 1,300,PDGr,Betrieb,20201001
-DE20334,YMMTW,Treuchtlingen - Weißenburg (Bay),PD-Gr km 1,400,PDGr,Betrieb,20201001
-DE20432,YMMUH,Uffenheim - Herrnberchtheim,PD-Gr km 99,500,PDGr,Betrieb,20201001
-DE20736,YMMWG,Walleshausen - Geltendorf,PD-Gr km 15,800,PDGr,Betrieb,20201001
-DE18349,YMTBC,Pflaumloch - Nördlingen,RB-Gr km 107,785,RBGr,Betrieb,20221001
-DE15888,YMTFR,Kressbronn - Nonnenhorn,RB-Gr km 15,045,RBGr,Betrieb,20221001
+DE13101,YMMEN,Etzelwang - Neukirchen (b Sulzb-Rosenbg),"PD-Gr km 44,470",PDGr,Betrieb,20201001
+DE13405,YMMFM,Freising - Marzling,"PD-Gr km 44,200",PDGr,Betrieb,20201001
+DE13633,YMMGE,Geltendorf - Epfenhausen,"PD-Gr km 44,300",PDGr,Betrieb,20201001
+DE15513,YMMKS,Kinsau - Schongau,"PD-Gr km 27,000",PDGr,Betrieb,20201001
+DE25286,YMMKT,Kemnath - Trabitz,"PD-GR km 30,552",PDGr,Betrieb,20211101
+DE18112,YMMOL,Olching Streckenwechsel 5561/5560,"km 3,6/6,8 (MOL)",Strw,Betrieb,20200401
+DE18327,YMMPP,Petershausen (Oberbay) - Paindorf,"PD-Gr km 39,800",PDGr,Betrieb,20201001
+DE25287,YMMPW,Pechbrunn - Wiesau,"PD-GR km 34,664",PDGr,Betrieb,20211101
+DE19143,YMMSA,Saal (Donau) - Abensberg,"PD-Gr km 28,400",PDGr,Betrieb,20201001
+DE19904,YMMSE,Staffelbach - Ebelsbach-Eltmann,"PD-Gr km 17,400",PDGr,Betrieb,20201001
+DE20335,YMMTD,Treuchtlingen - Windsfeld-Dittenheim,"PD-Gr km 1,300",PDGr,Betrieb,20201001
+DE20334,YMMTW,Treuchtlingen - Weißenburg (Bay),"PD-Gr km 1,400",PDGr,Betrieb,20201001
+DE20432,YMMUH,Uffenheim - Herrnberchtheim,"PD-Gr km 99,500",PDGr,Betrieb,20201001
+DE20736,YMMWG,Walleshausen - Geltendorf,"PD-Gr km 15,800",PDGr,Betrieb,20201001
+DE18349,YMTBC,Pflaumloch - Nördlingen,"RB-Gr km 107,785",RBGr,Betrieb,20221001
+DE15888,YMTFR,Kressbronn - Nonnenhorn,"RB-Gr km 15,045",RBGr,Betrieb,20221001
 DE11690,YRRBT,Bretten Streckenwechsel 4130/4800,StrWe 4130/4800,Strw,Betrieb,20200401
 DE12919,YRREP,Eppingen Streckenwechsel 4201/4950,StrWe 4201/4950,Strw,Betrieb,20040316
 DE18847,YRRHH,Rheinsheim Streckenwechsel 4132/3450,Rheinsh4132/3450,Strw,Betrieb,20081214
 DE12787,YSSEF,Einsiedlerhof Streckenwechsel 3301/3308,StrWe 3301/3308,Strw,Betrieb,20200401
-DE25200,YTTAS,Albstadt-Ebingen - Storzingen,PD-Gr km 71,280,PDGr,Betrieb,20210515
+DE25200,YTTAS,Albstadt-Ebingen - Storzingen,"PD-Gr km 71,280",PDGr,Betrieb,20210515
 DE11866,YTTBU,Burgweiler Streckenwechsel 4333/4551,StrWe 4333/4551,Strw,Betrieb,20040316
-DE25199,YTTEH,Eyach - Horb,PD-Gr km 79,700,PDGr,Betrieb,20210515
+DE25199,YTTEH,Eyach - Horb,"PD-Gr km 79,700",PDGr,Betrieb,20210515
 DE15198,YTTIL,Illingen Streckenwechsel 4842/4800,StrWe 4842/4800,Strw,Betrieb,20200401
 DE19715,YTTSE,Sersheim Streckenwechsel 4800/4842,StrWe 4800/4842,Strw,Betrieb,20200401
 ,ZAG,Gevgelija,Gevgelija,Bf,,19990101
