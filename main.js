@@ -1,3 +1,5 @@
+import papaparse from "https://esm.sh/papaparse@5.4.1"
+
 const defaultEntries = 100;
 var ds100Data = [];
 
@@ -31,8 +33,8 @@ function refreshList(query = "", showAll = false) {
         const aCode = a["RL100-Code"];
         const bCode = b["RL100-Code"];
 
-        const aType = a["Typ Lang"];
-        const bType = b["Typ Lang"];
+        const aType = a["Typ-Kurz"];
+        const bType = b["Typ-Kurz"];
 
         const aState = a["Betriebszustand"];
         const bState = b["Betriebszustand"];
@@ -113,12 +115,13 @@ function showAllEntries() {
     refreshList(query, true);
 }
 
-fetch("./ds100.json").then((response) => {
-    return response.json();
-}).then((data) => {
-    ds100Data = data;
-    refreshList(searchBar.value);
-});
+fetch("./ril100.csv")
+    .then((response) => response.text())
+    .then((data) => {
+        ds100Data = papaparse.parse(data, {header: true, skipEmptyLines: true})["data"];
+        console.log(ds100Data)
+        refreshList(searchBar.value);
+    });
 
 function updateDom(items, amount) {
     const container = document.getElementById("data");
@@ -156,7 +159,7 @@ function updateDom(items, amount) {
 
         const rl100TypeLong = document.createElement("td");
         rl100TypeLong.setAttribute("class", "rl100TypeLong");
-        rl100TypeLong.textContent = item["Typ Lang"];
+        rl100TypeLong.textContent = item["Typ-Kurz"];
 
         entry.appendChild(rl100Code);
         entry.appendChild(rl100LongName);
