@@ -3,7 +3,7 @@
   "name": "Betriebsstellenverzeichnis (Richtlinie 100)",
   "icons": [
     {
-      "src": "favicon.svg",
+      "src": "favicon-black.svg",
       "sizes": "any"
     },
     {
@@ -14,6 +14,5 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#111518",
-  "background_color": "#111518"
+  "theme_color": "#111518"
 }
