@@ -1,0 +1,14 @@
+{
+  "short_name": "Ril100",
+  "name": "Betriebsstellenverzeichnis (Richtlinie 100)",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#111518",
+  "background_color": "#111518"
+}
