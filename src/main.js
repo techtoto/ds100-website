@@ -110,16 +110,15 @@ searchBar.addEventListener("input", (event) => {
     history.replaceState({}, 'DS100', url);
 });
 
-function showAllEntries() {
+document.getElementById("showAllButton").addEventListener("click", () => {
     const query = searchBar.value;
     refreshList(query, true);
-}
+})
 
 fetch("./ril100.csv")
     .then((response) => response.text())
     .then((data) => {
         ds100Data = papaparse.parse(data, {header: true, skipEmptyLines: true})["data"];
-        console.log(ds100Data)
         refreshList(searchBar.value);
     });
 
