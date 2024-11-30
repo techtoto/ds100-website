@@ -18,7 +18,6 @@ if [[ `git status --porcelain` ]]; then
   if [[ -z "$(gh pr list --head "update-ril100" --state open --json url --jq .[].url)" ]]; then
     gh pr create \
       --fill \
-      --reviewer techtoto \
-      --base update-ril100
+      --reviewer techtoto
   fi
 fi
