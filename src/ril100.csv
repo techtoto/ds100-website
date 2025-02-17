@@ -13,7 +13,6 @@ DE10069,AAHG,Ahrensburg-Gartenholz,Ahrensburg-Gh,Hp,Betrieb,20200401
 DE10067,AAHN,Ahrensburg Nord,Ahrensburg Nord,Awanst,Betrieb,20200401
 DE10066,AAHR,Ahrensburg,Ahrensburg,Bf,Betrieb,20200401
 ,AAHRW,Ahrensburg West (Bus),Ahrensburg W Bus,Bush,Betrieb,20150324
-,AAHZ,Altenholz,Altenholz,NE-Bf,ehemals,20241001
 DE14376,AAI,Hamburg Airport,Hamburg Airport,Bf,Betrieb,20201001
 DE10087,AAL,Albersdorf,Albersdorf,Hp,Betrieb,20161211
 DE10127,AALG,Alsen DB-Grenze,Alsen DB-Gr,Gp,Betrieb,20200401
@@ -444,7 +443,6 @@ DE14402,AKS,Hamburg Königstraße,Königstraße,Hp,Betrieb,20201001
 ,AKSC,Kiel Scheerhafen,Kiel Scheerhafen,NE-Bf,Betrieb,20241001
 DE15500,AKSG,Kiel Süd DB-Grenze,Kiel Süd DB-Gr,Gp,Betrieb,20141214
 ,AKSL,Kiel Schulen am Langsee,Kiel S a Langsee,NE-Hp,Betrieb,20130904
-,AKSM,Kiel Seefischmarkt,K Seefischmarkt,NE-Bf,ehemals,20241001
 DE15498,AKSS,Kiel Hbf (Ss),Kiel Hbf (Ss),Abzw,Betrieb,20081214
 ,AKSU,Kiel Süd,Kiel Süd,NE-Bf,Betrieb,20081214
 DE24933,AKSX,Kiel-Bad Schwartau Strecke ESTW-Z,Kiel-Schwar ESTW,BZ,Betrieb,20110812
@@ -732,7 +730,6 @@ DE21610,ARIS,Hamburg-Rissen,Rissen,Bf,Betrieb,20201001
 DE14478,ARIU,Hamburg-Rissen Üst,Rissen Üst,Üst,Betrieb,20201001
 DE18870,ARL,Rickling,Rickling,Hp,Betrieb,20081214
 ,ARMB,Rendsburg-Mastbrook,Rendsb-Mastbrook,NE-Hp,Planung,20230101
-,ARMD,Rathmannsdorf,Rathmannsdorf,NE-Anst,ehemals,20241001
 ,ARMM,Rantum (Sylt) Mitte,Rantum(Sylt)Mitt,Bush,Betrieb,19990101
 ,ARMMC,Rantum (Sylt) Campingplatz,Rantum(Sylt)Camp,Bush,Betrieb,19990101
 ,ARMMH,Rantum (Sylt) Seeheim,Rantum(Sylt)Seeh,Bush,Betrieb,19990101
@@ -804,7 +801,6 @@ DE25618,ASOL,Sollbrück,Sollbrück,Üst,Planung,20240701
 DE19807,ASON,Soltau (Han) Nord,Soltau Nord,Hp,Betrieb,20081214
 DE19868,ASP,Sprötze,Sprötze,Hp,Betrieb,20200401
 ,ASPS,Sparrieshoop,Sparrieshoop,NE-Bf,Betrieb,20090401
-DE14401,ASQ,Hamburg Kai Rechts,Hmb Kai Rechts,Anst,ehemals,20241215
 DE19891,ASSD,Stadersand,Stadersand,Anst,Betrieb,20200401
 ,ASSI,Schlüttsiel,Schlüttsiel,Slst,Betrieb,19990101
 DE14412,ASST,Hamburg Sternschanze            (S-Bahn),Sternschanze SB,Bf,Betrieb,20201001
@@ -944,7 +940,6 @@ DE21249,AWRT,Witzwort,Witzwort,Hp,Betrieb,20081214
 ,AWRTK,Witzwort Kirche,Witzwort Kirche,Bush,,20230627
 ,AWRTM,Witzwort Meierei,Witzwort Meierei,Bush,,20230627
 ,AWRZ,Weertzen,Weertzen,NE-Bf,Betrieb,20081214
-DE25540,AWSK,Schwarzenbek Wildschweinkuhle,Wildschweinkuhle,Üst,Planung,20231101
 DE25540,AWSK,Schwarzenbek Wildschweinkuhle,Wildschweinkuhle,Üst,Betrieb,20250101
 ,AWSM,Wenningstedt (Sylt) Mitte,Wenningst(S)Mitt,Bush,Betrieb,19990101
 ,AWSMP,Wenningstedt (Sylt) Post,Weninngst(S)Post,Bush,Betrieb,19990101
@@ -1112,7 +1107,6 @@ DE10521,BBSP,Bad Saarow,Bad Saarow,Bf,Betrieb,20201001
 ,BBSSD,Bad Saarow Süd,Bad Saarow Süd,Bush,Betrieb,19991014
 DE11189,BBST,Bestensee,Bestensee,Bf,Betrieb,20201001
 DE11479,BBSZ,Booßen,Booßen,Bf,a.B.,20201001
-,BBTZ,Berlin-Britz,Bln-Britz,NE-Bf,ehemals,20241015
 DE10987,BBU,Berlin-Buch,Bln-Buch,Bf,Betrieb,20201001
 DE11780,BBUC,Buckow (Märkische Schweiz),Buckow(Märk Sch),Bf,a.B.,20201001
 ,BBUE,Bückchen,Bückchen,NE-Hp,Betrieb,20081214
@@ -1639,7 +1633,6 @@ DE18046,BOD,Oderin,Oderin,Hp,Betrieb,20201001
 DE13304,BODK,Frankfurt (Oder) Oderbrücke,Oderbrücke,Bf,Betrieb,20201001
 DE18053,BOEG,Oegeln,Oegeln,Hp,Betrieb,20201001
 DE10912,BOG,Berlin Ostendgestell,Ostendgestell,Abzw,Betrieb,20200401
-DE10915,BOH,Berlin Osthafen,Bln Osthafen,Bf,ehemals,20241201
 DE10917,BOK,Berlin Ostkreuz (Ringbahn-S),Ostkreuz Ring-S,Bf,Betrieb,20201001
 DE10918,BOKN,Berlin Ostkreuz (Ringbahn-F),Ostkreuz Ring-F,Bf,Betrieb,20200401
 DE10916,BOKO,Berlin Ostkreuz (Ostbahn),Ostkreuz Ostbahn,Bf,Betrieb,20220208
@@ -1791,7 +1784,6 @@ DE19127,BRU,Ruhland,Ruhland,Bf,Betrieb,20200401
 ,BRU B,Ruhland Busbahnhof,Ruhland Busbhf,Bush,,20181220
 ,BRUE,Rüdersdorf (b Berlin),Rüdersdf(b Bln),NE-Bf,Betrieb,20081214
 DE11091,BRUH,Berlin-Ruhleben,Bln-Ruhleben,Bft,Betrieb,20201001
-,BRUN,Berlin-Rudow Nord,Bln-Rudow Nord,NE-Anst,ehemals,20241015
 ,BRUZ,Ruhlsdorf-Zerpenschleuse,Ruhlsdf-Zerpens,NE-Hp,Betrieb,20081214
 ,BRUZD,Zerpenschleuse Dorf,Zerpenschl Dorf,Bush,Betrieb,19990101
 DE10934,BRW,Berlin Raoul-Wallenberg-Straße,R-Wallenberg-Str,Hp,Betrieb,20201001
@@ -1865,7 +1857,6 @@ DE11119,BSMS,Berlin-Siemensstadt,Bln-Siemensstadt,Bf,a.B.,20201001
 DE19701,BSN,Senftenberg,Senftenberg,Bf,Betrieb,20200401
 DE19703,BSN A,Senftenberg B 7,Senftenberg B 7,Bft,Betrieb,20081214
 DE19702,BSN E,Senftenberg B 10,Senftenberg B 10,Bft,Betrieb,20200401
-DE19859,BSNA,Spreewitz Nord,Spreewitz Nord,Abzw,ehemals,20200401
 DE19466,BSNF,Schönfließ                        S-Bahn,Schönfließ S-B,Bf,Betrieb,20201001
 DE11117,BSNH,Berlin-Schönholz                  S-Bahn,Schönholz S-B,Bf,Betrieb,20201001
 DE11116,BSNL,Berlin-Schönholz                     Bft,Bln-Schönholz,Bft,Betrieb,20211212
@@ -2155,7 +2146,6 @@ DE10203,DAMD,Altmittweida,Altmittweida,Hp,Betrieb,20200401
 DE10232,DAMH,Amtshainersdorf,Amtshainersdf,Hp,Betrieb,20081214
 ,DAOR,Altoschatz-Rosenthal,Altoschatz-Rosen,NE-Hp,Betrieb,20081214
 DE25640,DAQ,Dresden-Altstadt iBS,Dre-Alt iBS,BZ,Planung,20240701
-DE10290,DAS,Arras,Arras,Hp,a.B.,20200401
 DE10290,DAS,Arras Hp,Arras Hp,Hp,a.B.,20250101
 DE10259,DATL,Antonsthal,Antonsthal,Bf,Betrieb,20081214
 DE10328,DAU,Aue (Sachs),Aue (Sachs),Bf,Betrieb,20221101
@@ -2500,7 +2490,6 @@ DE14292,DHA,Hainichen,Hainichen,vp-Bf,Betrieb,20200401
 DE14297,DHAL,Halbau am Hochstein,Halbau am Hst,Hp Anst,a.B.,20030101
 DE10330,DHAN,Aue (Sachs) Handelsgesellsch Hanko Chemn,Hanko Aue,Anst,a.B.,20030101
 DE24730,DHB,Halsbrücke Apparatebau Freiberg GmbH,Halsbr Apparateb,Anst,a.B.,20241215
-DE14530,DHBR,Hammerbrücke,Hammerbrücke,Hp Anst,a.B.,20030101
 DE14530,DHBR,Hammerbrücke Hp,Hammerbrücke Hp,Hp Anst,a.B.,20250101
 DE14688,DHD,Heidenau,Heidenau,Bf,Betrieb,20200401
 ,DHD B,Heidenau Bf,Heidenau Bf,Bush,Betrieb,20030411
@@ -2568,7 +2557,6 @@ DE12466,DKE,Dresden-Kemnitz,Dresden-Kemnitz,Hp,Betrieb,20200401
 DE12467,DKEU,Dresden-Kemnitz Zentralschaltstelle,Zentralsch Dre-K,Anst,a.B.,20200401
 ,DKFR,Kleinforst Rosensee,Kleinforst Rosen,NE-Hp,Betrieb,20060801
 DE13857,DKH,Goßdorf-Kohlmühle,Goßdf-Kohlmühle,Hp,Betrieb,20081214
-,DKH A,Altendorf,Altendorf,Bush,Betrieb,20200708
 ,DKH A,Altendorf Erbgericht,Altendorf Erbger,Bush,Betrieb,20250101
 ,DKH W,Goßdorf-Kohlmühle Waitzdorfer Kreuz,Goßdorf-Kohlm WK,Bush,Betrieb,20030430
 ,DKJ,Kurort Jonsdorf,Kurort Jonsdorf,NE-Bf,Betrieb,20081214
@@ -2599,7 +2587,7 @@ DE14963,DKR,Höckendorf Edle Krone,Edle Krone,Hp,Betrieb,20200401
 DE11920,DKRB,Chemnitz DFA GmbH G-Ber Fahrzeugbau,Wismut Stahlb,Anst,a.B.,20200401
 DE15597,DKRD,Kleinröhrsdorf,Kleinröhrsdorf,Hp,Betrieb,20081214
 ,DKRO,Kretscham-Rothensehma,Kretscham-Rothen,NE-Bf,Betrieb,20040206
-DE15906,DKRP,Krippen,Krippen,Hp,Betrieb,20200401
+DE15906,DKRP,Krippen,Krippen,Hp Bft,Betrieb,20250115
 ,DKRPP,"Bad Schandau, Postelwitz",Postelwitz,Bush,Betrieb,20210415
 ,DKRPS,Krippen                         (Schiff),Krippen        S,Slst,Betrieb,19990101
 DE15931,DKRU,Krumhermsdorf,Krumhermsdorf,Hp,Betrieb,20081214
@@ -2643,7 +2631,6 @@ DE16361,DLI,Lichtentanne (Sachs),Lichtentanne (S),Hp Abzw,Betrieb,20200401
 DE16375,DLIB,Limbach (Sachs),Limbach (Sachs),vp-Bf,a.B.,20090424
 DE16355,DLIG,Lichtenberg (Erzgeb),Lichtenberg (E),vp-Hp,Betrieb,20200401
 DE16376,DLIM,Limbach (Vogtl),Limbach (V),Hp,Betrieb,20200401
-DE24719,DLIU,Liebau,Liebau,Üst,ehemals,20241215
 DE16384,DLM,Limmritz (Sachs),Limmritz (Sachs),Hp,Betrieb,20200401
 DE16490,DLN,Lößnitz ob Bf,Lößnitz ob Bf,Hp,Betrieb,20081214
 DE16491,DLNU,Lößnitz unt Bf,Lößnitz unt Bf,Hp,Betrieb,20081214
@@ -2992,7 +2979,7 @@ DE18668,DRTW,Rattwitz,Rattwitz,Hp Awanst,a.B.,20200401
 DE18675,DRU,Raun,Raun,Hp Üst,Betrieb,20081214
 DE19136,DRUG,Ruppertsgrün,Ruppertsgrün,Hp,Betrieb,20200401
 DE19032,DRW,Roßwein,Roßwein,vp-Bf,Betrieb,20160416
-DE10533,DSA,Bad Schandau,Bad Schandau,Bf,Betrieb,20200401
+DE10533,DSA,Bad Schandau,Bad Schandau,Bft,Betrieb,20250117
 ,DSA K,Bad Schandau (Kirnitzschtalbahn),Bad Schandau KB,NE-Hp,Betrieb,20000405
 ,DSA S,Bad Schandau                    (Schiff),Bad Schandau   S,Slst,Betrieb,19990101
 DE19150,DSAA,Saara,Saara,Abzw,Betrieb,20200401
@@ -3039,16 +3026,18 @@ DE19660,DSLH,Seelingstädt (b Werdau) Hp,Seelingstädt Hp,Hp,a.B.,20200401
 DE19406,DSM,Schmölln (Thür),Schmölln (Thür),Bf,Betrieb,20200401
 DE19401,DSMI,Schmilka-Hirschmühle,Schmilka-Hir,Hp,Betrieb,20200401
 ,DSMIG,Schmilka Grenzübergang,Schmilka Grenze,Bush,Betrieb,20091001
+,DSMIH,Schmilka Hirschgrund,Schmilka Hirschg,Bush,,20250130
 ,DSMIS,Schmilka                        (Schiff),Schmilka       S,Slst,Betrieb,19990101
 DE19405,DSML,Schmölln (Oberlausitz),Schmölln (OL),Hp,Betrieb,20081214
 DE19409,DSMO,Schmorkau,Schmorkau,Awanst,a.B.,20200401
 DE25606,DSMU,Schmilka Überleitstelle,Schmilka Üst,Üst,Planung,20240901
 DE25606,DSMU,Schmilka Überleitstelle,Schmilka Üst,Üst,Betrieb,20251214
 DE19433,DSN,Schöna,Schöna,Bf,Betrieb,20200401
+,DSN D,Schöna Dorfplatz,Schöna Dorfplatz,Bush,,20250130
 DE17413,DSNA,Naundorf Montenegro H. Hartmann KG,Montenegro Hartm,Anst,a.B.,20200401
 DE19476,DSNO,Schönheide Ost,Schönheide Ost,Anst,a.B.,20030101
 DE19477,DSNS,Schönheide Süd,Schönheide Süd,Bf,a.B.,20030101
-DE10535,DSO,Bad Schandau Ost,Bad Schandau Ost,Bf,Betrieb,20200401
+DE10535,DSO,Bad Schandau Ost,Bad Schandau Ost,Bft,Betrieb,20250115
 DE19786,DSOA,Sohland Awanst,Sohland Awanst,Awanst,Betrieb,20101212
 DE19364,DSOB,Schlema ob Bf,Schlema ob Bf,Bf,a.B.,20200401
 DE19785,DSOH,Sohland,Sohland,Hp,Betrieb,20091003
@@ -3245,7 +3234,6 @@ DE21561,DZWO,Zwota,Zwota,Hp,Betrieb,20081214
 DE21552,DZWP,Zwickau-Pölbitz,Zwickau-Pölb,Hp,Betrieb,20200401
 ,DZWQ,Zwickau Bedienstandort,Zwickau BSO,BSO,Planung,20200401
 DE21553,DZWS,Zwickau-Schedewitz,Zw-Schedewitz,Hp,Betrieb,20081214
-DE25763,DZWX,Zwickau (Sachs) ESTW-UZ,Zwickau ESTW-UZ,BZ,Planung,20250101
 DE25763,DZWX,Zwickau (Sachs) ESTW-UZ,Zwickau ESTW-UZ,BZ,Betrieb,20250113
 DE21562,DZWZ,Zwota-Zechenbach,Zwota-Zechenb,Hp,Betrieb,20081214
 DE24732,DZX,Zittau ESTW UZ,Zittau ESTW UZ,BZ,Betrieb,20200401
@@ -3284,13 +3272,11 @@ DE10321,EAT,Attendorn,Attendorn,Bf,Betrieb,20081214
 DE11459,EAU,Bönen Autobahn,Autobahn,Bft,Betrieb,20200401
 DE10343,EAWN,Aue-Wingeshausen,Aue-Wingeshausen,Hp,Betrieb,20081214
 ,EBAH,Buschhütten Achenbach,Buschh Achenbach,NE-Bf,Betrieb,20081214
-DE24729,EBAS,Balve Schulzentrum,Balve Schulzentr,Hp,Studie,20180124
 DE10682,EBAU,Baukau,Baukau,Abzw,Betrieb,20201001
 DE10610,EBAV,Balve,Balve,Bf,Betrieb,20081214
 DE11266,EBB,Billerbeck,Billerbeck,Bf,Betrieb,20081214
 DE11370,EBCH,Bocholt,Bocholt,Bf,Betrieb,20081214
 DE11418,EBCK,Hamm-Bockum-Hövel,Bockum-Hövel,Bf,Betrieb,20200401
-DE24728,EBCM,Bocholt-Mussum,Bocholt-Mussum,Hp,Studie,20180124
 DE11392,EBDA,Bochum-Dahlhausen,Bo-Dahlhausen,Bf,Betrieb,20201001
 DE11393,EBDAB,Bochum-Dahlhausen Bez West,Bo-Dahlh Bz West,Bft,Betrieb,20201001
 ,EBDAE,Bochum-Dahlhausen EBD,Bo-Dahlhsn EBD,Museum,Betrieb,20000414
@@ -3383,8 +3369,8 @@ DE11520,EBTH,Bottrop Hbf,Bottrop Hbf,Bf,Betrieb,20200401
 DE11521,EBTHG,Bottrop Hbf - Gbf,Bottrop Hbf-Gbf,Bft,Betrieb,20081214
 DE11522,EBTHN,Bottrop Hbf - Not,Bottrop Hbf-Not,Bft,Betrieb,20080101
 DE11523,EBTHP,Bottrop Hbf - Pbf,Bottrop Hbf-Pbf,Bft,Betrieb,20200401
-DE11525,EBTN,Bottrop Nord,Bottrop Nord,Bf,Betrieb,20200401
-DE11519,EBTND,Bottrop Delog/Detag,Delog/Detag,Bft,a.B.,20160426
+DE11525,EBTN,Bottrop Nord,Bottrop Nord,Bf,ehemals,20250114
+DE11519,EBTND,Bottrop Delog/Detag,Delog/Detag,Bft,ehemals,20250116
 DE11526,EBTS,Bottrop Süd,Bottrop Süd,Bf,Betrieb,20200401
 DE11527,EBTSP,Bottrop Süd Übergabebf Prosper,Bot S Prosperbf,Bft,Betrieb,20030101
 DE18235,EBTT,Paderborn Benteler-Talle,Benteler-Talle,Anst,Betrieb,20081214
@@ -3527,7 +3513,6 @@ DE12343,EDOG,Dortmund Gbf,Dortmund Gbf,Bf,Betrieb,20200401
 DE12344,EDOGO,Dortmund Gbf Ostberg,Do Gbf Ostberg,Bft,Betrieb,20030101
 DE12345,EDOGW,Dortmund Gbf Westberg,Do Gbf Westberg,Bft,Betrieb,20030101
 DE12381,EDOH,Dortmund-Huckarde,Do-Huckarde,Hp,Betrieb,20200401
-DE24718,EDOK,Dortmund Kronprinzenstraße,Do Kronprinzen,Hp,Studie,20200401
 DE12419,EDOL,Dortmund-Wischlingen,Do-Wischlingen,Hp,Betrieb,20200401
 DE12614,EDOM,Duisburg-Obermeiderich,Du-Obermeiderich,Hp,Betrieb,20200401
 DE12405,EDOO,Dortmund-Nette/Oestrich,Do-Nette/Oestr,Bft,Betrieb,20200401
@@ -3577,7 +3562,6 @@ DE12506,EDULH,Dülmen (hoch),Dülmen (hoch),Bft,Betrieb,20081214
 DE12592,EDUS,Duisburg Südhafen,Du Südhafen,Awanst,a.B.,20200401
 DE12593,EDUT,Duisburg Thyssen,Du Thyssen,Awanst,Betrieb,20200401
 DE12359,EDUV,Dortmund Universität,Do Universität,Hp,Betrieb,20200401
-DE24693,EDUW,Dülmen West,Dülmen West,Hp,Studie,20200401
 DE12097,EDVB,Davensberg,Davensberg,Bf,Betrieb,20200401
 DE12361,EDW,Dortmund West,Dortmund West,Bft,Betrieb,20200401
 DE12623,EDWD,Duisburg-Wedau,Duisburg-Wedau,Bf,Betrieb,20200401
@@ -3595,6 +3579,7 @@ DE12418,EDWW,Dortmund-Wickede West,Do-Wickede West,Hp,Betrieb,20200401
 DE13724,EDYK,Geseke Dyckerhoff,Dyckerhoff,Anst,Betrieb,20200401
 DE13038,EE,Essen Hbf,Essen Hbf,Bf,Betrieb,20201001
 ,EE  B,Essen Hbf Busbf,Essen Hbf Busbf,Bush,Betrieb,19990101
+,EE  K,Essen Kruppstraße/Am Thyssenhaus,Essen Krppst/Ths,Bush,Betrieb,20250130
 DE13041,EE  O,Essen Hbf Ero,Essen Hbf Ero,Bft,Betrieb,20201001
 DE13040,EE  R,Essen Hbf Er,Essen Hbf Er,Bft,Betrieb,20201001
 DE13039,EE  U,Essen Hbf Burggrafenstraße,E Burggrafenstr,Bft,Betrieb,20201001
@@ -3645,7 +3630,8 @@ DE17341,EEMS,Münster Ems,Ems,Bf,Betrieb,20200401
 ,EENA,Ennepetal-Altenvoerde,Ennepet-Altenv,NE-Bf,Betrieb,20081214
 ,EENK,Ennepetal-Kluterthöhle,Ennepet-Kluterth,NE-Hp,Betrieb,20180505
 ,EENL,Ennigerloh,Ennigerloh,NE-Bf,Betrieb,20081214
-DE13042,EENN,Essen Nord,Essen Nord,Bf,Betrieb,20201001
+DE13042,EENN,Essen Nord,Essen Nord,Bf,ehemals,20250114
+DE13042,EENN,Essen Nord,Essen Nord,Bft,Betrieb,20250201
 DE12902,EENP,Ennepetal (Gevelsberg),Ennepetal (Gev.),Hp,Betrieb,20200401
 ,EENR,Enniger,Enniger,NE-Bf,Betrieb,20081214
 DE13047,EENW,Essen West,Essen West,Bf,Betrieb,20201001
@@ -3699,7 +3685,6 @@ DE13770,EGBO,Gladbeck Ost,Gladbeck Ost,Hp,Betrieb,20081214
 DE13625,EGBS,Gelsenkirchen-Buer Süd,Ge-Buer Süd,Hp,Betrieb,20201001
 DE13624,EGBU,Gelsenkirchen-Buer Nord Hp,Ge-Buer Nord Hp,Hp,Betrieb,20200401
 DE13771,EGBW,Gladbeck West,Gladbeck West,Bf,Betrieb,20200401
-DE11496,EGDB,Bork (Westf) Gerätedepot Bundeswehr,Gerätedepot Bdw,Awanst,ehemals,20241215
 DE13707,EGED,Gerschede,Gerschede,Abzw,Betrieb,20200401
 DE11706,EGG,Brilon Egger,Egger,Bf,Betrieb,20101212
 DE13619,EGHE,Gelsenkirchen Streckenwechsel 2172/2230,Strw 2172/2230,Strw,Betrieb,20201001
@@ -3855,7 +3840,6 @@ DE14515,EHRBZ,Hamm (Westf) Rbf Hps,Hamm Rbf Hps,Bft,Betrieb,20081214
 DE14833,EHRI,Herringen,Herringen,Abzw,Betrieb,20200401
 DE24712,EHRM,Herten Westfalen,Herten (Westf),Hp,Betrieb,20231210
 DE14845,EHRT,Herten (Westf),Herten (Westf),Awanst,a.B.,20201001
-DE24711,EHRW,Herten-Westerholt,Herten-Westerh,Hp,Studie,20201001
 DE24711,EHRW,Herten-Westerholt,Herten-Westerh,Hp,Betrieb,20250101
 ,EHSN,Haus Scheppen,Haus Scheppen,Museum,Betrieb,20000415
 ,EHST,Höste,Höste,NE-Hp,Betrieb,20081214
@@ -3914,7 +3898,6 @@ DE14795,EKSO,Herdorf Königsstollen,Königsstollen,Hp,Betrieb,20081214
 DE19241,EKSP,Sandebeck Kronospan,Kronospan,Awanst,Betrieb,20081214
 DE15896,EKT,Kreuztal,Kreuztal,Bf,Betrieb,20200401
 DE15897,EKT G,Kreuztal Gbf,Kreuztal Gbf,Bft,Betrieb,20081214
-DE24973,EKTB,Kreuztal-Buschhütten,Kreuztal-Busch,Hp,Studie,20200401
 ,EKTK,Kreuztal KSW,Kreuztal KSW,NE-Bft,Betrieb,20070801
 DE15945,EKUE,Künsebeck,Künsebeck,Hp,Betrieb,20081214
 DE11380,EKUH,Bochum Keespe und Hellbrügge      (Anst),Keespe u Hellbr,Anst,a.B.,20201001
@@ -3965,7 +3948,6 @@ DE16088,ELSD,Langschede,Langschede,Bf,Betrieb,20081214
 DE16293,ELSN,Lendringsen,Lendringsen,Hp,Betrieb,20101212
 DE10476,ELSP,Bad Laasphe,Bad Laasphe,Bf,Betrieb,20130612
 DE15898,ELTF,Kreuztal-Littfeld,Kreuzt-Littfeld,Hp,Betrieb,20200401
-DE24971,ELUA,Lünen-Alstedde,Lünen-Alstedde,Hp,Studie,20200401
 DE16603,ELUE,Lünen Hbf,Lünen Hbf,Bf,Betrieb,20200401
 DE16605,ELUS,Lünen Süd,Lünen Süd,Bf,Betrieb,20200401
 DE16636,ELUT,Lutum,Lutum,Bf,Betrieb,20101212
@@ -4077,7 +4059,6 @@ DE17953,EOBRW,Oberhausen West Orw,Oberhsn West Orw,Bft,Betrieb,20081214
 DE17955,EOBRZ,Oberhausen West Stw 2,Oberh West Stw 2,Bft,Betrieb,20081214
 DE17956,EOBU,Oberhausen-Buschhausen,Ob-Buschhausen,Bf,Betrieb,20200401
 DE17988,EOBW,Oberndorf (Kr Wittgenstein),Oberndorf /Wittg,Hp,Betrieb,20201001
-,EOBWR,Rückershausen,Oberndorf/W Bus,Bush,,20230915
 ,EOBWR,Oberndorf Rückershausen,Oberndorf/W Bus,Bush,,20250101
 DE17896,EOD,Oberaden,Oberaden,Bf,Betrieb,20200401
 DE18055,EOEL,Oelde,Oelde,Bf,Betrieb,20200401
@@ -4198,12 +4179,10 @@ DE19692,ESEM,Selm,Selm,Hp,Betrieb,20111211
 DE19328,ESER,Scherl,Scherl,Bf,a.B.,20151213
 DE19705,ESES,Sennestadt,Sennestadt,Bf,Betrieb,20081214
 DE19501,ESHM,Schötmar,Schötmar,Hp,Betrieb,20081214
-DE19502,ESHMA,Schötmar                        (Awanst),Schötmar  Awanst,Awanst,ehemals,20241215
 DE21329,ESHN,Wülfrath Scholten,Scholten,Anst,a.B.,20200401
 DE19376,ESHO,Schloß Holte,Schloß Holte,Bf,Betrieb,20081214
 DE19377,ESHS,Schloß Holte Süd,Schloß Holte Süd,Hp,Planung,20091201
 DE12591,ESI,Duisburg Sigle,Sigle,Abzw,Betrieb,20200401
-DE24967,ESIB,Siegen Brüderweg,Siegen Brüderweg,Hp,Studie,20200401
 ,ESID,Siddinghausen,Siddinghausen,Museum,Betrieb,20081017
 DE19729,ESIE,Siegen Hbf,Siegen Hbf,Bf,Betrieb,20241215
 ,ESIEB,Siegen Bush,Siegen Bush,Bush,Betrieb,19990101
@@ -4330,7 +4309,6 @@ DE21221,EWIK,Wittbräucke,Wittbräucke,Hp,Betrieb,20081214
 DE21185,EWIL,Windelsbleiche,Windelsbleiche,Hp,Betrieb,20081214
 DE21217,EWIN,Wissen (Sieg),Wissen/Sieg,Bf,Betrieb,20200401
 DE21223,EWIO,Witten Ost,Witten Ost,Bf,a.B.,20201001
-DE24972,EWIP,Witten Pferdebachstraße,Witten Pferdeb,Hp,Studie,20201001
 DE21222,EWIT,Witten Hbf,Witten Hbf,Bf,Betrieb,20201001
 ,EWITB,Witten Hbf BFS,Witten Hbf BFS,Museum,Betrieb,20000415
 ,EWITX,Witten Weichenwerk,WIT Weichenwerk,Werk,Betrieb,20201001
@@ -4591,7 +4569,6 @@ DE25415,FDIX,Diez ESTW Untere Lahn,Diez ESTW UL,BZ,Betrieb,20230215
 DE25416,FDIXO,Diez ESTW Obere Lahn,Diez ESTW OL,BZ,Betrieb,20241028
 DE12204,FDIZ,Diez,Diez,Bf,Betrieb,20081214
 DE12085,FDK,Darmstadt-Kranichstein,Da-Kranichstein,Bf,Betrieb,20200401
-DE12073,FDME,Darmstadt Merck,Darmstadt Merck,Anst,ehemals,20241215
 DE12074,FDN,Darmstadt Nord,Darmstadt Nord,Bf,Betrieb,20200401
 ,FDN M,Darmstadt Mathildenplatz,Da Mathildenpl,Bush,Betrieb,20240712
 DE12075,FDNA,Darmstadt Nordwest Abzweig,Da Nordwest Abzw,Abzw,Planung,20200401
@@ -4818,7 +4795,6 @@ DE13482,FFZ,Fritzlar,Fritzlar,Bf,Betrieb,20081214
 ,FFZ F,Fritzlar Flughafen Haupttor,Fritzlar Flugh H,Bush,,20230811
 ,FFZBS,Fritzlar Berliner Straße,Fritzlar Berlin,Bush,,20230811
 DE13356,FFZH,Frankfurt-Zeilsheim,Ff-Zeilsheim,Hp,Betrieb,20200401
-DE13483,FFZO,Fritzlar Oppermann,Fritzlar Opperm,Awanst,ehemals,20241215
 DE25098,FFZR,Frankfurt-Zehn Ruten,Ff-Zehn Ruten,Awanst,Betrieb,20201001
 DE13740,FG,Gießen,Gießen,Bf,Betrieb,20201001
 DE13750,FG  B,Gießen Pbf/Rbf Ültg II,Gießen II Pbf/Rb,Bft,Betrieb,20201001
@@ -4838,7 +4814,6 @@ DE14045,FGBA,Großburschla,Großburschla,Bf,a.B.,20240501
 DE13784,FGBG,Glauburg-Glauberg,Glaub-Glauberg,Hp,Betrieb,20201001
 DE13573,FGBM,Gau Bickelheim,Gau Bickelheim,Hp,Betrieb,20081214
 ,FGD,Grebendorf,Grebendorf,Tp,Betrieb,19990101
-DE13818,FGDE,Goldhausen RWE,Goldhausen RWE,Anst,ehemals,20241215
 DE13817,FGDH,Goldhausen,Goldhausen,Bf,Betrieb,20081214
 ,FGDHH,Heiligenroth Ortsmitte,Heiligenroth Ort,Bush,Betrieb,20190504
 DE18877,FGE,Riedstadt-Goddelau,Riedst-Goddelau,Bf,Betrieb,20200401
@@ -4862,6 +4837,7 @@ DE13700,FGHM,Gernsheim,Gernsheim,Bf,Betrieb,20200401
 DE13651,FGHO,Gensingen-Horrweiler,Gensingen-Horrw,Hp,Betrieb,20081214
 DE13653,FGHS,Gensingen-Horrweiler Sonderlager,Gens-Horrw Sond,Awanst,Betrieb,20081214
 DE25151,FGHX,Gernsheim ESTW,Gernsheim ESTW,BZ,Planung,20210201
+DE25151,FGHX,Gernsheim ESTW,Gernsheim ESTW,BZ,Betrieb,20250201
 DE13761,FGIL,Gilserberg,Gilserberg,Bf,a.B.,20200401
 DE13762,FGIM,Gimbsheim,Gimbsheim,Anst,a.B.,20200401
 DE13766,FGIR,Girod,Girod,Hp,Betrieb,20081214
@@ -4988,7 +4964,6 @@ DE10455,FHO,Bad Homburg,Bad Homburg,Bf,Betrieb,20200401
 ,FHO 1,Bad Homburg   (Est),Bad Homburg,Est,Betrieb,20221001
 DE13336,FHOE,Frankfurt-Höchst,Ff-Höchst,Bf,Betrieb,20200401
 DE13340,FHOEA,Frankfurt-Höchst Pbf/Gbf Ültg,Ff-Höchst Pbf/Gb,Bft,Betrieb,20081214
-DE13342,FHOEB,Frankfurt-Höchst Schönbrunn,Ff-Höchst Schbr,Anst,ehemals,20241215
 DE13339,FHOEG,Frankfurt-Höchst Gbf,Ff-Höchst Gbf,Bft,Betrieb,20081214
 ,FHOEL,Frankfurt Höchst Bf/Leverkuser Straße,F-Höchst/Levk St,Bush,,20240628
 DE13341,FHOES,Frankfurt-Höchst S-Bahn/Fernbahn,Ff-Höchst S-B/F,Bft,Betrieb,20081214
@@ -5316,7 +5291,6 @@ DE13031,FMHF,Espenau-Mönchehof,Esp-Mönchehof,Bf,Betrieb,20200401
 DE16841,FMHM,Marnheim,Marnheim,vp-Bf,Betrieb,20200401
 DE17328,FMHN,Münchhausen,Münchhausen,Bf,Betrieb,20081214
 DE17184,FMHO,Mühlheim Ost,Mühlheim Ost,Üst,Betrieb,20201001
-DE16692,FMHU,Mainz Hafen Ubf,Mainz Hafen Ubf,Bf,ehemals,20241215
 DE17033,FMI,Michelstadt,Michelstadt,Bf,Betrieb,20081214
 ,FMIB,Michelbach (Nass),Michelbach (N),Tp,Betrieb,19990101
 ,FMIC,Michelbach (Unterfr),Michelbach (Ufr),NE-Bf,Betrieb,20081214
@@ -5346,7 +5320,6 @@ DE16778,FMR,Marbach (Kr Fulda),Marbach/Fulda,Bf,Betrieb,20200401
 DE16690,FMS,Mainz - Römisches Theater,Mz-Römisches Th,Bf,Betrieb,20200401
 DE25344,FMSB,Melsungen-Schwarzenberg Hp,Melsungen-Schwbg,Hp,Betrieb,20240312
 DE21700,FMSD,Monsheim Donnersbergkreis/DB,Monsheim Dbk/DB,Gp,Betrieb,20200401
-DE13535,FMSF,Fulda Münsterfeld,Münsterfeld,Awanst,ehemals,20241201
 DE17120,FMSH,Monsheim,Monsheim,Bf,Betrieb,20200401
 DE13324,FMST,Frankfurt Main-Neckar-Brücke,Main-Neckar-Br,Abzw,Betrieb,20200401
 DE24863,FMSX,Frankfurt Main-Neckar-Brücke ESTW UZ,F Main-Neckar UZ,BZ,Betrieb,20200401
@@ -5463,7 +5436,6 @@ DE19456,FOBD,Schöneck-Oberdorfelden,Sch-Oberdorfeld,Hp,Betrieb,20201001
 DE17992,FOBH,Obernhof (Lahn),Obernhof (Lahn),Hp,Betrieb,20151213
 DE18078,FOBI,Offenbach-Bieber,Offenbach-Bieber,Bf,Betrieb,20201001
 DE17934,FOBN,Oberhaun,Oberhaun,Bf,Betrieb,20200401
-DE18000,FOBR,Oberrieden,Oberrieden,Bf,ehemals,20241220
 DE21139,FOBS,Wildeck-Obersuhl,Wild-Obersuhl,Hp,Betrieb,20200401
 DE18028,FOBW,Oberwesel,Oberwesel,Bf,Betrieb,20200401
 ,FOBWS,Oberwesel                       (Schiff),Oberwesel      S,Slst,Betrieb,19990101
@@ -5584,7 +5556,6 @@ DE18990,FROH,Rönshausen,Rönshausen,Hp,Betrieb,20081214
 DE18949,FROL,Rodgau-Rollwald,Rodgau-Rollwald,Hp,Betrieb,20201001
 DE18989,FRON,Ronshausen,Ronshausen,Hp,Betrieb,20200401
 DE18993,FROS,Rosbach v d Höhe,Rosbach v d Höhe,Bf,Betrieb,20201001
-DE19029,FROT,Roßstein-Tunnel,Roßstein-Tunnel,Üst,ehemals,20241215
 ,FRP,Rupsroth,Rupsroth,Tp,Betrieb,19990101
 DE19109,FRS,Rückersbacher Schlucht,Rü bacher Schlu,Hp,Betrieb,20201001
 DE20854,FRSA,Wehretal-Reichensachsen,W-Reichensachsen,Bf,Betrieb,20200401
@@ -5711,7 +5682,10 @@ DE20329,FTRF,Treischfeld,Treischfeld,Bf,ehemals,20200401
 DE20339,FTS,Treysa,Treysa,Bf,Betrieb,20200401
 DE20340,FTSB,Treysa Bundeswehr,Treysa Bundesw,Anst,Betrieb,20200401
 DE20341,FTSF,Treysa Freudenberg,Treysa Freudenbg,Anst,a.B.,20200401
+DE25772,FTSQ,Treysa iBS,Treysa iBS,BZ,Planung,20250201
 DE25507,FTSX,Treysa ESTW-Z,Treysa ESTW-Z,BZ,Planung,20230901
+DE25507,FTSX,Treysa ESTW-iUZ,Treysa ESTW-iUZ,BZ,Planung,20250201
+DE25507,FTSX,Treysa ESTW-iUZ,Treysa ESTW-iUZ,BZ,Betrieb,20271221
 DE20403,FTW,Twiste,Twiste,Hp,Betrieb,20081214
 ,FTW M,Twiste Mitte,Twiste Mitte,Bush,,20230829
 DE20404,FTWS,Twistesee,Twistesee,Bf,Betrieb,20130903
@@ -5728,6 +5702,7 @@ DE20438,FUR,Uhlerborn,Uhlerborn,Bf,Betrieb,20200401
 DE20528,FURBN,Urbar Nord,Urbar Nord,Üst,Betrieb,20200401
 DE20529,FURBS,Urbar Süd,Urbar Süd,Üst,Betrieb,20201001
 DE20540,FUS,Usseln,Usseln,Bf,Betrieb,20201001
+,FUS B,Usseln Bahnhof,Usseln Bahnhof,Bush,,20250108
 ,FUS K,Usseln Katholische Kirche,Usseln Kat Kirch,Bush,,20240907
 ,FUSI,Usingen,Usingen,NE-Bf,Betrieb,20241001
 DE20542,FUT,Uttershausen,Uttershausen,Abzw,Betrieb,20200401
@@ -5786,6 +5761,7 @@ DE21267,FWFH,Wolfhagen,Wolfhagen,Bf,Betrieb,20081214
 DE16702,FWFK,Mainz Waggonfabrik,Mz Waggonfabrik,Hp,Betrieb,20081214
 DE24812,FWFX,Wolfhagen Bedienzentrale,Wolfhagen Bed,BZ,Betrieb,20061103
 DE25196,FWFXX,Walldorf (Hess) ESTW,Walldorf H ESTW,BZ,Planung,20210501
+DE25196,FWFXX,Walldorf (Hess) ESTW,Walldorf H ESTW,BZ,Betrieb,20250201
 DE20891,FWG,Weilburg,Weilburg,Bf,Betrieb,20081214
 DE20842,FWGA,Wega,Wega,Hp,Betrieb,20240901
 ,FWGAO,Wega Ostlandsiedlung,Wega Ostlandsied,Bush,,20230707
@@ -5813,7 +5789,6 @@ DE21219,FWIS,Wissenbach (Dillkr),Wissenbach/Dillk,Anst,a.B.,20201001
 DE25502,FWIX,Weiterstadt ESTW-ZE,Weiterstadt ESTW,BZ,Planung,20230901
 DE20664,FWKI,Wabern Kimm,Kimm,Awanst,Betrieb,20200401
 ,FWL,Wilhelmsdorf (Taunus),Wilhelmsdorf/Ts,NE-Bf,Betrieb,20241001
-DE24806,FWLA,Wolfslach,Wolfslach,Abzw,ehemals,20241215
 DE21172,FWLM,Willmenrod,Willmenrod,Hp,Betrieb,20081214
 ,FWLMO,Willmenrod Ortsmitte,Willmenrod Ortsm,Bush,Betrieb,20230708
 DE21168,FWLN,Willingen,Willingen,Bf,Betrieb,20201001
@@ -5831,7 +5806,6 @@ DE21311,FWOD,Wörsdorf,Wörsdorf,Hp,Betrieb,20200401
 DE21264,FWOE,Wölfersheim-Södel,Wölfershm-Södel,Hp,Betrieb,20201001
 DE21104,FWOH,Wiesbaden Ost Henkell,Henkell,Awanst,a.B.,20200401
 DE21307,FWOI,Worms Stadt Industriestammgleis,Stadt Worms Indg,Awanst,Betrieb,20200401
-DE21275,FWOL,Wolfskehlen,Wolfskehlen,Üst,ehemals,20241215
 DE21296,FWOM,Wommelshausen,Wommelshausen,Hp,a.B.,20201001
 DE13173,FWON,Felsberg-Wolfershausen,F-Wolfershausen,Hp,Betrieb,20200401
 DE21306,FWOR,Worms Hbf,Worms Hbf,Bf,Betrieb,20200401
@@ -5860,7 +5834,6 @@ DE21073,FWT,Wetter (Hess-Nass),Wetter (Hess-Na),Bf,Betrieb,20081214
 ,FWT T,Wetter (Hessen) Tannenweg,Wetter Tannenweg,Bush,,20230811
 DE21178,FWTH,Wilsenroth,Wilsenroth,Bf,Betrieb,20081214
 DE21159,FWUE,Wilhelmshütte (Lahn),Wilhelmshütte(L),Hp,Betrieb,20081214
-,FWUEB,Wilhelmshütte (Lahn),Wilhelmsh/L Bus,Bush,,20230915
 ,FWUEB,Wilhelmshütte (Lahn) Bus,Wilhelmsh/L Bus,Bush,,20250101
 DE21106,FWW,Wiesbaden West,Wiesbaden West,Bf,a.B.,20200401
 DE21029,FWWG,Wernswig,Wernswig,Anst,a.B.,20200401
@@ -5953,7 +5926,6 @@ DE10627,HBAG,Barenburg,Barenburg,Bf,Betrieb,20200401
 DE10621,HBAN,Banteln,Banteln,Bf,Betrieb,20201001
 DE10642,HBAR,Barrien,Barrien,Hp,Betrieb,20200401
 DE10674,HBAS,Bassum,Bassum,Bf,Betrieb,20200401
-DE10653,HBAV,Barver,Barver,Anst,ehemals,20241215
 DE11660,HBAW,Bremen-Sebaldsbrück Wbf,Brm-Sebaldsb Wbf,Bf,Betrieb,20200401
 ,HBAZ,Bannetze,Bannnetze,Slst,Betrieb,19990101
 DE11647,HBB,Bremen-Burg,Bremen-Burg,Bf,Betrieb,20200401
@@ -5967,6 +5939,7 @@ DE25177,HBBX,Bremen Burg ESTW-UZ,Bremen Burg UZ,BZ,Betrieb,20240101
 DE10720,HBDD,Beddingen,Beddingen,Bf,Betrieb,20201001
 DE10722,HBDDN,Beddingen Nordkopf,Bedding Nordkopf,Bft,Betrieb,20201001
 DE10723,HBDDV,Beddingen VPS,Beddingen VPS,Bft,Betrieb,20201001
+,HBDDV,Beddingen VPS,Beddingen VPS,NE-Bft,Betrieb,20250301
 DE11806,HBDE,Bünde (Westf),Bünde (Westf),Bf,Betrieb,20200401
 DE10423,HBDG,Bad Driburg (Westf),Bad Driburg,Hp,Betrieb,20200401
 ,HBDGP,Bad Driburg Polizei,Bad Dribg Poliz,Bush,Betrieb,20190627
@@ -6084,6 +6057,7 @@ DE10413,HBOD,Bad Bodenteich,Bodenteich,Bf,Betrieb,20081214
 DE10506,HBOE,Bad Oeynhausen Süd,Bad Oeynhsn Süd,Hp,Betrieb,20200401
 DE11424,HBOF,Bodenfelde,Bodenfelde,Bf,Betrieb,20201001
 ,HBOI,Broistedt Nord,Broistedt Nord,NE-Bf,Betrieb,20090401
+,HBOI,Broistedt Nord,Broistedt Nord,NE-Bf,ehemals,20250301
 ,HBOIP,Broistedt P+R Anlage Bahnhofstr,Broistedt P+R,Bush,Betrieb,20020316
 DE11502,HBOL,Borlinghausen,Borlinghausen,Hp Anst,a.B.,20201001
 DE11440,HBOM,Bohmte,Bohmte,Bf,Betrieb,20200401
@@ -6184,7 +6158,6 @@ DE11679,HBWG,Bremerhaven-Wulsdorf DB-Grenze,Brh-Wulsdf DB-Gr,Gp,Betrieb,20200401
 ,HBWL,Bodenwerder-Linse,Bodenwerd-Linse,NE-Bf,a.B.,20090127
 ,HBWM,Bodenwerder Mittelweser,Bodenwerder Mwes,Slst,Betrieb,19990101
 ,HBWR,Rühle,Rühle,Slst,Betrieb,19990101
-,HBWS,Beverungen-Wehrden,Beverungen-Wehrd,Slst,Betrieb,19990101
 ,HBWS,Beverungen-Wehrden Slst,Beverungen-Wehrd,Slst,Betrieb,20250101
 ,HBWT,Börßum WTB,Börßum WTB,NE-Bf,Planung,20180410
 DE11678,HBWU,Bremerhaven-Wulsdorf,Brh-Wulsdorf,Bft,Betrieb,20200401
@@ -6220,6 +6193,7 @@ DE25611,HD  G,Delmenhorst Gbf,Delmenhorst Gbf,Bft,Planung,20240601
 DE25004,HDA,Deensen-Arholzen,Deensen-Arholzen,Bf,Betrieb,20201001
 ,HDAG,Dahlinghausen,Dahlinghausen,NE-Hp,Betrieb,20081214
 ,HDAS,Dassel,Dassel,NE-Bf,Betrieb,20081214
+,HDAS,Dassel,Dassel,NE-Bf,ehemals,20250201
 DE12149,HDBG,Derneburg (Han),Derneburg (Han),Hp Awanst,Betrieb,20201001
 DE12249,HDBR,Dissen-Bad Rothenfelde,Dissen-Bad Roth,Hp,Betrieb,20081214
 ,HDEA,Debstedt,Debstedt,Museum,Betrieb,20030807
@@ -6282,7 +6256,8 @@ DE21623,HEHB,Elsfleth Huntebrücke,Huntebrücke,Dkst,Betrieb,20200401
 DE16951,HEHD,Melle Euer Heide,Euer Heide,Awanst,Betrieb,20200401
 ,HEHS,Eschershausen,Eschershausen,NE-Bf,a.B.,20090127
 ,HEIH,Eichholz,Eichholz,Museum,Betrieb,19990101
-,HEIL,Eilensen,Eilensen,NE-Hp,Betrieb,20241001
+,HEIL,Eilensen,Eilensen,NE-Hp,Betrieb,20250130
+,HEIL,Eilensen,Eilensen,NE-Hp,ehemals,20250201
 DE12773,HEIV,Eilvese,Eilvese,Hp,Betrieb,20200401
 ,HEIZ,Eitze,Eitze,NE-Bf,Betrieb,20081214
 DE13030,HEKP,Espelkamp,Espelkamp,Bf,Betrieb,20200401
@@ -6325,7 +6300,6 @@ DE13026,HESO,Esens (Ostfriesl),Esens(Ostfriesl),Hp,Betrieb,20081214
 DE13015,HESR,Escherde,Escherde,Bf,Betrieb,20201001
 DE13090,HEST,Estorf (Weser),Estorf (Weser),Bf,Betrieb,20200401
 DE12748,HESW,Eichenberg Eschenwiese,Eschenwiese,Üst,Betrieb,20201001
-DE21673,HETG,Eystrup DB-Grenze,Eystrup DB-Gr,Gp,ehemals,20241201
 DE13091,HETL,Etelsen,Etelsen,Bf,Betrieb,20200401
 DE13126,HETR,Eystrup,Eystrup,Bf,Betrieb,20200401
 ,HETRN,Eystrup NE,Eystrup,NE-Bf,Betrieb,20081214
@@ -6558,7 +6532,9 @@ DE25562,HIHVF,Ihrhove Friesenbrücke,Ihrhove Friesenb,Bft,Planung,20240301
 DE25564,HIHVQ,Ihrhove iBS,Ihrhove iBS,BZ,Planung,20240301
 DE25529,HIHVX,Ihrhove ESTW-iUZ,Ihrhove ESTW-iUZ,BZ,a.B.,20241104
 ,HILD,Ilsede,Ilsede,NE-Bf,Betrieb,20090401
+,HILD,Ilsede,Ilsede,NE-Bf,ehemals,20250301
 ,HILS,Ilsede Süd,Ilsede Süd,NE-Anst,Betrieb,20090401
+,HILS,Ilsede Süd,Ilsede Süd,NE-Anst,ehemals,20250301
 DE15213,HIMS,Immensen-Arpke,Immensen-Arpke,Bf,Betrieb,20200401
 DE25531,HISE,Isenbüttel,Isenbüttel,Hp,Planung,20231001
 DE25531,HISE,Isenbüttel,Isenbüttel,Hp,Betrieb,20270331
@@ -6588,10 +6564,8 @@ DE15538,HKHN,Kirchhorsten,Kirchhorsten,Bf,Betrieb,20230101
 DE21579,HKHW,Kirchhammelwarden,Kirchhammelward,Hp,Betrieb,20200401
 DE15547,HKI,Kirchweyhe,Kirchweyhe,Bf,Betrieb,20241101
 ,HKIB,Kirchbrak,Kirchbrak,NE-Bf,a.B.,20090127
-DE21671,HKIG,Kirchweyhe DB-Grenze,Kirchweyhe DB-Gr,Gp,ehemals,20241201
 ,HKIN,Kirchweyhe Nord,Kirchweyhe Nord,NE-Anst,Betrieb,20241101
 DE14561,HKL,Hannover-Kleefeld,Han-Kleefeld,Hp,Betrieb,20200401
-DE21056,HKLA,Westerstede (Oldb) Klamperesch,Klamperesch,Anst,ehemals,20241201
 DE15540,HKLG,Kirchlengern,Kirchlengern,Bf,Betrieb,20200401
 ,HKLH,Klosterheide,Klosterheide,Museum,Betrieb,20000415
 DE21692,HKLI,Kirchlinteln,Kirchlinteln,Hp,Planung,20151110
@@ -6612,7 +6586,7 @@ DE10460,HKRF,Bad Karlshafen,Bad Karlshafen,Hp,Betrieb,20201001
 DE15584,HKSI,Kleinensiel,Kleinensiel,Bf,Betrieb,20200401
 DE15574,HKSU,Klein Süstedt,Klein Süstedt,Bf,Betrieb,20200401
 DE14552,HKUR,Hannover Kurve,Kurve,Abzw,Betrieb,20200401
-DE14551,HKWA,Hannover Karl-Wiechert-Allee,Han K-Wiechert-A,Bf,Betrieb,20200401
+DE14551,HKWA,Hannover Karl-Wiechert-Allee,Han K-Wiechert-A,Bf Abzw,Betrieb,20250117
 ,HKWAN,Nackenberg Stadtbahn Üstra,Nackenberg Üstra,Bush,Betrieb,20170530
 DE24868,HKX,Kreiensen ESTW-Z,Kreiensen ESTW,BZ,Betrieb,20201001
 DE16450,HL,Löhne (Westf) Pbf,Löhne(Westf) Pbf,Bf,Betrieb,20200401
@@ -6749,6 +6723,7 @@ DE16983,HMEP,Meppen,Meppen,Bf,Betrieb,20200401
 DE17202,HMHZ,Münchehof (Harz),Münchehof (Harz),Bf,Betrieb,20201001
 DE17063,HMI,Misburg,Misburg,Bf,Betrieb,20200401
 ,HMKD,Markoldendorf,Markoldendorf,NE-Bf,Betrieb,20081214
+,HMKD,Markoldendorf,Markoldendorf,NE-Bf,ehemals,20250201
 ,HMKT,Minden Königstor,Minden Königstor,NE-Hp,Betrieb,20081214
 DE17174,HMLN,Mühlen (Oldb),Mühlen (Oldb),Hp,Betrieb,20081214
 ,HMNF,Minden Friedr-Wilhelm-Str,Minden Fr-Wilh-S,NE-Bf,Betrieb,20081214
@@ -7032,6 +7007,8 @@ DE19478,HSGN,Schöningen,Schöningen,Bf,a.B.,20201001
 ,HSGNZ,Schöningen ZOB,Schöningen ZOB,Bush,Betrieb,19990101
 ,HSHD,Salzhemmendorf,Salzhemmendorf,Museum,Betrieb,20000516
 DE19894,HSHG,Stadthagen,Stadthagen,Bf,Betrieb,20200401
+DE25766,HSHGX,Stadthagen ESTW-Z,Stadthagen ESTW,BZ,Planung,20250201
+DE25766,HSHGX,Stadthagen ESTW-Z,Stadthagen ESTW,BZ,Betrieb,20271231
 ,HSHL,Salzhausen (b Lüneburg),Salzhausen/Lüneb,NE-Bf,Betrieb,20090401
 ,HSHN,Salzgitter Hütte Nord,Sz Hütte Nord,NE-Bf,Betrieb,20081214
 ,HSHS,Salzgitter Hütte Süd,Sz Hütte Süd,NE-Bf,Betrieb,20081214
@@ -7118,11 +7095,15 @@ DE20162,HSYK,Syke,Syke,Bf,Betrieb,20200401
 ,HSZB,Salzgitter-Beddingen Hafen,Sz-Beddingen Hf,NE-Bf,Betrieb,20081214
 ,HSZC,Salzgitter-Calbecht,Sz-Calbecht,NE-Bf,Betrieb,20081214
 ,HSZE,Salzgitter-Engelnstedt,Sz-Engelnstedt,NE-Bf,Betrieb,20081214
+,HSZE,Salzgitter-Engelnstedt,Sz-Engelnstedt,NE-Bf,ehemals,20250301
 ,HSZG,Salzgitter-Gebhardshagen,Sz-Gebhardshgn,NE-Bf,a.B.,20090127
+,HSZG,Salzgitter-Gebhardshagen,Sz-Gebhardshgn,NE-Bf,ehemals,20250301
 ,HSZH,Salzgitter Haverlahwiese,Sz Haverlahw,NE-Bf,Betrieb,20081214
+,HSZH,Salzgitter Haverlahwiese,Sz Haverlahw,NE-Bf,ehemals,20250301
 ,HSZI,Salzgitter-Immendorf West,Sz-Immendf West,NE-Bf,Betrieb,20081214
 ,HSZK,Salzgitter Schacht Konrad 1,Sz Sch Konrad 1,NE-Bf,Betrieb,20081214
 ,HSZV,Salzgitter Voßpass,Sz Voßpass,NE-Bf,Betrieb,20081214
+,HSZV,Salzgitter Voßpass,Sz Voßpass,NE-Bf,ehemals,20250301
 DE20405,HT,Twistringen,Twistringen,Bf,Betrieb,20200401
 ,HTDH,Thedinghausen,Thedinghausen,NE-Bf,Betrieb,20241101
 ,HTFH,Tülau-Fahrenhorst,Tül-Fahrenhorst,NE-Bf,Betrieb,20090401
@@ -7294,7 +7275,6 @@ DE21363,HWUL,Wulften,Wulften,Hp Bk,Betrieb,20201001
 DE21368,HWUN,Wunstorf,Wunstorf,Bf,Betrieb,20200401
 ,HWUS,Wunstorf Stadt,Wunstorf Stadt,NE-Bf,Betrieb,20081214
 ,HWUW,Wunstorf West,Wunstorf West,NE-Bf,Betrieb,20081214
-DE21155,HWV,Wilhelmshaven-Voslapp,Wilhhv-Voslapp,Anst,ehemals,20241201
 DE21154,HWW,Wilhelmshaven West,Wilhelmshaven W,Awanst,Betrieb,20200401
 DE21295,HWWI,Woltwiesche,Woltwiesche,Hp,Betrieb,20201001
 ,HWWIG,Woltwiesche Große Str/Brückenstr,Woltwiesche Gr S,Bush,Betrieb,20020316
@@ -7495,13 +7475,11 @@ DE10577,HZWI,Bad Zwischenahn,Bad Zwischenahn,Bf,Betrieb,20200401
 ,IBGA,Berlin Grünau                      (GUw),Grünau,GUw,Betrieb,20230215
 ,IBGAB,Berlin Grünau                      (Sst),Grünau,Sst,Betrieb,20230215
 ,IBGAS,Berlin Grünau Betriebswerkstatt    (Sst),Grünau Bw,Sst,Betrieb,20230215
-,IBGBP,Potsdam Griebnitzsee,Griebnitzsee,Sp,Betrieb,20201001
 ,IBGBP,Potsdam Griebnitzsee                (Sp),Griebnitzsee,Sp,Betrieb,20250101
 ,IBGBS,Potsdam Griebnitzsee               (GUw),Griebnitzsee,GUw,Betrieb,20230215
 ,IBGD,Berlin Grunewald Hundekehle        (GUw),Hundekehle,GUw,Betrieb,20230215
 ,IBGDS,Berlin Hundekehle Betriebswerkst   (Sst),Hundekehle Bw,Sst,Betrieb,20230215
 ,IBGH,Genshagener Heide                   (Uw),Gensh Heide   Uw,Uw,Betrieb,20201001
-,IBGK,Grünauer Kreuz,Grünauer Kreuz,Sp,a.B.,20201001
 ,IBGKG,Berlin Grünauer Kreuz              (GUw),Grünauer Kreuz,GUw,Betrieb,20230215
 ,IBGKU,Grünauer Kreuz                      (Sp),Grünauer Kreuz,Sp,Betrieb,20201001
 ,IBGOL,Golm                                (Uw),Golm,Uw,Betrieb,20201001
@@ -7527,7 +7505,6 @@ DE10577,HZWI,Bad Zwischenahn,Bad Zwischenahn,Bf,Betrieb,20200401
 ,IBHES,Berlin Hermannstraße               (Sst),Hermannstraße,Sst,Betrieb,20230215
 ,IBHFA,Berlin Ostbahnhof alt              (GUw),Ostbahnhof,GUw,Betrieb,20230215
 ,IBHGM,Strausberg Hegermühle              (GUw),Hegermühle,GUw,Betrieb,20230215
-,IBHGS,Hohen Neuendorf (b. Berlin)        (Sst),Hohen Neuendorf,Sst,ehemals,20241218
 ,IBHKM,Berlin Hackescher Markt            (GKs),Hackescher Markt,GKs,Planung,20230301
 ,IBHLS,Berlin Heiligensee                 (GUw),Heiligensee,GUw,Betrieb,20230215
 ,IBHN,Hohen Neuendorf (b Berlin)          (Sp),Hohen Neuendorf,Sp,Betrieb,20201001
@@ -7834,7 +7811,6 @@ DE10577,HZWI,Bad Zwischenahn,Bad Zwischenahn,Bf,Betrieb,20200401
 ,IFKHM,Kirchheim                           (Uw),Kirchheim,Uw,Betrieb,20030101
 ,IFKON,Frankfurt (Main) Konstabler Wache,Ffm Konstablerw,Sp,Betrieb,20191001
 ,IFKOT,Körle Ost                           (Uw),Körle Ost,Uw,Betrieb,20080101
-,IFKY,Frankfurt am Main Kleyerstraße,Kleyerstraße,Fwst,Betrieb,20180829
 ,IFKY,Frankfurt am Main Kleyerstraße    (Fwst),Kleyerstraße,Fwst,Betrieb,20250101
 ,IFL,Limburg (Lahn)                      (Uw),Limburg(Lahn),Uw,Betrieb,20080101
 ,IFLEH,Limburg Ersatzleitstelle HSL,Limburg EHSL,Zes,Betrieb,20240101
@@ -8564,7 +8540,6 @@ DE10013,KARE,Aachen-Rothe Erde,Ac-Rothe Erde,Bf,Betrieb,20200401
 DE10015,KAREG,Aachen-Rothe Erde Gbf,Ac-Rothe E Gbf,Bft,Betrieb,20081214
 DE10016,KAREP,Aachen-Rothe Erde Pbf,Ac-Rothe E Pbf,Bft,Betrieb,20081214
 ,KARET,Aachen Talbot Werk,Aachen Talbot Wk,Werk,Betrieb,20210720
-DE24627,KARI,Aachen-Richterich,Aachen-Richter,Hp,Studie,20200401
 DE10276,KARL,Bad Münstereifel-Arloff,Arloff,Hp Anst,Betrieb,20201001
 DE10291,KARS,Arsbeck,Arsbeck,Hp,Betrieb,20201001
 DE10005,KAS,Aachen Süd,Aachen Süd,Üst,Betrieb,20200401
@@ -8612,7 +8587,6 @@ DE11472,KBD,Bonn-Duisdorf,Bonn-Duisdorf,Hp,Betrieb,20201001
 ,KBDG,Budberg (Kr Wesel),Budberg (Wesel),NE-Bf,Betrieb,19990101
 ,KBDO,Bonn-Dottendorf,Bonn-Dottendorf,Tp,Betrieb,19990101
 DE10717,KBE,Bedburg (Erft),Bedburg (Erft),Bf,Betrieb,20200401
-DE10776,KBEB,Bensberg,Bensberg,Bf,ehemals,20241218
 DE11473,KBEC,Bonn-Endenich Nord,Bonn-Endenich N,Hp,Betrieb,20201001
 DE10805,KBEE,Bergheim (Erft),Bergheim (Erft),Bf,Betrieb,20200401
 DE12524,KBEG,Düsseldorf Berg,Berg,Abzw,Betrieb,20200401
@@ -8683,7 +8657,6 @@ DE11698,KBRY,Breyell,Breyell,Bf,Betrieb,20201001
 ,KBUB,Bubenheim,Bubenheim,NE-Hp,Betrieb,20071209
 DE11796,KBUE,Büderich,Büderich,Anst,Betrieb,20200401
 DE11821,KBUH,Buir,Buir,Hp,Betrieb,20200401
-DE11822,KBUI,Buir,Buir,Bf,ehemals,20200401
 ,KBUM,Brohl Umladebf,Brohl Umladebf,NE-Bf,Betrieb,20081214
 DE11467,KBUN,Bonn UN Campus,Bonn UN Campus,Hp,Betrieb,20201001
 DE11815,KBUT,Büttgen,Büttgen,Hp,Betrieb,20201001
@@ -8904,7 +8877,6 @@ DE14724,KHEH,Heimersheim / Lohrsdorf,Heimersh/Lohrsd,Hp,Betrieb,20241215
 DE14740,KHEL,Hellenthal,Hellenthal,Bf,Betrieb,20201001
 DE14765,KHEN,Hennef (Sieg),Hennef (Sieg),Bf,Betrieb,20201001
 DE14827,KHER,Herrath,Herrath,Hp,Betrieb,20201001
-DE14828,KHERN,Herrath (Nordbahnsteig),Herrath (Nordb),Hp,ehemals,20241101
 DE14766,KHES,Hennef Im Siegbogen,Hennef I Siegb,Hp,Betrieb,20201001
 DE14860,KHEZ,Herzogenrath,Herzogenrath,Bf,Betrieb,20200401
 ,KHF,Bad Honnef NE,Bad Honnef NE,Tp,Betrieb,19990101
@@ -9124,7 +9096,6 @@ DE15870,KKR,Krefeld Hbf,Krefeld Hbf,Bf,Betrieb,20201001
 ,KKR B,Krefeld Bradburi Kaserne,Krefeld Brad Kas,Bush,Betrieb,19990101
 ,KKR N,Krefeld Nord,Krefeld Nord,Museum,Betrieb,20000416
 DE15857,KKRA,Kranenburg,Kranenburg,Bf,a.B.,20200401
-DE15875,KKRB,Krefeld-Bockum,Krefeld-Bockum,Anst,ehemals,20241101
 ,KKRD,Krefeld Süd,Krefeld Süd,NE-Bf,Betrieb,20081214
 DE15864,KKRE,Krebsöge,Krebsöge,Bf,ehemals,20200401
 ,KKREW,Radevormwald-Krebsöge Wuppertalsperre,Wuppertalsperre,NE-Bft,Betrieb,20240701
@@ -9137,7 +9108,6 @@ DE15876,KKRL,Krefeld-Linn,Krefeld-Linn,Bf,Betrieb,20201001
 DE15877,KKRLF,Krefeld-Linn Lf,Krefeld-Linn Lf,Bft,Betrieb,20201001
 DE15878,KKRO,Krefeld-Oppum,Krefeld-Oppum,Hp,Betrieb,20201001
 ,KKROX,Krefeld-Oppum Werk,Kr-Oppum Werk,Werk,Betrieb,20201001
-DE24633,KKRP,Krefeld Obergplatz,Krefeld Obergpl,Hp,Studie,20201001
 ,KKRQ,Krefeld Bedienstandort,Krefeld BSO,BSO,Planung,20201001
 DE15873,KKRS,Krefeld Stahlwerk,Kr Stahlwerk,Awanst Bk,Betrieb,20201001
 DE15874,KKRST,Krefeld Stahlwerk Anst,Kr Stahlwerk Ans,Anst,Betrieb,20201001
@@ -9246,7 +9216,6 @@ DE17111,KMGE,Mönchengladbach-Genhausen,MG-Genhausen,Hp,Betrieb,20201001
 ,KMH,Köln-Michaelshoven,Michaelshoven,NE-Hp,Betrieb,20081218
 ,KMHN,Monheim Nord,Monheim Nord,NE-Bf,Betrieb,20081214
 ,KMHR,Monheim (Rheinld),Monheim (Rhl),NE-Bf,Betrieb,20081214
-DE24626,KMHS,Mönchengladbach Hochschule,Mönchengladb HS,Hp,Studie,20201001
 DE17037,KMIE,Miesenheim,Miesenheim,Hp,Betrieb,20081214
 DE17040,KMIL,Millingen,Millingen,Bf,Betrieb,20200401
 DE17042,KMILG,Millingen Gbf,Millingen Gbf,Bft,Betrieb,20081214
@@ -9261,7 +9230,6 @@ DE17089,KMO G,Moers Gbf,Moers Gbf,Bft,Betrieb,20081214
 ,KMODS,Mondorf (Siegkr)                (Schiff),Mondorf(Siegkr)S,Slst,Betrieb,19990101
 DE17087,KMOE,Mödrath,Mödrath,Bf,ehemals,20201001
 ,KMOG,Mogendorf,Mogendorf,Tp,Betrieb,19990101
-DE24625,KMOI,Moers Eick,Moers Eick,Hp,Studie,20200401
 ,KMOK,Moers Kreisb,Moers Kreisb,NE-Bf,Betrieb,20081214
 ,KMON,Moers Nord,Moers Nord,NE-Bf,Betrieb,20081214
 ,KMOS,Monschau                      (Vennbahn),Monschau (Vennb),Museum,Betrieb,20000416
@@ -9348,7 +9316,6 @@ DE18182,KOSS,Osterspai,Osterspai,Hp,Betrieb,20200401
 DE25650,KOSSU,Osterspai Üst,Osterspai Üst,Üst,Planung,20240801
 DE18228,KOV,Overath,Overath,Bf,Betrieb,20081214
 ,KOV B,Bensberg,Bensberg,Bush,,20240826
-DE24644,KOVV,Overath-Vilkerath,Overath-Vilkerat,Hp,Studie,20200401
 DE18030,KOWI,Oberwinter,Oberwinter,Bf,Betrieb,20200401
 ,KOZS,Oberzissen,Oberzissen,NE-Bf,Betrieb,20081214
 DE18463,KPAB,Porz Flughafen-Gewerbepark,Porz Flughf-Gew,Hp,Betrieb,20201001
@@ -9409,7 +9376,6 @@ DE18852,KRHE,Rhens,Rhens,Bf,Betrieb,20200401
 ,KRHES,Rhens                           (Schiff),Rhens          S,Slst,Betrieb,19990101
 DE18843,KRHK,Rheinkamp,Rheinkamp,Bf,Betrieb,20200401
 DE18842,KRHO,Rheinhausen Ost,Rheinhausen Ost,Hp,Betrieb,20200401
-DE24642,KRHS,Remscheid-Honsberg/Kremenholl,Remscheid-Honsbg,Hp,Studie,20200401
 DE14664,KRHT,Hedwigsthal,Hedwigsthal,Anst,Betrieb,20201001
 DE18868,KRIC,Richterich,Richterich,Üst,Betrieb,20200401
 ,KRK,Köln-Rodenkirchen,Rodenkirchen,NE-Hp,Betrieb,20240515
@@ -9470,7 +9436,6 @@ DE19355,KSLE,Schleiden (Eifel),Schleiden(Eifel),Bf,Betrieb,20201001
 DE19357,KSLR,Schleiden Rathaus,Schleiden Raths,vp-Hp,Betrieb,20201001
 DE19790,KSM,Solingen Mitte,Solingen Mitte,Bf,Betrieb,20200401
 DE19392,KSMI,Schmidtheim,Schmidtheim,Hp Üst,Betrieb,20201001
-DE24637,KSMM,Solingen Meigen,Solingen Meigen,Hp,Studie,20200401
 DE19791,KSN,Solingen Nord,Solingen Nord,Bf,a.B.,20200401
 DE19788,KSO,Solingen Hbf,Solingen Hbf,Bf,Betrieb,20200401
 DE20012,KSOM,Stommeln,Stommeln,Hp,Betrieb,20200401
@@ -9580,7 +9545,6 @@ DE21233,KWIS,Alfter-Witterschlick,Al-Witterschlick,Bf,Betrieb,20201001
 DE21380,KWL,Wuppertal-Langerfeld,W-Langerfeld,Bft,Betrieb,20200401
 ,KWLA,Wuppertal-Laaken,W-Laaken,NE-Hp,Betrieb,20240701
 ,KWLB,Weiler (Brohltalbahn),Weiler BE,NE-Bf,Betrieb,20241215
-DE24640,KWLL,Wuppertal Leibuschstraße,Wuppertal Leibus,Hp,Studie,20200401
 DE21382,KWLO,Wuppertal-Loh,Wuppertal-Loh,Bf,a.B.,20200401
 DE21381,KWLP,Wuppertal-Langerfeld                (Hp),W-Langerfeld  Hp,Hp,Betrieb,20200401
 DE21383,KWM,Wuppertal-Mirke,Wuppertal-Mirke,Bf,a.B.,20200401
@@ -9589,7 +9553,6 @@ DE21384,KWO,Wuppertal-Oberbarmen,W-Oberbarmen,Bf,Betrieb,20200401
 ,KWOE,Wuppertal-Oehde,W-Oehde,NE-Hp,Betrieb,20240701
 ,KWOQ,Wuppertal Oberbarmen Bedienstandort,W-Oberbarmen BSO,BSO,Planung,20241101
 DE21373,KWR,Wuppertal Rauenthal,W Rauenthal,Bft,Betrieb,20200401
-DE21374,KWRE,Wuppertal Rauenthal Erfurt & Söhne,Erfurt&Söhne,Anst,ehemals,20241101
 DE21385,KWRO,Wuppertal-Ronsdorf,W-Ronsdorf,Bf,Betrieb,20200401
 DE21387,KWS,Wuppertal-Steinbeck,W-Steinbeck,Bft,Betrieb,20200401
 DE21388,KWS G,Wuppertal-Steinbeck Gbf,W-Steinbeck Gbf,Bft,a.B.,20141201
@@ -9673,7 +9636,6 @@ DE10827,LBAU,Berkau,Berkau,Hp,a.B.,20200401
 DE10382,LBB,Baalberge,Baalberge,Bf,Betrieb,20201001
 DE10701,LBBZ,Bebitz,Bebitz,Hp Awanst,Betrieb,20201001
 DE11349,LBD,Blönsdorf,Blönsdorf,Hp,Betrieb,20200401
-DE25692,LBDA,Blönsdorf,Blönsdorf,Üst,Planung,20241101
 DE25692,LBDA,Blönsdorf Üst,Blönsdorf Üst,Üst,Planung,20250101
 DE25692,LBDA,Blönsdorf Üst,Blönsdorf Üst,Üst,Betrieb,20281210
 DE10739,LBDF,Behnsdorf,Behnsdorf,vp-Hp,Betrieb,20081214
@@ -10151,6 +10113,7 @@ DE15032,LHWU,Hohenwulsch,Hohenwulsch,Bf,Betrieb,20200401
 DE14367,LHWW,Halle-Wörmlitz West,Hl-Wörmlitz West,Abzw,Betrieb,20200401
 DE24785,LHWX,Halle (Saale) Hbf (West) ESTW-UZ,Halle Hbf W UZ,BZ,Betrieb,20200401
 DE24784,LHX,Halle (Saale) Hbf (Ost) ESTW-UZ,Halle Hbf Ost UZ,BZ,Betrieb,20200401
+DE25767,LHXTT,Halle (Saale) Technikstandort,Halle/S TSO,TSO,Planung,20250201
 DE14650,LHY,Haynsburg,Haynsburg,Bf,Betrieb,20081214
 DE15054,LHZ,Holzdorf (Elster),Holzdorf(Elster),Bf,Betrieb,20200401
 ,LHZG,Harzgerode,Harzgerode,NE-Bf,Betrieb,20081214
@@ -10171,7 +10134,6 @@ DE15275,LJEB,Jeber-Bergfrieden,Jeber-Bergfried,Hp,Betrieb,20200401
 DE15286,LJES,Jesewitz (b Leipzig),Jesewitz (b Lpz),Bf,Betrieb,20200401
 DE15259,LJL,Jacobsthal,Jacobsthal,Bk,Betrieb,20200401
 DE15287,LJN,Jessen (Elster),Jessen (Elster),Bf,Betrieb,20200401
-DE15318,LJR,Jütrichau ESTW-A,Jütrichau ESTW-A,Hp,a.B.,20241213
 DE15318,LJR,Jütrichau ESTW-A,Jütrichau ESTW-A,BZ,Betrieb,20250101
 DE15274,LJV,Jävenitz,Jävenitz,Bf,Betrieb,20200401
 DE15282,LJW,Jerichow,Jerichow,Bf,a.B.,20200401
@@ -10306,6 +10268,7 @@ DE16224,LLMOS,Leipzig-Mockau Süd,Lpz-Mockau Süd,Bft,Betrieb,20210612
 DE21664,LLMS,Leipzig Mockauer Straße,Lpz Mockauer Str,Hp,Betrieb,20200401
 ,LLMSP,Leipzig Mockau Post,Lpz Mockau Post,Bush,,20211124
 DE16263,LLMW,Leipzig-Mockau West,Lpz-Mockau West,Üst,Planung,20200401
+DE16263,LLMW,Leipzig-Mockau West,Lpz-Mockau West,Üst,Studie,20250201
 DE16227,LLN,Leipzig Nord,Leipzig Nord,Bft,Betrieb,20200401
 DE16431,LLO,Lobstädt,Lobstädt,Hp,Betrieb,20200401
 DE16432,LLOG,Loburg,Loburg,vp-Bf,Betrieb,20150301
@@ -10320,12 +10283,12 @@ DE16270,LLP G,Leipzig-Plagwitz Gbf,Lpz-Plagwitz Gbf,Bft,Betrieb,20141214
 DE16267,LLPD,Leipzig-Paunsdorf,Lpz-Paunsdorf,Hp Üst,Betrieb,20200401
 DE16268,LLPDH,Leipzig-Paunsdorf Hp,Lpz-Paunsdorf Hp,Hp,Betrieb,20081214
 ,LLPDT,Leipzig Theodor-Heuss-Straße,Lpz Th-Heuss-Str,Bush,Betrieb,20221020
+,LLQ,Leipzig Hbf Bedienstandort,Leipzig BSO,BSO,Planung,20250201
 DE16272,LLS,Leipzig-Schönefeld,Lpz-Schönefeld,Bf,Betrieb,20200401
 DE16154,LLSB,Lauterbach-Steinbach,Lauterbach-Stein,Hp,Betrieb,20081214
 DE16235,LLSC,Leipzig Schönauer Str,L Schönauer Str,Hp,a.B.,20200401
 DE16234,LLSF,Leipzig Schlachthof,L Schlachthof,Bf,a.B.,20200401
 DE16140,LLSG,Laußig (b Düben),Laußig (b Düben),vp-Bf,Betrieb,20090402
-DE16139,LLSN,Lausen,Lausen,Bf,ehemals,20241220
 DE25070,LLSS,Leipzig-Semmelweisstraße,Lpz-Semmelweis,Bft,Betrieb,20201001
 DE16274,LLST,Leipzig-Stötteritz,Lpz-Stötteritz,Bf,Betrieb,20200401
 DE16237,LLSW,Leipzig Südwest,Leipzig Südwest,Hp,a.B.,20200401
@@ -10352,6 +10315,7 @@ DE16242,LLWP,Leipzig Wilhelm-Leuschner-Platz,W-Leuschner-Pl,Bft,Betrieb,20200401
 DE16328,LLWS,Leuna Werke Süd,Leuna Werke Süd,Hp,Betrieb,20200401
 DE24764,LLWX,Leipzig-Wahren                      (UZ),L-Wahren      UZ,BZ,Betrieb,20200401
 DE16256,LLWZ,Leipzig-Liebertwolkwitz,L-Liebertwolkwit,Bf,Betrieb,20081214
+DE25768,LLXTT,Leipzig Hbf Technikstandort,Leipzig TSO,TSO,Planung,20250201
 DE16615,LLZ,Lützen,Lützen,Bf,a.B.,20200401
 DE16317,LLZG,Letzlingen,Letzlingen,Bf,a.B.,20200401
 DE16643,LM,Magdeburg Hbf,Magdeburg Hbf,Bf,Betrieb,20200401
@@ -10779,7 +10743,6 @@ DE16236,LSVS,Leipzig Slevogtstraße,Lpz Slevogtstr,Bft,Betrieb,20220501
 ,LSVSB,Leipzig Sternsiedlung Nord,L Sternsiedlng N,Bush,,20240125
 ,LSVSH,Leipzig Möckernscher Markt,Lpz Möckern Mark,Bush,Betrieb,20200204
 DE19226,LSW,Salzwedel,Salzwedel,Bf,Betrieb,20200401
-,LSW 1,Salzwedel Est,Salzwedel Est,Est,Betrieb,20241220
 DE19228,LSW G,Salzwedel Gbf,Salzwedel Gbf,Bft,Betrieb,20081214
 DE19231,LSWA,Salzwedel-Altstadt,Salzwedel-Altst,Hp Bk,a.B.,20041031
 ,LSWQ,Brandenbg-Altst Stahl-und Walzwerk Quenz,Bn Alt Sww Quenz,NE-Bft,Betrieb,20101212
@@ -10874,8 +10837,10 @@ DE21086,LWI,Wiederitzsch,Wiederitzsch,Bf,Betrieb,20200401
 ,LWID,Winterfeld,Winterfeld,NE-Hp Anst,a.B.,20060701
 ,LWIE,Wieblitz-Eversdorf,Wieblitz-Eversdf,NE-Hp Anst,a.B.,20060701
 DE25131,LWIO,Wiederitzsch Awanst Ost,Wiederi Awa Ost,Awanst,Planung,20201201
+DE25131,LWIO,Wiederitzsch Awanst Ost,Wiederi Awa Ost,Awanst,Studie,20250201
 DE21212,LWIP,Wippra,Wippra,vp-Hp,Betrieb,20160701
 DE25132,LWIW,Wiederitzsch Awanst West,Wiederi Awa West,Awanst,Planung,20201201
+DE25132,LWIW,Wiederitzsch Awanst West,Wiederi Awa West,Awanst,Studie,20250201
 DE20958,LWL,Wellen (b Magdeburg),Wellen,Hp Üst,Betrieb,20200401
 DE21286,LWLS,Wolmirstedt,Wolmirstedt,Bf,Betrieb,20200401
 DE21359,LWM,Wuitz-Mumsdorf,Wuitz-Mumsdorf,Hp,a.B.,20130611
@@ -11411,7 +11376,6 @@ DE17228,MKA,München Karlsplatz,Mü Karlsplatz,Hp,Betrieb,20200401
 DE15517,MKAG,Kirchanschöring,Kirchanschöring,Hp,Betrieb,20201001
 DE13565,MKAI,Garmisch-Partenkirchen Kainzenbad,Kainzenbad,Hp,Betrieb,20230401
 DE15441,MKAT,Kastl (Oberbay),Kastl (Obb),Bf,Betrieb,20201001
-DE15347,MKBG,Kaltenberg                   (zeitweise),Kaltenberg,Hp,ehemals,20241021
 DE15348,MKBN,Kaltenbrunn (Oberbay),Kaltenbrunn/Obb,Bf,Betrieb,20081214
 DE15665,MKCH,Kochel,Kochel,Bf,Betrieb,20081214
 ,MKES,Kessel,Kessel,Slst,Betrieb,19990101
@@ -11619,7 +11583,6 @@ DE17595,MNN,Neuötting,Neuötting,Hp,Betrieb,20201001
 DE17804,MNOD,Nordendorf,Nordendorf,Hp,Betrieb,20200401
 DE17300,MNPS,München-Neuperlach Süd,Mü-Neuperl Süd,Hp,Betrieb,20201001
 DE17569,MNR,Neumarkt-St.Veit,Neumarkt-St.Veit,Bf,Betrieb,20201001
-DE17570,MNRG,Neumarkt-St.Veit DB-Grenze,Neumarkt DB-Gr,Gp,a.B.,20240201
 DE17738,MNRO,Niederroth,Niederroth,Hp,Betrieb,20200401
 DE17737,MNRU,Niederraunau,Niederraunau,Hp,Betrieb,20201001
 DE17461,MNSG,Nersingen,Nersingen,Bf,Betrieb,20200401
@@ -11651,11 +11614,14 @@ DE25730,MOMSK,Kronbichl,Kronbichl,Bft,Planung,20241201
 ,MONF,Oberneufnach,Oberneufnach,NE-Hp,Betrieb,20090101
 DE18208,MONH,Ottenhofen (Oberbay),Ottenhofen/Obb,Bf,Betrieb,20201001
 DE17254,MOP,München Ost Pbf,München Ost Pbf,Bf,Betrieb,20201001
+DE17254,MOP,München Ost,München Ost,Bf,Betrieb,20250611
 DE17248,MOP A,München Ost Abzw Freiladehof,Mü O Abzw Freilh,Bft,Betrieb,20201001
+DE17248,MOP A,München Ost Abzw Freiladehof,Mü O Abzw Freilh,Bft,a.B.,20250611
 ,MOP D,München Ost Friedenstraße,Mü O Friedenstr,Bush,Betrieb,20171124
 DE24753,MOP F,München Ost Pbf Fernbahn,Mü Ost Fernbahn,Bft,Planung,20201001
 DE17253,MOP H,München Ost Hultschinerstraße,Mü O Hultschistr,Bft,Betrieb,20201001
 DE17252,MOP L,München Ost Freiladehof,Mü O Freiladehof,Bft,Betrieb,20201001
+DE17252,MOP L,München Ost Freiladehof,Mü O Freiladehof,Bft,a.B.,20250611
 DE17250,MOP O,München Ost Berg am Laim,Mü Ost B am Laim,Bft,Planung,20230215
 DE17256,MOP R,München Ost Riedenburger Straße,Mü O Riedenb Str,Bft,Betrieb,20201001
 DE24751,MOP S,München Ost Pbf S-Bahn,Mü Ost S-Bahn,Bft,Planung,20201001
@@ -11819,7 +11785,6 @@ DE15232,MSEH,Ingolstadt-Seehof,Ingolst-Seehof,Bft,Betrieb,20200401
 DE19828,MSF,Sonthofen,Sonthofen,Bf,Betrieb,20201001
 DE21666,MSFG,Schaftlach DB-Grenze,Schaftlach DB-Gr,Gp,Betrieb,20151213
 DE19292,MSFL,Schaftlach,Schaftlach,Bf,Betrieb,20081214
-DE17265,MSG,München Süd Großmarkthalle,Mü S Großmarkth,Anst,ehemals,20241021
 DE19278,MSGB,Saulgrub,Saulgrub,Hp,Betrieb,20081214
 DE19735,MSGD,Siegsdorf,Siegsdorf,Bf,Betrieb,20201001
 DE19469,MSGU,Schongau,Schongau,Bf,Betrieb,20081214
@@ -11858,7 +11823,6 @@ DE25694,MSTU,Starnberg Üst,Starnberg Üst,Üst,Planung,20241101
 DE16942,MSTW,Meitingen Stahlwerk,Stahlwerk,Bft,Betrieb,20200401
 DE20155,MSUG,Sulzberg,Sulzberg,Hp,Betrieb,20201001
 DE20160,MSUM,Surheim,Surheim,Üst,Planung,20211201
-DE17266,MSV,München Süd Viehhof,Mü Süd Viehhof,Anst,ehemals,20241021
 DE17262,MSW,München Siemenswerke,Mü Siemenswerke,Hp,Betrieb,20200401
 ,MSW O,München-Obersendling,Mü-Obersendling,Bush,Betrieb,20150304
 DE19700,MSWG,Senden DB/SWU,Senden DB/SWU,Gp,Betrieb,20200401
@@ -12203,7 +12167,6 @@ DE13113,NEM,Eußenheim,Eußenheim,Bf,Betrieb,20200401
 DE12679,NEMN,Eckersmühlen,Eckersmühlen,Hp,Betrieb,20081214
 DE13083,NEN,Eßleben,Eßleben,Hp,Betrieb,20200401
 ,NENG,Eging,Eging,NE-Bf,a.B.,20190305
-DE17987,NENK,Obernburg-Elsenfeld Enka-Glanzstoff,Obernburg-E E-G,Anst,Betrieb,20201001
 DE12715,NEO,Eggolsheim,Eggolsheim,Hp,Betrieb,20201001
 DE12716,NEOS,Eggolsheim Süd,Eggolsheim Süd,Bf,Betrieb,20201001
 DE12973,NER,Erlangen,Erlangen,Bf,Betrieb,20201001
@@ -13248,7 +13211,6 @@ DE21474,NZY,Zeyern,Zeyern,Anst,a.B.,20201001
 ,QDTH,Tharandt Ü,Tharandt Ü,ÜSt,Betrieb,20040609
 ,QDZ01,Zittau Tst 01 / 10 kV,Zittau Tst 01,TrSt,Betrieb,20151105
 ,QDZ02,Zittau Tst 02 / 10 kV,Zittau Tst 02,TrSt,Betrieb,20151105
-,QFBHF,Bad Hersfeld,Bad Hersfeld  Tr,TrSt,Betrieb,20180428
 ,QFBHF,Bad Hersfeld                      (TrSt),Bad Hersfeld  Tr,TrSt,Betrieb,20250101
 ,QFBS,Frankfurt Karlstraße,Ffm BSA,TrSt,Betrieb,20030607
 ,QFF B,Frankfurt BW 1,Ffm Bw 1,TrSt,Betrieb,20030501
@@ -13537,12 +13499,17 @@ DE21474,NZY,Zeyern,Zeyern,Anst,a.B.,20201001
 ,QSSHO,Saarbrücken Hbf Ost,Sbr Hbf Ost,FWST,Betrieb,20040115
 ,QSSHU,Saarbrücken Hbf UEV-Anlage,Sbr Hbf UEV-Anl,FWST,Betrieb,20040115
 ,QSSRA,Saarbrücken Rbf Ablaufanlage,Sbr Rbf Abl-Anl,FWST,Betrieb,20100501
-,QSSRH,Saarbrücken Rbf Hgbf,Sbr Rbf Hgbf,FWST,Betrieb,20040115
+,QSSRA,Saarbrücken Rbf Abl-Anl           (TrSt),Sbr Rbf Abl-Anl,TrSt,Planung,20250201
 ,QSSRH,Saarbrücken Rbf Hgbf              (Fwst),Sbr Rbf Hgbf,FWST,Betrieb,20250101
+,QSSRH,Saarbrücken Rbf Hgbf              (TrSt),Sbr Rbf Hgbf,TrSt,Planung,20250201
 ,QSSRM,Saarbrücken Rbf Mitte             (Fwst),Saarbr Rbf Mi Fw,FWST,Betrieb,20100501
+,QSSRM,Saarbrücken Rbf Mitte             (TrSt),Sbr Rbf Mitte,TrSt,Planung,20250201
 ,QSSRN,Saarbrücken Rbf Nord              (Fwst),Sbr Rbf Nord,FWST,Betrieb,20051025
+,QSSRN,Saarbrücken Rbf Nord              (TrSt),Sbr Rbf Nord,TrSt,Planung,20250201
 ,QSSRO,Saarbrücken Rbf Ost               (Fwst),Sbr Rbf Ost Fwst,FWST,Betrieb,20100501
+,QSSRO,Saarbrücken Rbf Ost               (TrSt),Sbr Rbf Ost,TrSt,Planung,20250201
 ,QSSRU,Saarbrücken Uw,Sbr Uw,FWST,Betrieb,20040115
+,QSSRU,Saarbrücken Uw                    (TrSt),Sbr Uw,TrSt,Planung,20250201
 ,QTAIC,Aichelberg/Albaufstieg 50Hz,Albaufstieg 50Hz,TrSt,Betrieb,20221210
 ,QTAVT,Albvorland-Tunnel                  50 Hz,AlbvorlandT 50Hz,TrSt,Betrieb,20221210
 ,QTCT,Stuttgart Cannstatter Tunnel        50Hz,Cannst. Tu  50Hz,TrSt,Planung,20200601
@@ -13637,7 +13604,6 @@ DE10208,RAI,Altrip,Altrip,Hp,Betrieb,20200401
 DE11613,RAKG,Breisach DB/SWEG,Breisach DB/SWEG,Gp,Betrieb,20101212
 DE10086,RAL,Albbruck,Albbruck,Bf,Betrieb,20200401
 DE10123,RALP,Alpirsbach,Alpirsbach,Bf,Betrieb,20081214
-DE10124,RALR,Alpirsbach-Rötenbach,Rötenbach,Hp,ehemals,20241201
 DE10093,RAM,Albsheim (Eis),Albsheim(Eis),Hp,Betrieb,20200401
 DE10252,RAN,Annweiler am Trifels,Annweiler a Tri,Bf,Betrieb,20081214
 DE10254,RANS,Annweiler-Sarnstall,Sarnstall,Hp,Betrieb,20130904
@@ -14275,30 +14241,22 @@ DE16007,RLAI,Landau (Pfalz) Industriestammgleis,Ind.Stammgleis,Awanst,a.B.,20090
 DE15994,RLAS,Lahr Stadt,Lahr Stadt,Bf,a.B.,20200401
 DE16105,RLAU,Lauchringen,Lauchringen,Bf,Betrieb,20200401
 ,RLAW,Lahr West,Lahr West,NE-Bf,a.B.,20090401
-DE16524,RLB,Ludwigshafen (Rhein) BASF,Lu BASF,Bf,Betrieb,20241215
 ,RLB,Ludwigshafen (Rhein) BASF,Lu BASF,NE-Bf,Betrieb,20250101
-DE16525,RLB G,Ludwigshafen (Rhein) BASF Gbf,Lu BASF Gbf,Bft,Betrieb,20241215
 ,RLB G,Ludwigshafen (Rhein) BASF Gbf,Lu BASF Gbf,NE-Bft,Betrieb,20250101
-DE16530,RLB U,Ludwigshafen (Rhein) BASF Ubf,Lu BASF Ubf,Bft,Betrieb,20241215
 ,RLB U,Ludwigshafen (Rhein) BASF Ubf,Lu BASF Ubf,NE-Bft,Betrieb,20250101
-DE16531,RLB W,Ludwigshafen (Rhein) BASF Werksgrenze N,Lu BASF Werksg N,Bft,Betrieb,20240518
 ,RLB W,Ludwigshafen (Rhein) BASF Werksgrenze N,Lu BASF Werksg N,NE-Bft,Betrieb,20250101
 DE16146,RLBA,Lautenbach (Baden),Lautenb (Baden),Hp,Betrieb,20081214
 ,RLBAK,Lautenbach (Baden) Kirche,Lautenbach Kirch,Bush,Betrieb,19990101
 ,RLBB,Langensteinbach St Barbara,Langensteinbach,NE-Hp,Betrieb,20081214
 DE16049,RLBD,Langenbrand-Bermersbach,Langenbrand-Berm,vp-Bf,Betrieb,20081219
-DE25708,RLBG,Ludwigshafen DB-Grenze BASF N,Ludwigsh N DB-Gr,Gp,Planung,20241101
-DE16526,RLBM,Ludwigshafen (Rhein) BASF Pbf Mitte,Lu BASF Pbf M,Bft,Betrieb,20241215
+DE25708,RLBG,Ludwigshafen DB-Grenze BASF N,Ludwigsh N DB-Gr,Gp,Betrieb,20250129
 ,RLBM,Ludwigshafen (Rhein) BASF Pbf Mitte,Lu BASF Pbf M,NE-Bft,Betrieb,20250101
-DE16527,RLBN,Ludwigshafen (Rhein) BASF Pbf Nord,Lu BASF Pbf N,Bft,Betrieb,20241215
 ,RLBN,Ludwigshafen (Rhein) BASF Pbf Nord,Lu BASF Pbf N,NE-Bft,Betrieb,20250101
 DE16128,RLBO,Laufenburg (Baden) Ost,Laufenbg(Bad)Ost,Hp,Betrieb,20200401
 DE15997,RLBP,Lambrecht (Pfalz),Lambrecht(Pfalz),Bf,Betrieb,20200401
 ,RLBPK,Lambrecht (Pfalz)       (Kuckucksbähnel),Lambrecht(Pf)  K,Museum,Betrieb,20051022
-DE16528,RLBS,Ludwigshafen (Rhein) BASF Pbf Süd,Lu BASF Pbf S,Bft,Betrieb,20241215
 ,RLBS,Ludwigshafen (Rhein) BASF Pbf Süd,Lu BASF Pbf S,NE-Bft,Betrieb,20250101
-DE25707,RLBSG,Ludwigshafen DB-Grenze BASF Süd,Ludwigsh S DB-Gr,Gp,Planung,20241101
-DE16529,RLBST,Ludwigshafen (Rhein) BASF Suedtor,Lu BASF Suedtor,Bft,Betrieb,20241215
+DE25707,RLBSG,Ludwigshafen DB-Grenze BASF Süd,Ludwigsh S DB-Gr,Gp,Betrieb,20250129
 ,RLBST,Ludwigshafen (Rhein) BASF Suedtor,Lu BASF Suedtor,NE-Bft,Betrieb,20250101
 DE16109,RLCH,Laudenbach (Bergstr),Laudenb(Bergstr),Hp,Betrieb,20200401
 DE15987,RLD,Ladenburg,Ladenburg,Bf,Betrieb,20200401
@@ -14351,7 +14309,7 @@ DE16173,RLT,Legelshurst,Legelshurst,Hp,Betrieb,20200401
 DE16523,RLU,Ludwigshafen (Bodensee),Ludwigshf/Bodens,Bf,Betrieb,20200401
 DE16614,RLUE,Lützelsachsen,Lützelsachsen,Hp,Betrieb,20200401
 DE16543,RLUM,Ludwigshafen-Mundenheim,Lu-Mundenheim,Bft,Betrieb,20200401
-DE25706,RLUMG,Lu-Mundenheim DB-Grenze Hafen,Lu-Mundenh.DB-Gr,Gp,Planung,20241101
+DE25706,RLUMG,Lu-Mundenheim DB-Grenze Hafen,Lu-Mundenh.DB-Gr,Gp,Betrieb,20250129
 DE16545,RLUR,Ludwigshafen-Rheingönheim,Lu-Rheingönheim,Bft,Betrieb,20200401
 ,RLUS,Ludwigshafen (Bodensee)         (Schiff),Ludwigshf/Bs   S,Slst,Betrieb,19990101
 DE16009,RLW,Landau (Pfalz) West,Landau(Pfalz) W,Hp,Betrieb,20081214
@@ -14544,7 +14502,6 @@ DE25117,RORWG,Orschweier Nord,Orschweier Nord,Bft,Betrieb,20211212
 DE18006,ROSC,Oberschefflenz,Oberschefflenz,Hp,Betrieb,20200401
 DE21760,ROSW,Offenburg Schutterwald,Schutterwald,Abzw,Planung,20200401
 DE18018,ROT,Obertsrot (Murgtal),Obertsrot/Murgt,vp-Hp,Betrieb,20081219
-DE18019,ROTK,Obertsrot (Murgtal) Kast,Obertsrot Kast,vp-Awanst,ehemals,20241201
 ,ROTT,Ottenhöfen,Ottenhöfen,NE-Bf,Betrieb,20090401
 DE18202,ROTU,Ottenau,Ottenau,vp-Hp,Betrieb,20081219
 ,ROTW,Ottenhöfen West,Ottenhöfen West,NE-Hp,Betrieb,20180501
@@ -14584,7 +14541,6 @@ DE18645,RRA,Rastatt,Rastatt,Bf,Betrieb,20200401
 ,RRA B,Rastatt Busbf,Rastatt Busbf,Bush,Betrieb,19990101
 DE25139,RRA T,Rastatt Tunnel Anschluss,Rastatt Tun Anst,Anst,Betrieb,20211212
 DE18647,RRAB,Rastatt Beinle,Rastatt Beinle,vp-Hp,Betrieb,20091213
-DE18651,RRAE,Rastatter Eisenhandel,Rastatter Eisenh,Anst,ehemals,20241201
 DE18648,RRAG,Rastatt DB/AVG,Rastatt DB/AVG,Gp,Betrieb,20200401
 DE18649,RRAI,Rastatt Industrie-Stammgl,Ind-Stammgl Rast,Anst,Betrieb,20200401
 DE18650,RRAL,Rastatt Leopoldsfeste,Leopoldsfeste,Anst,Betrieb,20200401
@@ -15353,7 +15309,6 @@ DE20330,STK,Treis-Karden,Treis-Karden,Bf,Betrieb,20200401
 ,STK S,Treis,Treis,Slst,Betrieb,19990101
 DE20389,STM,Türkismühle,Türkismühle,Bf,Betrieb,20200401
 DE20390,STMG,Türkismühle Grenze DB/HRB,Türkism DB/HRB,Gp,Betrieb,20200401
-DE20353,STMW,Trier Mäusheckerweg,Tr Mäusheckerweg,Hp,ehemals,20241215
 DE20252,STN,Theisbergstegen,Theisbergstegen,Hp Anst,Betrieb,20081214
 DE20351,STR,Trier Hbf,Trier Hbf,Bf,Betrieb,20200401
 DE20352,STR N,Trier Hbf Nord,Trier Hbf Nord,Bft,Betrieb,20081214
@@ -16148,8 +16103,6 @@ DE18798,TRXS,Renningen Süd,Renningen Süd,Hp,Betrieb,20200401
 DE19059,TRY,Rotenbach,Rotenbach,vp-Hp,Betrieb,20081219
 DE20071,TS,Stuttgart Hbf (oben),Stg Hbf (oben),Bf,Betrieb,20231210
 ,TS  9,Stuttgart Prüfer,Stuttg Prüf,Est,Betrieb,20071101
-DE20062,TS  B,Stuttgart 21 Projekt,Stuttgart 21,Bf,ehemals,20241215
-DE20075,TS  M,Stuttgart Hbf Gl 421-423,Stg Gl 421-423,Bft,ehemals,20241215
 DE20073,TS  N,Stuttgart Hbf Em Nord,Stg Hbf Em Nord,Bft,Betrieb,20081214
 DE20076,TS  P,Stuttgart Hbf Gw Prag,Stg Hbf Gw Prag,Bft,Betrieb,20081214
 DE20077,TS  R,Stuttgart Hbf Gw Rosenstein,Stg Gw Rosenst.,Bft,Betrieb,20081214
@@ -16242,9 +16195,7 @@ DE20028,TSTR,Straßberg-Winterlingen,Straßberg-Wiling,Hp,Betrieb,20081214
 ,TSTT,Stetten (b Haigerloch),Stetten b Haig.,NE-Bf,Betrieb,20081214
 DE24671,TSTX,Stuttgart Fernbahn ESTW-ZE,Stg Fernb ESTW,TSO,Planung,20210201
 DE20105,TSU,Stuttgart-Untertürkheim,Stg-Untertürkhm,Bf,Betrieb,20200401
-DE20096,TSU C,Stuttgart-Bad Cannstatt Gbf,Stg-Bad Cann.Gbf,Bft,ehemals,20241215
 DE20107,TSU F,Stuttgart-Untertürkheim Gl 526-528,Stg-Utürkhm 526f,Bft,Betrieb,20081214
-DE20106,TSU G,Stuttgart-Untertürkheim Gbf,Stg-Utürkhm Gbf,Bft,ehemals,20241215
 DE20109,TSU P,Stuttgart-Untertürkheim Pbf,Stg-Utürkhm Pbf,Bft,Betrieb,20081214
 DE20156,TSUD,Sulzdorf,Sulzdorf,Bf,Betrieb,20200401
 DE20130,TSUE,Sülzbach,Sülzbach,Hp,Betrieb,20200401
@@ -16291,7 +16242,6 @@ DE20260,TTI,Thiergarten (Hohenz),Thiergarten(Hz),Hp,Betrieb,20200401
 DE20238,TTL,Thalfingen (b Ulm),Thalfingen b Ulm,Bf,Betrieb,20081214
 DE20384,TTLU,Tübingen-Lustnau,Tübingen-Lustnau,Hp,Betrieb,20200401
 DE20171,TTM,Tamm (Württ),Tamm (Württ),Bf,Betrieb,20200401
-DE20397,TTN,Tuttlingen Nord Awanst,Tuttlingen Nord,Awanst,ehemals,20241218
 DE20225,TTNG,Tettnang,Tettnang,Anst,a.B.,20200401
 DE20361,TTO,Trochtelfingen (b Bopfingen),Trochtelfingen,Hp,Betrieb,20200401
 DE14710,TTPS,Heilbronn Trappensee,Trappensee,Hp,Betrieb,20200401
@@ -18021,7 +17971,6 @@ DE19040,WRS,Rostock Seehafen,Rostock Seehafen,Bf,Betrieb,20200401
 ,WRS F,Rostock Seehafen Fähre,Rost Seehf Fähre,Slst,Betrieb,19990101
 ,WRS T,Rostock Fährhafen TT-L,Rost Fährhf TT-L,Bush,Betrieb,19990101
 DE19041,WRSB,Rostock Seehafen Bw,Bw Rost Seehafen,Hp Bk,Betrieb,20200401
-,WRSC,Rostock Seehafen (Umschlagbf),Rostock Seeh Ubf,NE-Bft,ehemals,20241219
 ,WRSD,Reinstorf Mitte,Reinstorf Mitte,Bush,Betrieb,20030220
 ,WRSH,Rostock Seehafen Hafenbereich,Rost Seehf Haf,NE-Bft,Betrieb,20150201
 ,WRSHC,Rostock Seehafen Hafenbereich Container,Rost Shfn Hfb CT,NE-Bft,Betrieb,20150201
@@ -18818,7 +18767,7 @@ DE13915,WZWG,Gransee Ziegelwerke,Ziegelw Gransee,Awanst,a.B.,20200401
 ,XBBMB,Boortmeerbeek,Boortmeerbeek,Bf,,20100710
 ,XBBME,Bruxelles M Eurostar/Brussel Z Eurostar,Brux M Eurostar,Bf,Betrieb,20140814
 ,XBBN,Bruxelles-Nord/Brussel-Noord,Bruxelles-Nord,Bf,,19990101
-,XBBNL,Bruxelles-Nat-Aero/Brussel N-Luchthaven,Bruxelles-N-Aero,Bf,,19990101
+,XBBNL,Brussels Airport-Zaventem,Brussels-Airp-Za,Bf,,20250117
 ,XBBNM,Bornem,Bornem,Bf,,20100710
 ,XBBO,Bordet,Bordet,Bf,,20100709
 ,XBBOF,Bouffioulx,Bouffioulx,Bf,,20190606
@@ -22256,7 +22205,6 @@ DE13915,WZWG,Gransee Ziegelwerke,Ziegelw Gransee,Awanst,a.B.,20200401
 ,XSBLS,Berlingen                       (Schiff),Berlingen      S,Slst,Betrieb,20081214
 ,XSBM,Birmensdorf ZH,Birmensdorf,Bf,,20050414
 ,XSBN,Bergün/Bravuogn,Bergün/Bravuogn,Bf,,19990101
-,XSBNN,Brunnen,Brunnen,Bf,,20060224
 ,XSBNN,Brunnen (CH),Brunnen (CH),Bf,,20250101
 ,XSBOD,Bodio,Bodio,Bf,,20130726
 ,XSBOH,Bottighofen,Bottighofen,Bf,,20040930
