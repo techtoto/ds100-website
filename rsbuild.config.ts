@@ -9,7 +9,14 @@ export default defineConfig({
     },
     html: {
         template({ entryName }) {
-            return entryName === "glossary" ? "./static/glossary.html" : "./static/index.html";
+            return {
+                index: "./static/index.html",
+                glossary: "./static/glossary.html",
+            }[entryName];
         },
     },
+    output: {
+        manifest: "./serviceworker-manifest.json",
+        assetPrefix: "./",
+    }
 });

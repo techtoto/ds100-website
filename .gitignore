@@ -2,3 +2,4 @@
 .envrc
 *.xlsx
 /node_modules
+/dist
