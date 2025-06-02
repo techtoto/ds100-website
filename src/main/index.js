@@ -1,6 +1,8 @@
-import "../styles/global.css"
-import "../styles/main.css"
-import papaparse from "papaparse"
+import "../styles/global.css";
+import "../styles/main.css";
+import "../common";
+
+import { getRil100Data } from "./ril100data";
 
 const defaultEntries = 100;
 var ds100Data = [];
@@ -8,11 +10,14 @@ var ds100Data = [];
 const searchBar = document.getElementById("search");
 
 function handleSearchParams() {
-    const params = new URLSearchParams(document.location.search);
-    searchBar.value = params.get("q");
+    const params = new URLSearchParams(document.location.hash.substring(1));
+    const query = params.get("q") || "";
+    searchBar.value = query;
+    refreshList(query);
 }
 
 handleSearchParams();
+window.addEventListener("hashchange", handleSearchParams);
 
 function refreshList(query = "", showAll = false) {
     query = query.trim();
@@ -105,9 +110,9 @@ searchBar.addEventListener("input", (event) => {
     const url = new URL(window.location);
     refreshList(query);
     if (query === "") {
-        url.search = "";
+        url.hash = "";
     } else {
-        url.search = `?q=${query}`;
+        url.hash = `#q=${encodeURIComponent(query)}`;
     }
     history.replaceState({}, 'DS100', url);
 });
@@ -117,12 +122,11 @@ document.getElementById("showAllButton").addEventListener("click", () => {
     refreshList(query, true);
 })
 
-fetch("./ril100.csv")
-    .then((response) => response.text())
-    .then((data) => {
-        ds100Data = papaparse.parse(data, {header: true, skipEmptyLines: true})["data"];
+getRil100Data()
+    .then(data => {
+        ds100Data = data;
         refreshList(searchBar.value);
-    });
+    })
 
 function updateDom(items, amount) {
     const container = document.getElementById("data");
