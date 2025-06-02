@@ -16,7 +16,7 @@ self.addEventListener("install", (event) => {
             .concat(additionalFilesToCache);
 
         const cache = await caches.open(CACHE_ID);
-        await cache.addAll(filesToCache);
+        await cache.addAll(filesToCache.map(url => new Request(url, { cache: "no-cache" })));
     })());
 });
 
