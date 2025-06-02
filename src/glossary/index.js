@@ -1,3 +1,6 @@
+import "../styles/global.css"
+import "../styles/glossary.css"
+
 const abbrContainer = /** @type {HTMLElement} */ (document.getElementById("abbreviations"));
 const firstLetters = [
     {
