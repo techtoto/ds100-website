@@ -1,4 +1,6 @@
-import papaparse from "https://esm.sh/papaparse@5.4.1"
+import "../styles/global.css"
+import "../styles/main.css"
+import papaparse from "papaparse"
 
 const defaultEntries = 100;
 var ds100Data = [];
