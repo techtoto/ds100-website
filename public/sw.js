@@ -22,8 +22,6 @@ async function deleteOldCaches() {
 }
 
 async function addToCache(files) {
-    console.log("Caching files", files)
-
     const cache = await caches.open(CACHE_NAME);
 
     await cache.addAll(files.map(url => new Request(url, { cache: "no-cache" })));

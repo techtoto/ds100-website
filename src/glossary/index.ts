@@ -3,7 +3,9 @@ import "../styles/glossary.css";
 
 import "../common";
 
-const abbrContainer = /** @type {HTMLElement} */ (document.getElementById("abbreviations"));
+const abbrContainer = document.getElementById("abbreviations")!;
+const typesContainer = document.getElementById("type")!;
+
 const firstLetters = [
     {
         name: "Hamburg",
@@ -69,7 +71,6 @@ const firstLetters = [
     }
 ]
 
-const typesContainer = /** @type {HTMLElement} */ (document.getElementById("type"));
 /* unbekannte Typen (in der csv drin, aber nicht in den Quellen):
     Quellen:
     https://de.wikipedia.org/wiki/Betriebsstellenverzeichnis
@@ -281,33 +282,27 @@ const types = [
     }
 ]
 
-/**
- * @param {string} text 
- */
-function createBoldTextElement(text) {
+function createBoldTextElement(text: string) {
     const textElement = document.createElement("span");
     textElement.classList.add("bold");
     textElement.textContent = text;
     return textElement;
 }
 
-/**
- * @param {(string | {name: string;heading: string;bold?: boolean;})[]} list
- * @param {HTMLElement} container
- * @param {boolean} boldInText
- */
-function createWebsiteEntries(list, container, boldInText = false) {
+type CustomEntry = { name: string, heading: string, bold?: boolean };
+
+function createWebsiteEntries(list: (string | CustomEntry)[], container: HTMLElement, boldInText = false) {
     for (const item of list) {
         const entry = document.createElement("div");
         entry.classList.add("abbreviation-entry");
     
         const headingElement = document.createElement("span");
         headingElement.classList.add("capitalLetter");
-        const heading = item["heading"] ?? item[0];
+        const heading = (item as CustomEntry)["heading"] ?? (item as string)[0];
         headingElement.textContent = heading;
     
         const nameElement = document.createElement("p");
-        const name = item["name"] ?? item;
+        const name = (item as CustomEntry)["name"] ?? item as string;
         
         let boldCharIndex = name.toLowerCase().indexOf(heading.toLowerCase());
     

@@ -1,6 +1,6 @@
 const RIL100_CSV_URL = "./ril100.csv";
 
-type Ril100Data = {
+export type Ril100Data = {
     [key: string]: string,
 };
 
@@ -14,9 +14,11 @@ async function getRil100CSV() {
     try {
         const freshData = await fetchFreshRil100Data();
 
-        await (await caches.open("ril100data")).put(RIL100_CSV_URL, freshData.clone());
+        setTimeout(async () => {
+            await (await caches.open("ril100data")).put(RIL100_CSV_URL, freshData)
+        }, 500)
 
-        return freshData.text();
+        return freshData.clone().text();
     } catch(e) {
         console.error("Failed to fetch fresh ril 100 data", e);
 

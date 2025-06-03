@@ -1,27 +1,23 @@
-import "../styles/global.css";
-import "../styles/main.css";
-import "../common";
+import { getRil100Data, type Ril100Data } from "./ril100data";
+import { getSearchQuery } from "./search";
 
-import { getRil100Data } from "./ril100data";
+let ril100Data: Ril100Data[] = [];
 
-const defaultEntries = 100;
-var ds100Data = [];
+getRil100Data().then((data) => {
+    ril100Data = data;
 
-const searchBar = document.getElementById("search");
+    refreshList(getSearchQuery());
+})
 
-function handleSearchParams() {
-    const params = new URLSearchParams(document.location.hash.substring(1));
-    const query = params.get("q") || "";
-    searchBar.value = query;
-    refreshList(query);
-}
+const defaultEntryLimit = 100;
 
-handleSearchParams();
-window.addEventListener("hashchange", handleSearchParams);
+const container = document.getElementById("data")!;
+const footer = document.getElementById("footer-not-all-entries")!;
+const showAllButton = document.getElementById("showAllButton")!;
 
-function refreshList(query = "", showAll = false) {
+export function refreshList(query = "", showAll = false) {
     query = query.trim();
-    const filteredData = ds100Data.filter((item) => {
+    const filteredData = ril100Data!.filter((item) => {
         const lowercase = query.toLowerCase();
 
         const name = item["RL100-Langname"].toLowerCase();
@@ -100,42 +96,15 @@ function refreshList(query = "", showAll = false) {
         return 0;
     });
 
-    let amount = showAll ? filteredData.length : defaultEntries;
+    let amount = showAll ? filteredData.length : defaultEntryLimit;
 
     updateDom(filteredData, amount);
 }
 
-searchBar.addEventListener("input", (event) => {
-    const query = event.currentTarget.value
-    const url = new URL(window.location);
-    refreshList(query);
-    if (query === "") {
-        url.hash = "";
-    } else {
-        url.hash = `#q=${encodeURIComponent(query)}`;
-    }
-    history.replaceState({}, 'DS100', url);
-});
-
-document.getElementById("showAllButton").addEventListener("click", () => {
-    const query = searchBar.value;
-    refreshList(query, true);
-})
-
-getRil100Data()
-    .then(data => {
-        ds100Data = data;
-        refreshList(searchBar.value);
-    })
-
-function updateDom(items, amount) {
-    const container = document.getElementById("data");
-    const footer = document.getElementById("footer-not-all-entries");
-    const showAllButton = document.getElementById("showAllButton");
-
+function updateDom(items: Ril100Data[], amount: number) {
     container.innerHTML = "";
 
-    if (items.length > 100 && amount == defaultEntries) {
+    if (items.length > 100 && amount == defaultEntryLimit) {
         showAllButton.textContent = `Alle ${items.length} Einträge anzeigen`;
         footer.style.display = "block";
     } else {
@@ -172,3 +141,8 @@ function updateDom(items, amount) {
         container.appendChild(entry);
     });
 }
+
+showAllButton.addEventListener("click", () => {
+    const query = getSearchQuery();
+    refreshList(query, true);
+})
