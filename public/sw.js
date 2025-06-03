@@ -1,28 +1,63 @@
-const CACHE_ID = "swcache-1";
+const CACHE_ID = "swcache";
+const CACHE_VERSION = String(1);
+
+const CACHE_NAME = CACHE_ID + "-" + CACHE_VERSION;
+
+const BASE_URL = "./";
 
 const additionalFilesToCache = [
-    "./",
-    "./manifest.json",
-    "./favicon.svg",
-    "./favicon-black.svg",
-    "./favicon-512x512.png",
+    "",
+    "manifest.json",
+    "favicon.svg",
+    "favicon-black.svg",
+    "favicon-512x512.png",
 ];
+
+async function deleteOldCaches() {
+    for(const cache of await caches.keys()) {
+        if(cache.startsWith(CACHE_ID)) {
+            await caches.delete(cache);
+        }
+    }
+}
+
+async function addToCache(files) {
+    console.log("Caching files", files)
+
+    const cache = await caches.open(CACHE_NAME);
+
+    await cache.addAll(files.map(url => new Request(url, { cache: "no-cache" })));
+}
 
 self.addEventListener("install", (event) => {
     event.waitUntil((async () => {
+        await deleteOldCaches();
+
         const fileResponse = await fetch("./serviceworker-manifest.json", { cache: "no-cache" });
         const fileJson = await fileResponse.json();
-        const filesToCache = fileJson.allFiles
-            .concat(additionalFilesToCache);
 
-        const cache = await caches.open(CACHE_ID);
-        await cache.addAll(filesToCache.map(url => new Request(url, { cache: "no-cache" })));
+        const staticFiles = Object.values(fileJson)
+            .flatMap(file => (
+                [
+                    file.file,
+                    ...(file.css || []),
+                    file.src?.endsWith(".html") ? "" + file.src : null,
+                ]
+            ))
+            .concat(additionalFilesToCache)
+            .filter(file => file);
+
+        const filesToCache = staticFiles
+            .filter((file, index) => staticFiles.indexOf(file) === index)
+            .map(relativeFile => BASE_URL + relativeFile);
+
+        await addToCache(filesToCache);
     })());
 });
 
 self.addEventListener("fetch", (event) => {
     event.respondWith((async () => {
-        const cache = await caches.open(CACHE_ID);
+        const cache = await caches.open(CACHE_NAME);
         const cachedResponse = await cache.match(event.request);
 
         if(cachedResponse) {
