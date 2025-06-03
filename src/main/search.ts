@@ -21,12 +21,14 @@ searchBar.addEventListener("input", () => {
     history.replaceState({}, "DS100", url);
 });
 
-function handleSearchParams() {
+function readSearchQueryFromURL() {
     const params = new URLSearchParams(document.location.hash.substring(1));
     const query = params.get("q") || "";
+    
     searchBar.value = query;
+
     refreshList(query);
 }
 
-handleSearchParams();
-window.addEventListener("hashchange", handleSearchParams);
+readSearchQueryFromURL();
+window.addEventListener("hashchange", readSearchQueryFromURL);

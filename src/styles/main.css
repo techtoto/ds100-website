@@ -40,7 +40,7 @@ td {
 }
 
 #footer-not-all-entries {
-    display: none;
+    display: block;
     font-size: small;
     text-align: center;
     color: var(--secondary);
