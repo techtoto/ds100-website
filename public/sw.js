@@ -43,7 +43,7 @@ self.addEventListener("install", (event) => {
                 ]
             ))
             .concat(additionalFilesToCache)
-            .filter(file => file);
+            .filter(file => file !== null && file !== undefined);
 
         const filesToCache = staticFiles
             .filter((file, index) => staticFiles.indexOf(file) === index)
