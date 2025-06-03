@@ -9,7 +9,7 @@ getRil100Data().then((data) => {
     refreshList(getSearchQuery());
 })
 
-const defaultEntryLimit = 100;
+const DEFAULT_ENTRY_LIMIT = 100;
 
 const container = document.getElementById("data")!;
 const footer = document.getElementById("footer-not-all-entries")!;
@@ -17,19 +17,18 @@ const showAllButton = document.getElementById("showAllButton")!;
 
 export function refreshList(query = "", showAll = false) {
     query = query.trim();
-    const filteredData = ril100Data!.filter((item) => {
-        const lowercase = query.toLowerCase();
 
+    const lowercaseQuery = query.toLowerCase();
+    const uppercaseQuery = query.toUpperCase();
+    
+    const filteredData = ril100Data!.filter((item) => {
         const name = item["RL100-Langname"].toLowerCase();
         const code = item["RL100-Code"].toLowerCase();
 
-        return code.includes(lowercase) || name.includes(lowercase);
+        return code.includes(lowercaseQuery) || name.includes(lowercaseQuery);
     });
 
     filteredData.sort((a, b) => {
-        const lowercase = query.toLowerCase();
-        const uppercase = query.toUpperCase();
-
         const aName = a["RL100-Langname"].toLowerCase();
         const bName = b["RL100-Langname"].toLowerCase();
 
@@ -42,15 +41,15 @@ export function refreshList(query = "", showAll = false) {
         const aState = a["Betriebszustand"];
         const bState = b["Betriebszustand"];
 
-        if (aName === lowercase && bName !== lowercase) {
+        if (aName === lowercaseQuery && bName !== lowercaseQuery) {
             return -1;
-        } else if (aName !== lowercase && bName === lowercase) {
+        } else if (aName !== lowercaseQuery && bName === lowercaseQuery) {
             return 1;
         }
 
-        if (aCode === uppercase && bCode !== uppercase) {
+        if (aCode === uppercaseQuery && bCode !== uppercaseQuery) {
             return -1;
-        } else if (aCode !== uppercase && bCode === uppercase) {
+        } else if (aCode !== uppercaseQuery && bCode === uppercaseQuery) {
             return 1;
         }
 
@@ -81,64 +80,66 @@ export function refreshList(query = "", showAll = false) {
         }
 
 
-        if (aName.startsWith(lowercase) && !bName.startsWith(lowercase)) {
+        if (aName.startsWith(lowercaseQuery) && !bName.startsWith(lowercaseQuery)) {
             return -1;
-        } else if (!aName.startsWith(lowercase) && bName.startsWith(lowercase)) {
+        } else if (!aName.startsWith(lowercaseQuery) && bName.startsWith(lowercaseQuery)) {
             return 1;
         }
 
-        if (aCode.startsWith(query) && !bCode.startsWith(query)) {
+        if (aCode.startsWith(uppercaseQuery) && !bCode.startsWith(uppercaseQuery)) {
             return -1;
-        } else if (!aCode.startsWith(query) && bCode.startsWith(query)) {
+        } else if (!aCode.startsWith(uppercaseQuery) && bCode.startsWith(uppercaseQuery)) {
             return 1;
         }
 
         return 0;
     });
 
-    let amount = showAll ? filteredData.length : defaultEntryLimit;
+    const items = showAll ? filteredData : filteredData.slice(0, DEFAULT_ENTRY_LIMIT);
 
-    updateDom(filteredData, amount);
+    updateListInDom(items, filteredData.length);
 }
 
-function updateDom(items: Ril100Data[], amount: number) {
+function updateListInDom(items: Ril100Data[], realLength: number) {
     container.innerHTML = "";
 
-    if (items.length > 100 && amount == defaultEntryLimit) {
-        showAllButton.textContent = `Alle ${items.length} Einträge anzeigen`;
-        footer.style.display = "block";
+    if (realLength > items.length) {
+        showAllButton.textContent = `Alle ${realLength} Einträge anzeigen`;
+        footer.classList.remove("hidden");
     } else {
-        footer.style.display = "none";
+        footer.classList.add("hidden");
     }
 
-    items.slice(0, amount).forEach((item) => {
-        const entry = document.createElement("tr");
-        entry.classList.add("entry");
+    items.forEach((item) => {
+        const entryRow = document.createElement("tr");
+        entryRow.className = "entry";
 
         if (item["Betriebszustand"] === "a.B." || item["Betriebszustand"] === "ehemals") {
-            entry.classList.add("inactive");
+            entryRow.className += " inactive";
         }
 
-        const rl100Code = document.createElement("td");
-        rl100Code.setAttribute("class", "rl100Code");
+        const rl100CodeContainer = document.createElement("td");
+        rl100CodeContainer.className = "rl100Code";
+
         const rl100CodeLink = document.createElement("a");
         rl100CodeLink.textContent = item["RL100-Code"];
         rl100CodeLink.href = `https://trassenfinder.de/apn/${item["RL100-Code"].replaceAll(" ", "_")}`;
         rl100CodeLink.target = "_blank";
-        rl100Code.appendChild(rl100CodeLink);
+
+        rl100CodeContainer.appendChild(rl100CodeLink);
 
         const rl100LongName = document.createElement("td");
-        rl100LongName.setAttribute("class", "rl100LongName");
+        rl100LongName.className = "rl100LongName";
         rl100LongName.textContent = item["RL100-Langname"];
 
         const rl100TypeLong = document.createElement("td");
-        rl100TypeLong.setAttribute("class", "rl100TypeLong");
+        rl100TypeLong.className = "rl100TypeLong";
         rl100TypeLong.textContent = item["Typ-Kurz"];
 
-        entry.appendChild(rl100Code);
-        entry.appendChild(rl100LongName);
-        entry.appendChild(rl100TypeLong);
-        container.appendChild(entry);
+        entryRow.appendChild(rl100CodeContainer);
+        entryRow.appendChild(rl100LongName);
+        entryRow.appendChild(rl100TypeLong);
+        container.appendChild(entryRow);
     });
 }
 

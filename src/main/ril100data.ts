@@ -80,7 +80,7 @@ function parseLine(line: string): string[] {
     }
 
     let inString = false;
-    let result: string[] = [];
+    const result: string[] = [];
     let currentString = "";
 
     for(const char of line) {
@@ -95,8 +95,8 @@ function parseLine(line: string): string[] {
     }
 
     if(inString) {
-        throw new Error("Unterminated string")
+        throw new Error("Unterminated string");
     }
 
-    return result
+    return result;
 }
