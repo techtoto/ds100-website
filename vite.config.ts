@@ -12,4 +12,5 @@ export default defineConfig({
         },
         manifest: "serviceworker-manifest.json",
     },
+    base: "./",
 });
