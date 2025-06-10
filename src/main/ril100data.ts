@@ -1,13 +1,20 @@
 const RIL100_CSV_URL = "./ril100.csv";
 
-export type Ril100Data = {
+export type CSVData = {
     [key: string]: string,
+};
+
+export type Ril100Data = {
+    "RL100-Langname": string,
+    "RL100-Code": string,
+    "Typ-Kurz": string,
+    "Betriebszustand": string,
 };
 
 export async function getRil100Data(): Promise<Ril100Data[]> {
     const csvText = await getRil100CSV();
 
-    return parseFile(csvText);
+    return parseFile(csvText) as Ril100Data[];
 }
 
 async function getRil100CSV() {
@@ -42,7 +49,7 @@ async function fetchFreshRil100Data(): Promise<Response> {
     return response;
 }
 
-function parseFile(text: string): Ril100Data[] {
+function parseFile(text: string): CSVData[] {
     const lines = text.trim().split("\n");
 
     const headers = parseLine(lines.shift() || "");
@@ -52,8 +59,8 @@ function parseFile(text: string): Ril100Data[] {
     }
 
     const otherLines = lines
-        .map(parseLine)
-        .filter(line => line.length > 0);
+        .filter(line => line.length !== 0)
+        .map(parseLine);
 
     const objs = otherLines
         .map(values => {
@@ -61,22 +68,22 @@ function parseFile(text: string): Ril100Data[] {
                 throw new Error("Column count mismatch");
             }
 
-            const entries = [];
+            const object: CSVData = {};
 
             for(let i = 0; i < headers.length; i++) {
-                entries.push([headers[i], values[i]]);
+                object[headers[i]] = values[i];
             }
 
-            return entries;
+            return object;
         })
-        .map(Object.fromEntries)
 
     return objs;
 }
 
 function parseLine(line: string): string[] {
-    if(line.length === 0) {
-        return [];
+    // use quick and dirty algorithm if possible
+    if(!line.includes("\"")) {
+        return line.split(",");
     }
 
     let inString = false;
@@ -97,6 +104,8 @@ function parseLine(line: string): string[] {
     if(inString) {
         throw new Error("Unterminated string");
     }
+
+    result.push(currentString)
 
     return result;
 }
