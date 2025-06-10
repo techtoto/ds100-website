@@ -1,11 +1,9 @@
 import { getRil100Data, type Ril100Data } from "./ril100data";
 import { getSearchQuery } from "./search";
 
-let ril100Data: Ril100Data[] = [];
+let ril100Data: ExtendedRil100Data[] = [];
 
-getRil100Data().then((data) => {
-    ril100Data = data;
-
+doRil100DataFetch().then(() => {
     refreshList(getSearchQuery());
 })
 
@@ -15,6 +13,12 @@ const container = document.getElementById("data")!;
 const footer = document.getElementById("footer-not-all-entries")!;
 const showAllButton = document.getElementById("showAllButton")!;
 
+type ExtendedRil100Data = Ril100Data & {
+    lowercaseName: string,
+    isMainStation: boolean,
+    isInactive: boolean,
+}
+
 export function refreshList(query = "", showAll = false) {
     query = query.trim();
 
@@ -22,24 +26,21 @@ export function refreshList(query = "", showAll = false) {
     const uppercaseQuery = query.toUpperCase();
     
     const filteredData = ril100Data!.filter((item) => {
-        const name = item["RL100-Langname"].toLowerCase();
-        const code = item["RL100-Code"].toLowerCase();
+        const name = item.lowercaseName;
+        const code = item["RL100-Code"];
 
-        return code.includes(lowercaseQuery) || name.includes(lowercaseQuery);
+        return code.includes(uppercaseQuery) || name.includes(lowercaseQuery);
     });
 
     filteredData.sort((a, b) => {
-        const aName = a["RL100-Langname"].toLowerCase();
-        const bName = b["RL100-Langname"].toLowerCase();
+        const aName = a.lowercaseName;
+        const bName = b.lowercaseName;
 
         const aCode = a["RL100-Code"];
         const bCode = b["RL100-Code"];
 
         const aType = a["Typ-Kurz"];
         const bType = b["Typ-Kurz"];
-
-        const aState = a["Betriebszustand"];
-        const bState = b["Betriebszustand"];
 
         if (aName === lowercaseQuery && bName !== lowercaseQuery) {
             return -1;
@@ -53,11 +54,10 @@ export function refreshList(query = "", showAll = false) {
             return 1;
         }
 
-        if ((aState !== "a.B." && bState === "a.B.") || 
-            (aState !== "ehemals" && bState === "ehemals")) {
+        // the algorithm used to only compare "ehemals" and "a.B." directly, but ig it is also okay to assume they are the same
+        if (!a.isInactive && b.isInactive) {
             return -1;
-        } else if ((aState === "a.B." && bState !== "a.B.") || 
-            (aState === "ehemals" && bState !== "ehemals")) {
+        } else if (a.isInactive && !b.isInactive) {
             return 1;
         }
 
@@ -73,9 +73,9 @@ export function refreshList(query = "", showAll = false) {
             return 1;
         }
 
-        if (aName.includes("hbf") && !bName.includes("hbf")) {
+        if (a.isMainStation && !b.isMainStation) {
             return -1;
-        } else if (!aName.includes("hbf") && bName.includes("hbf")) {
+        } else if (!a.isMainStation && b.isMainStation) {
             return 1;
         }
 
@@ -100,7 +100,7 @@ export function refreshList(query = "", showAll = false) {
     updateListInDom(items, filteredData.length);
 }
 
-function updateListInDom(items: Ril100Data[], realLength: number) {
+function updateListInDom(items: ExtendedRil100Data[], realLength: number) {
     container.innerHTML = "";
 
     if (realLength > items.length) {
@@ -114,7 +114,7 @@ function updateListInDom(items: Ril100Data[], realLength: number) {
         const entryRow = document.createElement("tr");
         entryRow.className = "entry";
 
-        if (item["Betriebszustand"] === "a.B." || item["Betriebszustand"] === "ehemals") {
+        if (item.isInactive) {
             entryRow.className += " inactive";
         }
 
@@ -140,6 +140,25 @@ function updateListInDom(items: Ril100Data[], realLength: number) {
         entryRow.appendChild(rl100LongName);
         entryRow.appendChild(rl100TypeLong);
         container.appendChild(entryRow);
+    });
+}
+
+async function doRil100DataFetch() {
+    const data = await getRil100Data();
+
+    ril100Data = preprocessRil100Data(data);
+}
+
+function preprocessRil100Data(data: Ril100Data[]): ExtendedRil100Data[] {
+    return data.map(item => {
+        const lowercaseName = item["RL100-Langname"].toLowerCase();
+
+        return {
+            ...item,
+            lowercaseName,
+            isMainStation: lowercaseName.includes("hbf"),
+            isInactive: item["Betriebszustand"] === "a.B." || item["Betriebszustand"] === "ehemals",
+        }
     });
 }
 
