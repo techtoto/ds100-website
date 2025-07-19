@@ -148,7 +148,7 @@ function updateDom(items, amount) {
         rl100Code.setAttribute("class", "rl100Code");
         const rl100CodeLink = document.createElement("a");
         rl100CodeLink.textContent = item["RL100-Code"];
-        rl100CodeLink.href = `https://trassenfinder.de/api/web/infrastrukturen/5/dokumente/${item["RL100-Code"]}_APN-Skizze.pdf`;
+        rl100CodeLink.href = `https://trassenfinder.de/apn/${item["RL100-Code"].replaceAll(" ", "_")}`;
         rl100CodeLink.target = "_blank";
         rl100Code.appendChild(rl100CodeLink);
 
