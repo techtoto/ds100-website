@@ -40,11 +40,14 @@ td {
     color: var(--secondary);
 }
 
+.hint-text {
+    color: var(--secondary);
+    font-size: small;
+}
+
 #footer-not-all-entries {
     display: none;
-    font-size: small;
     text-align: center;
-    color: var(--secondary);
 }
 
 #footer-not-all-entries p {
