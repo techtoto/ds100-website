@@ -1,5 +1,5 @@
 const CACHE_ID = "swcache";
-const CACHE_VERSION = String(1);
+const CACHE_VERSION = String(2);
 
 const CACHE_NAME = CACHE_ID + "-" + CACHE_VERSION;
 
