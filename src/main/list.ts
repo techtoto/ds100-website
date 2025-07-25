@@ -123,7 +123,7 @@ function updateListInDom(items: ExtendedRil100Data[], realLength: number) {
 
         const rl100CodeLink = document.createElement("a");
         rl100CodeLink.textContent = item["RL100-Code"];
-        rl100CodeLink.href = `https://trassenfinder.de/apn/${encodeURIComponent(item["RL100-Code"])}`;
+        rl100CodeLink.href = `https://trassenfinder.de/apn/${encodeURIComponent(item["RL100-Code"].replaceAll(" ", "_"))}`;
         rl100CodeLink.target = "_blank";
 
         rl100CodeContainer.appendChild(rl100CodeLink);

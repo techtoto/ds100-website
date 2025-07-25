@@ -1,5 +1,5 @@
 const CACHE_ID = "swcache";
-const CACHE_VERSION = String(2);
+const CACHE_VERSION = String(3);
 
 const CACHE_NAME = CACHE_ID + "-" + CACHE_VERSION;
 
@@ -14,9 +14,9 @@ const additionalFilesToCache = [
 ];
 
 async function deleteOldCaches() {
-    for(const cache of await caches.keys()) {
-        if(cache.startsWith(CACHE_ID)) {
-            await caches.delete(cache);
+    for(const cacheName of await caches.keys()) {
+        if(cacheName.startsWith(CACHE_ID) && cacheName !== CACHE_NAME) {
+            await caches.delete(cacheName);
         }
     }
 }
@@ -29,8 +29,6 @@ async function addToCache(files) {
 
 self.addEventListener("install", (event) => {
     event.waitUntil((async () => {
-        await deleteOldCaches();
-
         const fileResponse = await fetch("./serviceworker-manifest.json", { cache: "no-cache" });
         const fileJson = await fileResponse.json();
 
@@ -52,6 +50,12 @@ self.addEventListener("install", (event) => {
         await addToCache(filesToCache);
     })());
 });
+
+self.addEventListener("activate", (event) => {
+    event.waitUntil((async () => {
+        await deleteOldCaches();
+    })());
+})
 
 self.addEventListener("fetch", (event) => {
     event.respondWith((async () => {
